@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/rss_ai_summarise/summary_feed.xml"/>
-    <lastBuildDate>Sat, 02 May 2026 23:47:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 23:50:31 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-03 23:50 (UTC)</title>
+      <link>https://github.com/liusonwood/rss_ai_summarise#20260503235031</link>
+      <description>&lt;strong&gt;[个人隐私与数据安全]&lt;/strong&gt;&lt;br/&gt;• 建议用户进行&lt;strong&gt;数字化清理&lt;/strong&gt;，通过减少在线足迹来降低身份盗用风险，并减少骚扰电话与垃圾邮件。&lt;br/&gt;• 个人数据清理建议步骤包括：使用 Google 的 &lt;strong&gt;Results about you&lt;/strong&gt; 工具删除搜索结果、注销闲置账户、限制手机 App 权限以及清理浏览器缓存与 Cookie。&lt;br/&gt;• 自动化隐私工具 Incogni 可替代手动操作，向 &lt;strong&gt;420 余家数据经纪商&lt;/strong&gt;发送删除请求并进行持续监控，以防止个人信息被重新添加。</description>
+      <guid isPermaLink="false">ai-summary-20260503235031</guid>
+      <pubDate>Sun, 03 May 2026 23:50:31 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-02 23:47 (UTC)</title>
       <link>https://github.com/liusonwood/rss_ai_summarise#20260502234729</link>
