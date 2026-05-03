@@ -16,7 +16,7 @@ OUTPUT_FEED = "summary_feed.xml"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MAX_ITEMS = 28
 AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
-MAX_HISTORY_ITEMS = 500  # 保留的历史条目数量
+MAX_HISTORY_ITEMS = 400  # 保留的历史条目数量
 
 def clean_html(raw_html):
     """清理 HTML 标签 (兜底时使用)"""
