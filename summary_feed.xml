@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/rss_ai_summarise/summary_feed.xml"/>
-    <lastBuildDate>Sun, 03 May 2026 23:50:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 23:56:09 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-04 23:56 (UTC)</title>
+      <link>https://github.com/liusonwood/rss_ai_summarise#20260504235609</link>
+      <description>&lt;strong&gt;[硬件产品与传闻]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iPhone 18 Pro 系列&lt;/strong&gt;：预计将搭载首款 &lt;strong&gt;2nm 工艺 A20 Pro 芯片&lt;/strong&gt;，采用 WMCM 封装；硬件升级包括 &lt;strong&gt;可变光圈主摄&lt;/strong&gt;、更大电池、C2 自研调制解调器，并计划简化 Camera Control 按钮操作。&lt;br/&gt;• &lt;strong&gt;iPhone 20 周年纪念款&lt;/strong&gt;：代号 &lt;strong&gt;Glasswing&lt;/strong&gt;，预计于 2027 年在 Pro 系列推出。设计核心为四边无缝曲面玻璃，旨在与 iOS 的 &lt;strong&gt;Liquid Glass&lt;/strong&gt; 界面深度融合，实现近乎无边框的视觉效果。&lt;br/&gt;• &lt;strong&gt;折叠屏 iPhone Ultra&lt;/strong&gt;：dummy 机型曝光，采用类似护照的闭合比例，开启后接近平板体验。&lt;br/&gt;• &lt;strong&gt;MacBook Ultra&lt;/strong&gt;：传闻将于今年推出，定位高端用户。预计配备 &lt;strong&gt;OLED 触控屏&lt;/strong&gt;、M6 芯片及 Dynamic Island 顶栏，主打轻薄设计。&lt;br/&gt;• &lt;strong&gt;市场表现&lt;/strong&gt;：Counterpoint 报告显示，&lt;strong&gt;iPhone 17&lt;/strong&gt; 在 2026 年 Q1 成为全球最畅销智能手机，市场份额达 6%。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件更新与功能]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iOS 26.5 RC 版&lt;/strong&gt;：即将正式发布，核心更新包括 &lt;strong&gt;RCS 端到端加密（Beta）&lt;/strong&gt;、Apple Maps 趋势推荐（Suggested Places）以及新款 Pride 动态壁纸。&lt;br/&gt;• &lt;strong&gt;iOS 27 传闻&lt;/strong&gt;：Wallet 应用将增加 &lt;strong&gt;Create a Pass&lt;/strong&gt; 功能，允许用户通过扫描 QR 码将物理凭证（如健身房卡、演出票）转换为自定义数字凭证。&lt;br/&gt;• &lt;strong&gt;生态系统更新&lt;/strong&gt;：macOS 26.5 将引入 &lt;strong&gt;12个月承诺的月付订阅&lt;/strong&gt; 计费选项；iPadOS、watchOS 及 visionOS 等同步推出 26.5 RC 版本。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[法律与政策]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Epic 诉讼案&lt;/strong&gt;：Apple 向美国最高法院申请 &lt;strong&gt;暂停第九巡回法院的强制令&lt;/strong&gt;，争议核心在于 App Store 外部购买的佣金收取标准。&lt;br/&gt;• &lt;strong&gt;巴西市场开放&lt;/strong&gt;：iOS 26.5 代码显示 Apple 将在 &lt;strong&gt;巴西支持第三方应用侧载（Sideloading）&lt;/strong&gt;，以履行与当地竞争监管机构 CADE 的协议。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[车载与配件]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;CarPlay Ultra&lt;/strong&gt;：目前已在部分 Aston Martin 车型上线。潜在支持品牌包括 &lt;strong&gt;Hyundai、Kia、Porsche 及 Ford&lt;/strong&gt; 等，但 Mercedes-Benz 及 Audi 等品牌已放弃支持。&lt;br/&gt;• &lt;strong&gt;配件动态&lt;/strong&gt;：Apple 发布 2026 年 &lt;strong&gt;Pride Edition 运动型表带&lt;/strong&gt;；第三方配件方面，Baseus Nomos 140W 充电站和 ESR Geo Wallet Boost（支持 Find My）获得好评。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[AI 与其他]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;OpenAI&lt;/strong&gt;：针对企业用户发布了 &lt;strong&gt;ChatGPT for Intune&lt;/strong&gt; 独立 iOS 应用，专门适配需要 Microsoft Intune 管理的组织环境。</description>
+      <guid isPermaLink="false">ai-summary-20260504235609</guid>
+      <pubDate>Mon, 04 May 2026 23:56:09 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-03 23:50 (UTC)</title>
       <link>https://github.com/liusonwood/rss_ai_summarise#20260503235031</link>
