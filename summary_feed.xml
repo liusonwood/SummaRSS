@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/rss_ai_summarise/summary_feed.xml"/>
-    <lastBuildDate>Fri, 08 May 2026 23:57:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 23:52:16 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-09 23:52 (UTC)</title>
+      <link>https://github.com/liusonwood/rss_ai_summarise#20260509235216</link>
+      <description>&lt;strong&gt;[系统与软件开发]&lt;/strong&gt;&lt;br/&gt;• 传闻 Apple 将在 &lt;strong&gt;iOS 27&lt;/strong&gt; 中重点进行代码清理，提升系统的&lt;strong&gt;稳定性与性能&lt;/strong&gt;。&lt;br/&gt;• 报道指出 Apple 内部已采用 &lt;strong&gt;Anthropic 的 AI 模型&lt;/strong&gt;辅助产品开发，通过 AI 承担基础编程工作，使工程师能专注于复杂问题，有望突破软件开发的人力瓶颈。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[企业级管理]&lt;/strong&gt;&lt;br/&gt;• 新发布原生 macOS 应用 &lt;strong&gt;ASBMUtil&lt;/strong&gt;，旨在简化 Apple Business 和 Apple School Manager 的设备管理。&lt;br/&gt;• 该工具基于 Apple 官方 API 构建，提供&lt;strong&gt;设备浏览、高级过滤、批量分配 MDM 服务器&lt;/strong&gt;以及导出 CSV/JSON 等功能，替代了繁琐的网页界面和命令行操作。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[应用推荐]&lt;/strong&gt;&lt;br/&gt;• 开发者 Florian Schimanke 推出 &lt;strong&gt;Before You&lt;/strong&gt; 系列屏幕时间管理应用套装，包含四款功能互补的工具：&lt;br/&gt;    - &lt;strong&gt;Stroll before you Scroll&lt;/strong&gt;：需达成每日步数目标方可解锁特定应用。&lt;br/&gt;    - &lt;strong&gt;Scan before you Can&lt;/strong&gt;：需扫描指定物理位置的 QR 码以解锁应用。&lt;br/&gt;    - &lt;strong&gt;Your Day before you Play&lt;/strong&gt;：关联提醒事项，确保完成任务后再使用娱乐应用。&lt;br/&gt;    - &lt;strong&gt;Zone before you Phone&lt;/strong&gt;：基于地理位置（最多 20 个区域）自动隐藏干扰应用。</description>
+      <guid isPermaLink="false">ai-summary-20260509235216</guid>
+      <pubDate>Sat, 09 May 2026 23:52:16 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-08 23:57 (UTC)</title>
       <link>https://github.com/liusonwood/rss_ai_summarise#20260508235720</link>
