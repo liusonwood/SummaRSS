@@ -18,7 +18,7 @@
    3. 成功总结后，立即将 ID 追加到记录文件。
 ### B. OpenRouter API 优化
  * **内容清洗**: 发送给 LLM 前，需先剥离 HTML 标签，仅保留纯文本以节省输入 Token。
- * **频率限制**: 脚本应具备简单的“保险丝”机制（如单次运行处理上限不超过 10 条），防止源大规模更新时产生高额费用。
+ * **频率限制**: 脚本应具备简单的“保险丝”机制（如单次运行处理上限不超过 28 条），防止源大规模更新时产生高额费用。
 
 ### C. GitHub Actions 集成
  * **Git-as-DB**: 生成的代码需包含 git commit 逻辑，确保 GitHub Actions 在运行结束时能将更新后的 processed.txt 和新的 RSS 文件推回仓库。
@@ -30,4 +30,4 @@
 
 ## 5. rss 要求
 生成过去未处理的rss条目，进行总结，和成一条，写入新的rss文件。
-link部分填写https://github.com/liusonwood#{运行日期和时间}
+link部分填写https://github.com/liusonwood/rss_ai_summarise#{运行日期和时间}

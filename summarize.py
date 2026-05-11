@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import urllib.request
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import subprocess
 import re
 import trafilatura
@@ -230,7 +230,8 @@ def generate_rss_xml(summary_text):
 
     # 创建新的 Item 条目
     item = ET.Element("item")
-    ET.SubElement(item, "title").text = f"AI 简报 - {now_utc.strftime('%Y-%m-%d %H:%M')} (UTC)"
+    now_beijing = now_utc + timedelta(hours=8)
+    ET.SubElement(item, "title").text = f"AI 简报 - {now_beijing.strftime('%Y-%m-%d %H:%M')} (UTC+8)"
     ET.SubElement(item, "link").text = item_link
     ET.SubElement(item, "description").text = html_content  # 写入转换后的 HTML
     ET.SubElement(item, "guid", isPermaLink="false").text = guid_text
@@ -270,11 +271,12 @@ def git_commit_push():
         print("Not running in GitHub Actions. Skipping git push.")
         return
 
+    now_beijing = datetime.now(timezone.utc) + timedelta(hours=8)
     commands = [
         ["git", "config", "user.name", "github-actions[bot]"],
         ["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"],
         ["git", "add", PROCESSED_FILE, OUTPUT_FEED],
-        ["git", "commit", "-m", f"Auto-update: {datetime.now().strftime('%Y-%m-%d %H:%M')}"],
+        ["git", "commit", "-m", f"Auto-update: {now_beijing.strftime('%Y-%m-%d %H:%M')} (UTC+8)"],
         ["git", "push"]
     ]
 

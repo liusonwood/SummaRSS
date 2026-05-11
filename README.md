@@ -33,13 +33,13 @@
 *   **`AI_MODEL`**: 指定使用的 AI 模型（例如 `google/gemini-2.0-flash-001`）。如果不配置，默认使用该模型。
 
 ### 2. 订阅你的摘要
-一旦 GitHub Actions 运行成功（**每天运行一次**，或在 Actions 页面手动触发），你可以在以下地址找到你的摘要源：
+一旦 GitHub Actions 运行成功（**每天北京时间 07:35 运行**，或在 Actions 页面手动触发），你可以在以下地址找到你的摘要源：
 `https://raw.githubusercontent.com/{你的用户名}/{仓库名}/main/summary_feed.xml`
 
 ## 🛠 技术细节
 
-*   **唯一标识**: 每个摘要条目的 link 使用 `https://github.com/liusonwood#{运行时间戳}`，确保阅读器能识别为新内容。
-*   **熔断机制**: 每次运行最多处理 10 条新文章，防止订阅源突发大规模更新导致的高额 API 费用。
+*   **唯一标识**: 每个摘要条目的 link 使用 `https://github.com/liusonwood/rss_ai_summarise#{运行时间戳}`，确保阅读器能识别为新内容。
+*   **熔断机制**: 每次运行最多处理 28 条新文章（MAX_ITEMS），防止订阅源突发大规模更新导致的高额 API 费用。
 *   **内容清洗**: 发送给 LLM 前会截断过长内容，确保在 context window 内获得最高质量的摘要。
 
 ## ⚖️ License

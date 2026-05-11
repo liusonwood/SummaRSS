@@ -31,7 +31,7 @@ python3 summarize.py
 
 ### Automation
 The project is configured to run automatically via GitHub Actions:
-- **Schedule**: Daily at 12:00 UTC.
+- **Schedule**: Daily at 07:35 UTC+8 (23:35 UTC).
 - **Manual**: Can be triggered via the "Actions" tab in the GitHub repository.
 
 ## 📝 Key Files
