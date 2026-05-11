@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 import subprocess
 import re
 import trafilatura
+import time
 
 # 配置
 RSS_SOURCE = os.getenv("RSS_SOURCE", "https://9to5mac.com/feed/")
@@ -92,7 +93,7 @@ def fetch_rss_items(source, processed_links):
         return []
 
 def get_ai_summary(items):
-    """调用 AI 生成摘要"""
+    """调用 AI 生成摘要，带重试机制"""
     if not OPENROUTER_API_KEY:
         raise ValueError("OPENROUTER_API_KEY is not set!")
         
@@ -105,7 +106,7 @@ def get_ai_summary(items):
         "   - 使用 Markdown 格式：分类标题加粗，如 **[分类名称]**。\n"
         "   - 条目使用 `- ` 开头的无序列表。\n"
         "   - 核心关键词或结论使用 **双星号加粗**。\n"
-        "   - **严禁** 开场白、问候语或结束语（直接输出正文内容）。\n"
+        "   - **严禁** 开场白、问候语 or 结束语（直接输出正文内容）。\n"
         "   - **禁止** 使用 Emoji 表情或任何非标准特殊符号。\n"
         "4. **语言要求**：简洁地道的中文。\n\n"
         "### 待处理文章列表：\n\n"
@@ -119,24 +120,32 @@ def get_ai_summary(items):
         "messages": [{"role": "user", "content": prompt}]
     }
     
-    req = urllib.request.Request(
-        "https://openrouter.ai/api/v1/chat/completions",
-        data=json.dumps(data).encode('utf-8'),
-        headers={
-            "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-            "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/liusonwood/rss_ai_summarise",
-            "X-Title": "RSS AI Summary Agent"
-        }
-    )
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            req = urllib.request.Request(
+                "https://openrouter.ai/api/v1/chat/completions",
+                data=json.dumps(data).encode('utf-8'),
+                headers={
+                    "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+                    "Content-Type": "application/json",
+                    "HTTP-Referer": "https://github.com/liusonwood/rss_ai_summarise",
+                    "X-Title": "RSS AI Summary Agent"
+                }
+            )
+            with urllib.request.urlopen(req, timeout=60) as response:
+                res_data = json.loads(response.read().decode('utf-8'))
+                return res_data['choices'][0]['message']['content']
+        except Exception as e:
+            wait_time = (attempt + 1) * 10
+            print(f"Error calling AI API (Attempt {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                print(f"Retrying in {wait_time} seconds...")
+                time.sleep(wait_time)
+            else:
+                return "摘要生成失败：API 调用多次重试均告失败。"
     
-    try:
-        with urllib.request.urlopen(req) as response:
-            res_data = json.loads(response.read().decode('utf-8'))
-            return res_data['choices'][0]['message']['content']
-    except Exception as e:
-        print(f"Error calling AI API: {e}")
-        return "摘要生成失败。"
+    return "摘要生成失败。"
 
 def generate_rss_xml(summary_text):
     """生成或更新 RSS XML 文件 (与天气项目相同的 minidom 格式)"""

@@ -2,7 +2,7 @@ name: RSS AI Summary
 
 on:
   schedule:
-    - cron: '0 23 * * *' # 每天北京时间下午 4 点运行 (UTC 8:00)
+    - cron: '35 23 * * *' # 每天北京时间下午 4 点运行 (UTC 8:00)
   workflow_dispatch: # 手动触发执行
 
 # 关键：增加写入权限，否则脚本里的 git push 会报错
