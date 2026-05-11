@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/rss_ai_summarise/summary_feed.xml"/>
-    <lastBuildDate>Sun, 10 May 2026 23:54:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:51:00 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-11 14:51 (UTC)</title>
+      <link>https://github.com/liusonwood/rss_ai_summarise#20260511145100</link>
+      <description>&lt;strong&gt;[Apple 硬件与设备]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;AirPods 潜在更新&lt;/strong&gt;：报告称 Apple 计划在 AirPods 中集成&lt;strong&gt;摄像头&lt;/strong&gt;，旨在支持 Apple Intelligence 的&lt;strong&gt;视觉智能&lt;/strong&gt;功能，实现对实物的实时问答及基于场景的主动提醒。&lt;br/&gt;• &lt;strong&gt;Apple Watch 方案调整&lt;/strong&gt;：传闻 Apple 已&lt;strong&gt;放弃在 Apple Watch 数字表冠中加入 Touch ID&lt;/strong&gt;，主要原因为传感器成本过高以及会占用电池空间。&lt;br/&gt;• &lt;strong&gt;产品线讨论&lt;/strong&gt;：分析指出 iPhone 16e/17e 缺乏竞争力，建议 Apple 效仿 MacBook Neo 的定价策略，推出&lt;strong&gt;更激进的低价款 iPhone&lt;/strong&gt;（如 399 美元档位）以争夺 Android 用户。&lt;br/&gt;• &lt;strong&gt;Mac 市场推广&lt;/strong&gt;：Apple 发布针对学生的全新 Mac 宣传视频，旨在推广 MacBook 在大学校园中的使用。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与操作系统]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;visionOS 27 预览&lt;/strong&gt;：预计 6 月 8 日的 WWDC 将公布 visionOS 27，该版本将侧重于&lt;strong&gt;性能优化与 bug 修复&lt;/strong&gt;，并同步引入 iOS 27 的新版 Siri 和 AI 增强功能。&lt;br/&gt;• &lt;strong&gt;iOS 27 Safari 更新&lt;/strong&gt;：Safari 将新增&lt;strong&gt;“整理标签页”（Organize Tabs）&lt;/strong&gt;功能，利用 AI 根据浏览主题自动对标签页进行分组。&lt;br/&gt;• &lt;strong&gt;Apple Wallet 更新&lt;/strong&gt;：传闻 Apple Wallet 将增加&lt;strong&gt;“创建通行证”&lt;/strong&gt;功能，支持将实体票据转换为数字化通行证。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[第三方应用与安全]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Venmo 隐私更新&lt;/strong&gt;：Venmo 将更改默认隐私设置，新用户在入职引导时，其&lt;strong&gt;帖子将默认仅好友可见&lt;/strong&gt;，而非此前一直维持的公开状态。&lt;br/&gt;• &lt;strong&gt;WhatsApp Plus 订阅&lt;/strong&gt;：WhatsApp 正在向 iOS 用户推送&lt;strong&gt;付费订阅计划&lt;/strong&gt;（欧洲区约 2.49 欧元/月），提供自定义图标、主题、增强型聊天列表管理及更多置顶聊天等特权。&lt;br/&gt;• &lt;strong&gt;macOS 安全警告&lt;/strong&gt;：安全播客指出 &lt;strong&gt;ClickFix&lt;/strong&gt; 社交工程技术已成为 2025 年 Mac 感染恶意软件的主要途径。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[其他]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple TV 荣誉&lt;/strong&gt;：剧集《The Studio》成为历史上&lt;strong&gt;首部在单季中横扫所有主要奖项&lt;/strong&gt;的喜剧片，包括艾美奖、金球奖及 BAFTA 国际奖。</description>
+      <guid isPermaLink="false">ai-summary-20260511145100</guid>
+      <pubDate>Mon, 11 May 2026 14:51:00 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-10 23:54 (UTC)</title>
       <link>https://github.com/liusonwood/rss_ai_summarise#20260510235422</link>
