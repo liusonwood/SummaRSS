@@ -15,7 +15,7 @@ RSS_SOURCE = os.getenv("RSS_SOURCE", "https://9to5mac.com/feed/")
 PROCESSED_FILE = "processed.txt"
 OUTPUT_FEED = "summary_feed.xml"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-MAX_ITEMS = 28
+MAX_ITEMS = 30
 AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
 MAX_HISTORY_ITEMS = 400  # 保留的历史条目数量
 
