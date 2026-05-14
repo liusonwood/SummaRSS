@@ -1,4 +1,4 @@
-# 🤖 RSS AI Daily Summarizer
+# 🤖 SummaRSS - RSS AI Daily Summarizer
 
 这是一个基于 **GitHub Actions + OpenRouter (Gemini)** 的自动化 RSS 摘要生成器。它能够监控指定的 RSS 订阅源，提取新文章，通过 AI 生成精简的中文摘要，并重新封装成一个新的 RSS 订阅源供阅读器（如 Reeder, NetNewsWire）使用。
 
@@ -38,8 +38,8 @@
 
 ## 🛠 技术细节
 
-*   **唯一标识**: 每个摘要条目的 link 使用 `https://github.com/liusonwood/rss_ai_summarise#{运行时间戳}`，确保阅读器能识别为新内容。
-*   **熔断机制**: 每次运行最多处理 28 条新文章（MAX_ITEMS），防止订阅源突发大规模更新导致的高额 API 费用。
+*   **唯一标识**: 每个摘要条目的 link 使用 `https://github.com/liusonwood/summarss#{运行时间戳}`，确保阅读器能识别为新内容。
+*   **熔断机制**: 每次运行最多处理 32 条新文章（MAX_ITEMS），防止订阅源突发大规模更新导致的高额 API 费用。
 *   **内容清洗**: 发送给 LLM 前会截断过长内容，确保在 context window 内获得最高质量的摘要。
 
 ## ⚖️ License
