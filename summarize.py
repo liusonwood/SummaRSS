@@ -129,7 +129,7 @@ def get_ai_summary(items):
                 headers={
                     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
                     "Content-Type": "application/json",
-                    "HTTP-Referer": "https://github.com/liusonwood/rss_ai_summarise",
+                    "HTTP-Referer": "https://github.com/liusonwood/summarss",
                     "X-Title": "RSS AI Summary Agent"
                 }
             )
@@ -169,7 +169,7 @@ def generate_rss_xml(summary_text):
     # 唯一标识符和时间戳
     timestamp = now_utc.strftime('%Y%m%d%H%M%S')
     guid_text = f"ai-summary-{timestamp}"
-    item_link = f"https://github.com/liusonwood/rss_ai_summarise#{timestamp}"
+    item_link = f"https://github.com/liusonwood/summarss#{timestamp}"
 
     # 加载现有 RSS 或创建新 RSS
     if os.path.exists(OUTPUT_FEED):
@@ -184,19 +184,19 @@ def generate_rss_xml(summary_text):
             rss = ET.Element("rss", version="2.0")
             channel = ET.SubElement(rss, "channel")
             ET.SubElement(channel, "title").text = "AI RSS 简报"
-            ET.SubElement(channel, "link").text = "https://github.com/liusonwood/rss_ai_summarise"
+            ET.SubElement(channel, "link").text = "https://github.com/liusonwood/summarss"
             ET.SubElement(channel, "description").text = "由 AI 自动生成的文章全文摘要"
     else:
         rss = ET.Element("rss", version="2.0")
         channel = ET.SubElement(rss, "channel")
         ET.SubElement(channel, "title").text = "AI RSS 简报"
-        ET.SubElement(channel, "link").text = "https://github.com/liusonwood/rss_ai_summarise"
+        ET.SubElement(channel, "link").text = "https://github.com/liusonwood/summarss"
         ET.SubElement(channel, "description").text = "由 AI 自动生成的文章全文摘要"
 
     # 处理 atom:link (解决验证报错)
     atom_ns = "http://www.w3.org/2005/Atom"
     # 此处假设你 GitHub Pages 暴露的最终订阅地址是这个
-    atom_link_url = "https://liusonwood.github.io/rss_ai_summarise/summary_feed.xml" 
+    atom_link_url = "https://liusonwood.github.io/summarss/summary_feed.xml" 
     
     atom_link = None
     for child in channel.findall(f"{{{atom_ns}}}link"):
