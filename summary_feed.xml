@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sat, 16 May 2026 01:21:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 01:28:41 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-17 09:28 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260517012841</link>
+      <description>&lt;strong&gt;[硬件预测]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple Watch Series 12&lt;/strong&gt;：预计沿用 Series 11 设计，核心升级将集中在基于 &lt;strong&gt;3nm 工艺的新芯片&lt;/strong&gt;。Touch ID 搭载可能性较低，血压及血糖监测等健康功能尚无确切结论。&lt;br/&gt;• &lt;strong&gt;MacBook Pro 重构&lt;/strong&gt;：预计 2026 年迎来重大更新，重点包括 &lt;strong&gt;OLED 屏幕、触摸显示屏、M6 系列芯片&lt;/strong&gt;以及更轻薄的机身设计。该设计预计仅限于 M6 Pro 和 M6 Max 等高端型号。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与应用]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Cats Lock (Mac)&lt;/strong&gt;：一款售价 2.99 美元的独立应用，可通过快捷键 &lt;strong&gt;禁用键盘输入&lt;/strong&gt; 并提供屏幕模糊效果，防止宠物误触键盘。&lt;br/&gt;• &lt;strong&gt;Incogni 隐私服务&lt;/strong&gt;：由 Surfshark 团队开发，利用 GDPR 等法律 &lt;strong&gt;自动要求数据经纪公司删除个人隐私信息&lt;/strong&gt;，以减少垃圾电话和身份盗用风险。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[企业 IT 与安全]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;AI 驱动的安全培训&lt;/strong&gt;：Dashlane 与 KnowBe4 实现集成，将传统的年度培训转向 &lt;strong&gt;实时情境化培训&lt;/strong&gt;。当用户在浏览器中触发安全风险（如输入弱口令或进入钓鱼页面）时，系统将立即推送针对性的微学习模块。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[服务状态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple Cash&lt;/strong&gt;：美国部分用户此前遭遇无法付款的&lt;strong&gt;服务中断&lt;/strong&gt;，目前 Apple 已确认问题&lt;strong&gt;已修复&lt;/strong&gt;。</description>
+      <guid isPermaLink="false">ai-summary-20260517012841</guid>
+      <pubDate>Sun, 17 May 2026 01:28:41 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-16 09:21 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260516012124</link>
