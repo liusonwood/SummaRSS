@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sun, 17 May 2026 01:28:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 01:31:58 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-18 09:31 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260518013158</link>
+      <description>&lt;strong&gt;[苹果生态与软件]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Siri 独立应用&lt;/strong&gt;：预计将于 WWDC 2026 推出 Beta 版独立 App，支持&lt;strong&gt;对话历史记录、文件上传&lt;/strong&gt;及类似 iMessage 的&lt;strong&gt;自动删除聊天记录&lt;/strong&gt;功能。该应用将通过苹果私有云计算运行 Gemini 模型以保障隐私。&lt;br/&gt;• &lt;strong&gt;Genmoji 功能升级&lt;/strong&gt;：iOS 27 计划引入 &lt;strong&gt;Genmoji 自动建议&lt;/strong&gt;，系统将根据用户的照片库和键盘输入历史自动生成相关表情符号，该功能为可选开启。&lt;br/&gt;• &lt;strong&gt;MacBook 产品线动态&lt;/strong&gt;：市场出现低价位 &lt;strong&gt;MacBook Neo&lt;/strong&gt;（起售价 599 美元，搭载 A18 Pro 芯片）；同时有报道称，搭载 M6 系列芯片的高端 MacBook Pro 将在年底迎来&lt;strong&gt; OLED 屏幕、触摸屏及更轻薄设计&lt;/strong&gt;的重大更新。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[应用与服务]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Spotify 图标变更&lt;/strong&gt;：Spotify 为庆祝公司 20 周年临时将 App 图标改为“迪斯科球”造型，因部分用户不适应，官方确认该设计为&lt;strong&gt;临时性&lt;/strong&gt;，将于本周内恢复常规 Logo。</description>
+      <guid isPermaLink="false">ai-summary-20260518013158</guid>
+      <pubDate>Mon, 18 May 2026 01:31:58 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-17 09:28 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260517012841</link>
