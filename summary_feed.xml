@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sat, 23 May 2026 01:26:01 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 01:33:33 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-24 09:33 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260524013333</link>
+      <description>&lt;strong&gt;[Apple AI 与软件更新]&lt;/strong&gt;&lt;br/&gt;• Apple 注册了 &lt;strong&gt;genai.apple.com&lt;/strong&gt; 子域名，预示 WWDC 2026 将发布重大生成式 AI 更新。重点包括：Siri 将通过与 Google Gemini 合作提升&lt;strong&gt;个人上下文理解&lt;/strong&gt;、屏幕感知及应用内操作能力，并可能推出支持文本对话的 &lt;strong&gt;Siri 独立应用&lt;/strong&gt;。&lt;br/&gt;• 针对 macOS 出现的 &lt;strong&gt;ClickFix 社交工程攻击&lt;/strong&gt;（通过伪造 CAPTCHA 诱导用户在终端运行恶意脚本以窃取钥匙串），安全专家建议企业将 macOS 更新延迟窗口从 90 天&lt;strong&gt;缩短至 30-45 天&lt;/strong&gt;，以快速部署系统级安全缓解措施。&lt;br/&gt;• iOS 的&lt;strong&gt;专注模式过滤器（Focus Filters）&lt;/strong&gt;在处理群聊时存在缺陷：只要群组中有一名成员在过滤器名单内，整个群聊都会被显示，缺乏更细粒度的控制。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件与配件]&lt;/strong&gt;&lt;br/&gt;• FCC 文件披露一款型号为 &lt;strong&gt;A3577&lt;/strong&gt; 的未发布蓝牙头戴式耳机，包含电池、麦克风和天线。由于 AirPods Max 2 已发布，该设备更有可能是&lt;strong&gt;新款 Beats 产品&lt;/strong&gt;。&lt;br/&gt;• Belkin 发布新款 &lt;strong&gt;5000mAh MagSafe 磁吸充电宝&lt;/strong&gt;，支持 Qi2 15W 快充，主打&lt;strong&gt;内置支架&lt;/strong&gt;设计且发热控制良好。&lt;br/&gt;• 优质桌面配件推荐：&lt;strong&gt;Satechi CubeDock&lt;/strong&gt;（Thunderbolt 5 接口，内置 NVMe SSD 扩展）；&lt;strong&gt;CUKTECH 30 Ultra&lt;/strong&gt;（300W 总功率，带实时诊断显示屏）；&lt;strong&gt;LiberNovo Omni&lt;/strong&gt;（支持腰部电动调节与按摩的人体工学椅）。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[应用与服务]&lt;/strong&gt;&lt;br/&gt;• AI 助手 &lt;strong&gt;Poppy&lt;/strong&gt; 上线：该应用通过链接邮件、日历及健康数据，在后台学习用户习惯并&lt;strong&gt;主动提供建议&lt;/strong&gt;（如行程规划、基于位置的餐厅推荐），旨在减少用户手动管理设备的时间。&lt;br/&gt;• Apple Music 针对 AI 时代发布声明，旨在确保&lt;strong&gt;音乐版权公平&lt;/strong&gt;。&lt;br/&gt;• Apple Sports 应用现已支持&lt;strong&gt;世界杯&lt;/strong&gt;并扩大全球可用范围。</description>
+      <guid isPermaLink="false">ai-summary-20260524013333</guid>
+      <pubDate>Sun, 24 May 2026 01:33:33 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-23 09:26 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260523012601</link>
