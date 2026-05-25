@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sun, 24 May 2026 01:33:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 01:35:50 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-25 09:35 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260525013550</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-20260525013550</guid>
+      <pubDate>Mon, 25 May 2026 01:35:50 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-24 09:33 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260524013333</link>
