@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Mon, 25 May 2026 01:35:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 01:28:10 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-26 09:28 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260526012810</link>
+      <description>&lt;strong&gt;[法律与公司动态]&lt;/strong&gt;&lt;br/&gt;• Apple 向新泽西州联邦法院申请强制要求 &lt;strong&gt;14 个联邦机构提供文件&lt;/strong&gt;，旨在证明 iPhone 的封闭生态在隐私和安全方面具有竞争优势，以此应对司法部 (DOJ) 的反垄断诉讼。&lt;br/&gt;• 苹果 CEO Tim Cook 在 X 平台发布年度&lt;strong&gt;阵亡将士纪念日&lt;/strong&gt;致敬帖，维持多年惯例。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件与产品]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;法拉利 (Ferrari)&lt;/strong&gt; 发布首款电动超级跑车 &lt;strong&gt;Luce&lt;/strong&gt;，其内饰由 Jony Ive 的 LoveFrom 工作室设计，强调物理控制与极简主义。&lt;br/&gt;• &lt;strong&gt;Insta360&lt;/strong&gt; 推出 &lt;strong&gt;Snap 自拍屏&lt;/strong&gt;，这是一款 3.5 英寸 4K 触摸显示器，通过磁吸连接至 iPhone 背面，允许用户使用主摄进行实时构图自拍。&lt;br/&gt;• &lt;strong&gt;Anker&lt;/strong&gt; 推出 &lt;strong&gt;25W Prime MagSafe 三合一充电器&lt;/strong&gt;，支持 Qi2.2 标准并配备&lt;strong&gt;主动冷却系统&lt;/strong&gt;，可同时为 iPhone、Apple Watch 和 AirPods 充电。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与生态]&lt;/strong&gt;&lt;br/&gt;• 开发者 Andrew Warkentin 推出 &lt;strong&gt;The Virtual OS Museum&lt;/strong&gt; 项目，通过模拟技术提供超过 &lt;strong&gt;1700 个操作系统安装实例&lt;/strong&gt;（涵盖 1948 年至今的 600 多种 OS），包括经典 Mac OS、NeXTSTEP 等。&lt;br/&gt;• 针对即将到来的 &lt;strong&gt;WWDC 2026&lt;/strong&gt;，业界期待 Apple 为 Mac 带来 &lt;strong&gt;Health (健康)&lt;/strong&gt; 和 &lt;strong&gt;Wallet (钱包)&lt;/strong&gt; 独立应用，并优化 iPad 的窗口管理系统。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[市场促销]&lt;/strong&gt;&lt;br/&gt;• 亚马逊等零售商开展阵亡将士纪念日促销，&lt;strong&gt;M5 系列 MacBook Air/Pro&lt;/strong&gt;、&lt;strong&gt;AirPods Pro 3&lt;/strong&gt; 及 &lt;strong&gt;Apple Watch Series 11&lt;/strong&gt; 等产品出现历史低价。</description>
+      <guid isPermaLink="false">ai-summary-20260526012810</guid>
+      <pubDate>Tue, 26 May 2026 01:28:10 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-25 09:35 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260525013550</link>
