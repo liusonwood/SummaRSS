@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sat, 30 May 2026 01:29:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 01:37:34 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-05-31 09:37 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260531013734</link>
+      <description>&lt;strong&gt;[硬件设备]&lt;/strong&gt;&lt;br/&gt;• 新款 Beats 头戴式耳机（疑似 &lt;strong&gt;Beats Studio Pro 2&lt;/strong&gt;）被曝光。设计较前代有重大调整，头带风格接近 AirPods Max，耳罩部分由平整设计改为&lt;strong&gt;凸出设计&lt;/strong&gt;，并提供&lt;strong&gt;粉色&lt;/strong&gt;配色。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与系统]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iOS 27 功能展望&lt;/strong&gt;：分析建议将 &lt;strong&gt;Reminders（提醒事项）&lt;/strong&gt; 深度集成至视觉智能（Visual Intelligence）中，实现通过截图或拍照快速创建提醒事项的功能。&lt;br/&gt;• &lt;strong&gt;Apple Business 平台更新&lt;/strong&gt;：Apple 将 Apple Maps Connect 集成至统一的 Apple Business 平台。通过 &lt;strong&gt;Managed Apple Account（管理式 Apple 账户）&lt;/strong&gt;，企业 IT 管理员可统一控制地图位置数据的访问权限，解决了以往由个人账户持有权限导致的 &lt;strong&gt;Shadow IT（影子 IT）&lt;/strong&gt; 安全问题。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[服务与订阅]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple Music 订阅分级&lt;/strong&gt;：Android 版 Beta 代码中出现“高级访问权限（premium access）”及“切歌次数限制（skip limit）”等字符串，暗示 Apple Music 可能正在开发&lt;strong&gt;不同的订阅层级&lt;/strong&gt;，可能包括限制功能的免费层级。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[网络安全]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;个人数据保护&lt;/strong&gt;：Incogni 推出自动化服务，旨在帮助用户通过法律手段从数百家&lt;strong&gt;数据经纪商（Data Brokers）&lt;/strong&gt;处删除个人隐私数据，以减少垃圾邮件、骚扰电话及身份盗用风险。</description>
+      <guid isPermaLink="false">ai-summary-20260531013734</guid>
+      <pubDate>Sun, 31 May 2026 01:37:34 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-30 09:29 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260530012953</link>
