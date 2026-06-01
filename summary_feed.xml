@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sun, 31 May 2026 01:37:34 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 01:56:59 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-06-01 09:56 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260601015659</link>
+      <description>&lt;strong&gt;[硬件产品动态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;AI 智能眼镜&lt;/strong&gt;：预计发布时间推迟至 &lt;strong&gt;2027 年底&lt;/strong&gt;，旨在为 Siri 和视觉智能提供硬件平台，目前延迟主因是视觉 AI 技术尚不成熟。&lt;br/&gt;• &lt;strong&gt;Vision Air&lt;/strong&gt;：轻量化且低成本的 Vision Pro 替代版本预计在 &lt;strong&gt;2028 年或 2029 年&lt;/strong&gt;面世。&lt;br/&gt;• &lt;strong&gt;Apple TV 4K 与 HomePod mini&lt;/strong&gt;：预计于 &lt;strong&gt;今年秋季&lt;/strong&gt; 发布更新版本。Apple TV 4K 可能升级至 &lt;strong&gt;A17 Pro 芯片&lt;/strong&gt;并更新 Siri Remote；HomePod mini 可能升级至 &lt;strong&gt;S9 芯片&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;Apple TV 4K 生命周期&lt;/strong&gt;：若今年秋季才更新，现款（2022年发布）将成为&lt;strong&gt;历史上销售周期最长&lt;/strong&gt;的 Apple TV 4K 版本。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[网络安全]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;macOS 威胁趋势&lt;/strong&gt;：第一季度 Mac 恶意软件攻击重心转移，攻击者倾向于通过 &lt;strong&gt;ClickFix 等社交工程手段&lt;/strong&gt;诱导用户自行安装，而非直接攻破系统。&lt;br/&gt;• &lt;strong&gt;主要威胁手段&lt;/strong&gt;：包括伪造 CAPTCHA 验证、冒充 ChatGPT/Claude 等 AI 工具下载页面及恶意浏览器扩展（如 CrashFix），其最终目的多为部署 &lt;strong&gt;infostealer（信息窃取软件）&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;防御进展&lt;/strong&gt;：Apple 在 macOS Sequoia 中封堵了右键点击绕过 Gatekeeper 的漏洞，并在 macOS Tahoe 26.4 中引入了新的安全提示机制。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[应用推荐]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;NextThere&lt;/strong&gt;：一款公共交通导航应用，提供&lt;strong&gt;实时车辆地图&lt;/strong&gt;和基于历史数据的&lt;strong&gt;延迟分析&lt;/strong&gt;。目前支持澳大利亚、新西兰、加拿大及美国部分主要城市，提供免费版与 Pro 订阅版。</description>
+      <guid isPermaLink="false">ai-summary-20260601015659</guid>
+      <pubDate>Mon, 01 Jun 2026 01:56:59 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-05-31 09:37 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260531013734</link>
