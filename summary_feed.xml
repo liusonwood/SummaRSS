@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sat, 06 Jun 2026 01:31:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 01:52:13 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-06-07 09:52 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260607015213</link>
+      <description>&lt;strong&gt;[软件与系统]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iOS 27 预告&lt;/strong&gt;：苹果将于 6 月 8 日的 WWDC 2026 上发布 iOS 27，预计 7 月开启公开测试，9 月正式发布。该版本核心目标为&lt;strong&gt;提升稳定性、修复 Bug 并优化性能&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;iOS 27 新功能预测&lt;/strong&gt;：&lt;br/&gt;    - &lt;strong&gt;Siri 升级&lt;/strong&gt;：将推出&lt;strong&gt;独立聊天机器人 App&lt;/strong&gt;，支持文件/照片上传、对话记录记忆，并集成 Google Gemini 模型提供主动建议功能。&lt;br/&gt;    - &lt;strong&gt;折叠屏适配&lt;/strong&gt;：为 2026 年 9 月发布的折叠 iPhone 提供优化，支持&lt;strong&gt;分屏运行两个应用&lt;/strong&gt;及新的界面布局。&lt;br/&gt;    - &lt;strong&gt;AI 功能&lt;/strong&gt;：计划推出竞争 Perplexity 的 &lt;strong&gt;AI 网页搜索平台&lt;/strong&gt;；照片 App 将新增 &lt;strong&gt;Extend（扩图）、Enhance（增强）、Reframe（重构）&lt;/strong&gt; 三项 AI 编辑工具。&lt;br/&gt;    - &lt;strong&gt;其他功能&lt;/strong&gt;：相机将新增“Siri 模式”以增强视觉智能（如扫描营养标签）；Wallet 将支持 &lt;strong&gt;Create a Pass&lt;/strong&gt;（手动创建或扫描二维码生成票据）；健康 App 将加入 AI 教练和医疗视频（原计划为订阅服务，现改为免费）。&lt;br/&gt;• &lt;strong&gt;硬件兼容性&lt;/strong&gt;：iOS 27 将&lt;strong&gt;停止支持&lt;/strong&gt; iPhone 11 全系列及 iPhone SE（第二代）。&lt;br/&gt;• &lt;strong&gt;tvOS 27 展望&lt;/strong&gt;：预计将配合搭载 A17 Pro（或更强）芯片的新款 Apple TV，支持&lt;strong&gt;光线追踪&lt;/strong&gt;。关键升级方向包括取消 4GB 安装包大小限制、引入 Apple Games App 及支持游戏移植工具集，以提升游戏性能。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件与周边]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;BenQ MA270S 显示器&lt;/strong&gt;：一款 27 英寸 &lt;strong&gt;5K 镜面屏&lt;/strong&gt;显示器，定价 999 美元（低于苹果 Studio Display 的 1599 美元）。支持 P3 色域 99%、HDR400，提供单线 USB-C 供电及 KVM 切换功能。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[企业与安全]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;零接触部署 (Zero-touch Enrollment)&lt;/strong&gt;：通过 Apple Business Manager 将设备序列号在服务器端与企业绑定。即使设备被盗并强制重装系统，激活时仍会强制弹出&lt;strong&gt;远程管理界面&lt;/strong&gt;，配合激活锁可使设备失效，极大降低了企业设备被盗的经济动机。</description>
+      <guid isPermaLink="false">ai-summary-20260607015213</guid>
+      <pubDate>Sun, 07 Jun 2026 01:52:13 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-06-06 09:31 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260606013108</link>
