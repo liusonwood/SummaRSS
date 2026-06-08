@@ -5,7 +5,14 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sun, 07 Jun 2026 01:52:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 01:56:49 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 2026-06-08 09:56 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#20260608015649</link>
+      <description>&lt;strong&gt;[硬件与产品]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iPhone Fold 泄露&lt;/strong&gt;：最新模型显示该折叠屏手机展开后屏幕约 &lt;strong&gt;7.8 英寸&lt;/strong&gt;（类似 iPad mini），外屏约 &lt;strong&gt;5.5 英寸&lt;/strong&gt;。设备将采用 &lt;strong&gt;Touch ID 侧边指纹识别&lt;/strong&gt;而非 Face ID，配备双后置摄像头。市场预期其核心竞争力在于&lt;strong&gt;近乎不可见的屏幕折痕&lt;/strong&gt;及成熟的 iPad 应用生态支持。&lt;br/&gt;• &lt;strong&gt;Apple Watch Series 11 测试&lt;/strong&gt;：《华尔街日报》对比测试显示，Series 11 在&lt;strong&gt;睡眠时长追踪、睡眠分期以及运动心率监测&lt;/strong&gt;方面的准确度均领先于 Oura、Fitbit 和 Whoop，且无需支付订阅费用即可解锁全部数据。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与生态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iOS 27 预告&lt;/strong&gt;：WWDC 2026 将于明日举行，届时将正式发布 &lt;strong&gt;iOS 27 和 macOS 27&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;独立应用推荐&lt;/strong&gt;：习惯追踪应用 &lt;strong&gt;Grit Method&lt;/strong&gt; 上线，该应用通过设定“挑战困难、避免陷阱、感恩、帮助他人”四个维度，旨在将传统的生产力追踪转向&lt;strong&gt;性格塑造与正念培养&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[公司动态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;WWDC 2026 周边&lt;/strong&gt;：Apple 为此次开发者大会推出了包含帆布袋、水杯、贴纸及珐琅胸针的礼包，其中包含基于 MacBook Neo 营销活动的吉祥物 &lt;strong&gt;Lil Finder Guy&lt;/strong&gt; 实体胸针。</description>
+      <guid isPermaLink="false">ai-summary-20260608015649</guid>
+      <pubDate>Mon, 08 Jun 2026 01:56:49 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 2026-06-07 09:52 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#20260607015213</link>
