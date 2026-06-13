@@ -15,7 +15,8 @@ OUTPUT_FEED = "summary_feed.xml"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MAX_ITEMS = 50
 AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
-MAX_HISTORY_ITEMS = 400  # 保留的历史条目数量
+MAX_HISTORY_ITEMS = int(os.getenv("MAX_HISTORY_ITEMS", "400"))  # RSS 输出文件保留的最大条目数
+MAX_PROCESSED_LINKS = int(os.getenv("MAX_PROCESSED_LINKS", "5000"))  # processed.txt 保留的最大链接数
 
 # 配置 - 支持多个RSS源，用逗号分隔
 RSS_SOURCES = [
@@ -44,6 +45,20 @@ def update_storage(links):
         for link in links:
             if link:
                 f.write(f"{link}\n")
+
+def trim_processed_file():
+    """裁剪 processed.txt，只保留最近的 MAX_PROCESSED_LINKS 条记录
+    文件按行追加，越靠后的行越新，所以保留最后 N 行
+    """
+    if not os.path.exists(PROCESSED_FILE):
+        return
+    with open(PROCESSED_FILE, 'r') as f:
+        lines = [line for line in f if line.strip()]
+    if len(lines) > MAX_PROCESSED_LINKS:
+        kept = lines[-MAX_PROCESSED_LINKS:]
+        print(f"Trimming {PROCESSED_FILE}: {len(lines)} -> {len(kept)} links")
+        with open(PROCESSED_FILE, 'w') as f:
+            f.writelines(kept)
 
 def source_name(url):
     """从URL提取可读的来源名称"""
@@ -268,6 +283,7 @@ def generate_rss_xml(summaries):
     # 限制历史条目数量
     items = channel.findall("item")
     if len(items) > MAX_HISTORY_ITEMS:
+        print(f"Trimming {OUTPUT_FEED}: {len(items)} -> {MAX_HISTORY_ITEMS} items")
         for old_item in items[MAX_HISTORY_ITEMS:]:
             channel.remove(old_item)
 
@@ -343,6 +359,9 @@ def main():
 
     # 生成包含所有源摘要的RSS XML
     generate_rss_xml(all_summaries)
+
+    # 裁剪 processed.txt 防止无限增长
+    trim_processed_file()
 
     print("Summary generated successfully!")
     git_commit_push()
