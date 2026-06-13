@@ -35,4 +35,4 @@ jobs:
           AI_MODEL: ${{ secrets.AI_MODEL }}
           GITHUB_ACTIONS: "true"
         run: |
-          python3 summarize.py
+          python3 -u summarize.py  # -u 启用无缓冲输出，实时显示日志
