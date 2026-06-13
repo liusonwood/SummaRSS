@@ -10,18 +10,20 @@ import re
 import trafilatura
 import time
 
+PROCESSED_FILE = "processed.txt"
+OUTPUT_FEED = "summary_feed.xml"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+MAX_ITEMS = 50
+AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
+MAX_HISTORY_ITEMS = 400  # 保留的历史条目数量
+
 # 配置 - 支持多个RSS源，用逗号分隔
 RSS_SOURCES = [
     url.strip()
     for url in os.getenv("RSS_SOURCE", "https://9to5mac.com/feed/").split(",")
     if url.strip()
 ]
-PROCESSED_FILE = "processed.txt"
-OUTPUT_FEED = "summary_feed.xml"
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-MAX_ITEMS = 30
-AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
-MAX_HISTORY_ITEMS = 400  # 保留的历史条目数量
+
 
 def clean_html(raw_html):
     """清理 HTML 标签 (兜底时使用)"""
