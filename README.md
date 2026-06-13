@@ -20,6 +20,7 @@ graph TD
 
 ## ✨ 核心特性
 
+*   **📡 多源聚合**: 支持同时监控多个 RSS 源，每个源独立生成摘要，在输出 RSS 中作为不同条目呈现。单个源抓取失败不影响其他源的正常处理。
 *   **⚡ 零服务器成本 (Serverless)**: 采用 **Git-as-DB** 架构，完全托管在 GitHub Actions 与 GitHub Pages/Raw 上，无需维护昂贵的服务器与数据库。
 *   **🔄 增量更新与防重**: 使用 `processed.txt` 精确跟踪已读条目，每次只增量抓取和分析最新发布的文章，节约 API 额度和运行开销。
 *   **🧼 智能网页降噪**: 引入 `trafilatura` 库对原文 HTML 进行结构分析，自动剥离侧边栏、广告、导航栏等杂质，只提取纯净正文用于 AI 分析。
@@ -50,7 +51,7 @@ graph TD
 | 变量名 | 类型 | 是否必填 | 说明 | 示例值 |
 | :--- | :--- | :--- | :--- | :--- |
 | `OPENROUTER_API_KEY` | Secret | **是** | OpenRouter API 密钥 | `sk-or-v1-xxxx...` |
-| `RSS_SOURCE` | Secret | 否 | 你要监控的 RSS 源地址 | `https://9to5mac.com/feed/` |
+| `RSS_SOURCE` | Secret | 否 | 你要监控的 RSS 源地址，多个源用英文逗号分隔 | `https://9to5mac.com/feed/,https://techcrunch.com/feed/` |
 | `AI_MODEL` | Secret | 否 | 使用的 AI 模型（默认为 Gemini 2.0 Flash） | `google/gemini-2.0-flash-001` |
 
 #### 4. 激活订阅
@@ -76,7 +77,7 @@ pip install -r requirements.txt
 在命令行中导出所需的配置并运行脚本：
 ```bash
 export OPENROUTER_API_KEY="your_openrouter_api_key"
-export RSS_SOURCE="https://9to5mac.com/feed/" # 也可以是本地 XML 路径
+export RSS_SOURCE="https://9to5mac.com/feed/,https://techcrunch.com/feed/" # 多个源用英文逗号分隔，也可以是本地 XML 路径
 export AI_MODEL="google/gemini-2.0-flash-001"
 
 python3 summarize.py

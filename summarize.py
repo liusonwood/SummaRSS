@@ -10,8 +10,12 @@ import re
 import trafilatura
 import time
 
-# 配置
-RSS_SOURCE = os.getenv("RSS_SOURCE", "https://9to5mac.com/feed/")
+# 配置 - 支持多个RSS源，用逗号分隔
+RSS_SOURCES = [
+    url.strip()
+    for url in os.getenv("RSS_SOURCE", "https://9to5mac.com/feed/").split(",")
+    if url.strip()
+]
 PROCESSED_FILE = "processed.txt"
 OUTPUT_FEED = "summary_feed.xml"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
@@ -38,6 +42,12 @@ def update_storage(links):
         for link in links:
             if link:
                 f.write(f"{link}\n")
+
+def source_name(url):
+    """从URL提取可读的来源名称"""
+    hostname = urllib.parse.urlparse(url).hostname or url
+    name = hostname.replace("www.", "").split(".")[0]
+    return name.title()
 
 def fetch_rss_items(source, processed_links):
     """抓取 RSS：先判断是否已读，只有新文章才抓取全文"""
@@ -81,7 +91,7 @@ def fetch_rss_items(source, processed_links):
                 fallback = content_encoded.text if content_encoded is not None else description
                 body = clean_html(fallback)
             
-            items.append({"title": title, "link": link, "body": body})
+            items.append({"title": title, "link": link, "body": body, "source": source})
             
             # 达到单次最大处理量提前停止抓取
             if len(items) >= MAX_ITEMS:
@@ -92,13 +102,19 @@ def fetch_rss_items(source, processed_links):
         print(f"Error fetching RSS: {e}")
         return []
 
-def get_ai_summary(items):
+def get_ai_summary(items, source_label=None):
     """调用 AI 生成摘要，带重试机制"""
     if not OPENROUTER_API_KEY:
         raise ValueError("OPENROUTER_API_KEY is not set!")
-        
+
+    # 构建来源上下文
+    source_context = ""
+    if source_label:
+        source_context = f"以下文章均来自 **{source_label}** 这个 RSS 源，请在简报中标注来源。\n\n"
+
     prompt = (
-        "你是一位专业的科技新闻编辑。请根据提供的 RSS 文章内容，整理出一份精炼、客观的中文每日简报。\n\n"
+        "你是一位专业的科技新闻编辑。请根据提供的 RSS 文章内容，整理出一份精炼、客观的中文简报。\n\n"
+        f"{source_context}"
         "### 要求：\n"
         "1. **分类汇总**：按主题对内容进行分类。如果主题跨度不大，则按重要程度排序。\n"
         "2. **内容质量**：每条摘要应直击核心事实，剔除营销废话，保持中立专业的语气。\n"
@@ -147,29 +163,19 @@ def get_ai_summary(items):
     
     return "摘要生成失败。"
 
-def generate_rss_xml(summary_text):
-    """生成或更新 RSS XML 文件 (与天气项目相同的 minidom 格式)"""
-    
+def generate_rss_xml(summaries):
+    """生成或更新 RSS XML 文件
+    summaries: list of (source_label, summary_text) tuples
+    每个源生成一个独立的RSS item
+    """
+
     # 注册 Atom 命名空间
     ET.register_namespace('atom', "http://www.w3.org/2005/Atom")
-    
+
     now_utc = datetime.now(timezone.utc)
+    now_beijing = now_utc + timedelta(hours=8)
     rfc822_date = now_utc.strftime("%a, %d %b %Y %H:%M:%S GMT")
-    
-    # 将 AI 生成的 Markdown 转为基础 HTML，确保阅读器兼容
-    # 1. 处理标题 (将 # 替换为加粗，避免 RSS 中出现 #)
-    html_content = re.sub(r'^#+\s*(.*)', r'<strong>\1</strong>', summary_text, flags=re.MULTILINE)
-    # 2. 处理列表符号
-    html_content = re.sub(r'^- (.*)', r'• \1', html_content, flags=re.MULTILINE)
-    # 3. 换行符转为 <br/>
-    html_content = html_content.replace('\n', '<br/>')
-    # 4. 处理 Markdown 加粗
-    html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
-    
-    # 唯一标识符和时间戳
     timestamp = now_utc.strftime('%Y%m%d%H%M%S')
-    guid_text = f"ai-summary-{timestamp}"
-    item_link = f"https://github.com/liusonwood/summarss#{timestamp}"
 
     # 加载现有 RSS 或创建新 RSS
     if os.path.exists(OUTPUT_FEED):
@@ -195,20 +201,19 @@ def generate_rss_xml(summary_text):
 
     # 处理 atom:link (解决验证报错)
     atom_ns = "http://www.w3.org/2005/Atom"
-    # 此处假设你 GitHub Pages 暴露的最终订阅地址是这个
-    atom_link_url = "https://liusonwood.github.io/summarss/summary_feed.xml" 
-    
+    atom_link_url = "https://liusonwood.github.io/summarss/summary_feed.xml"
+
     atom_link = None
     for child in channel.findall(f"{{{atom_ns}}}link"):
         if child.get("rel") == "self":
             atom_link = child
             break
-            
+
     if atom_link is None:
         atom_link = ET.SubElement(channel, f"{{{atom_ns}}}link")
         atom_link.set("rel", "self")
         atom_link.set("type", "application/rss+xml")
-    
+
     atom_link.set("href", atom_link_url)
 
     # 更新 lastBuildDate
@@ -217,37 +222,46 @@ def generate_rss_xml(summary_text):
         last_build_date = ET.SubElement(channel, "lastBuildDate")
     last_build_date.text = rfc822_date
 
-    # 去重处理：以防短时间内重复运行
-    existing_item = None
-    for item in channel.findall("item"):
-        guid = item.find("guid")
-        if guid is not None and guid.text == guid_text:
-            existing_item = item
-            break
-            
-    if existing_item:
-        channel.remove(existing_item)
-
-    # 创建新的 Item 条目
-    item = ET.Element("item")
-    now_beijing = now_utc + timedelta(hours=8)
-    ET.SubElement(item, "title").text = f"AI 简报 - {now_beijing.strftime('%Y-%m-%d %H:%M')} (UTC+8)"
-    ET.SubElement(item, "link").text = item_link
-    ET.SubElement(item, "description").text = html_content  # 写入转换后的 HTML
-    ET.SubElement(item, "guid", isPermaLink="false").text = guid_text
-    ET.SubElement(item, "pubDate").text = rfc822_date
-    
-    # 查找第一个 item 的位置并插入到最前面
+    # 查找第一个 item 的位置
     first_item_index = -1
     for i, child in enumerate(channel):
         if child.tag == 'item':
             first_item_index = i
             break
-            
-    if first_item_index != -1:
-        channel.insert(first_item_index, item)
-    else:
-        channel.append(item)
+
+    # 为每个源创建一个独立的RSS item
+    # 使用 reversed 使最终顺序与 summaries 列表顺序一致
+    for label, summary_text in reversed(summaries):
+        # 将 AI 生成的 Markdown 转为基础 HTML
+        html_content = re.sub(r'^#+\s*(.*)', r'<strong>\1</strong>', summary_text, flags=re.MULTILINE)
+        html_content = re.sub(r'^- (.*)', r'• \1', html_content, flags=re.MULTILINE)
+        html_content = html_content.replace('\n', '<br/>')
+        html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
+
+        # 每个源独立的唯一标识符
+        item_guid = f"ai-summary-{label}-{timestamp}"
+        item_link = f"https://github.com/liusonwood/summarss#{label}-{timestamp}"
+
+        # 去重：移除已存在的相同GUID的item
+        for existing in channel.findall("item"):
+            guid = existing.find("guid")
+            if guid is not None and guid.text == item_guid:
+                channel.remove(existing)
+                break
+
+        # 创建新的 Item 条目
+        item = ET.Element("item")
+        ET.SubElement(item, "title").text = f"AI 简报 - {label} - {now_beijing.strftime('%Y-%m-%d %H:%M')} (UTC+8)"
+        ET.SubElement(item, "link").text = item_link
+        ET.SubElement(item, "description").text = html_content
+        ET.SubElement(item, "guid", isPermaLink="false").text = item_guid
+        ET.SubElement(item, "pubDate").text = rfc822_date
+
+        # 插入到最前面
+        if first_item_index != -1:
+            channel.insert(first_item_index, item)
+        else:
+            channel.append(item)
 
     # 限制历史条目数量
     items = channel.findall("item")
@@ -255,15 +269,15 @@ def generate_rss_xml(summary_text):
         for old_item in items[MAX_HISTORY_ITEMS:]:
             channel.remove(old_item)
 
-    # 使用 minidom 格式化 XML (与天气项目完全相同的逻辑)
+    # 使用 minidom 格式化 XML
     xml_str = minidom.parseString(ET.tostring(rss)).toprettyxml(indent="  ")
     # 去除 minidom 产生的多余空行
     xml_str = "\n".join([line for line in xml_str.split('\n') if line.strip()])
-    
+
     with open(OUTPUT_FEED, "w", encoding="utf-8") as f:
         f.write(xml_str)
-        
-    print(f"Successfully generated {OUTPUT_FEED}")
+
+    print(f"Successfully generated {OUTPUT_FEED} with {len(summaries)} summaries")
 
 def git_commit_push():
     """推送更改到 GitHub"""
@@ -289,23 +303,45 @@ def git_commit_push():
 def main():
     print("Starting RSS AI Summarizer...")
     processed_links = load_processed_links()
-    
-    # 获取并处理文章（内部已做查重，未读的才抓取）
-    new_items = fetch_rss_items(RSS_SOURCE, processed_links)
-    
-    print(f"Found {len(new_items)} new items to summarize.")
-    
-    if not new_items:
-        print("No new items to process. Exiting.")
+
+    all_summaries = []  # 收集所有源的摘要 (source_label, summary_text) 元组列表
+
+    # 循环处理每个RSS源
+    for source in RSS_SOURCES:
+        print(f"\n{'='*50}")
+        print(f"Processing source: {source}")
+        print(f"{'='*50}")
+
+        try:
+            # 获取并处理文章（内部已做查重，未读的才抓取）
+            new_items = fetch_rss_items(source, processed_links)
+            label = source_name(source)
+            print(f"Found {len(new_items)} new items from {label}.")
+
+            if not new_items:
+                print(f"No new items from {label}. Skipping.")
+                continue
+
+            # 标记已读 - 在AI调用前就标记，避免AI失败时重复处理
+            update_storage([item['link'] for item in new_items])
+
+            # 为当前源生成AI摘要
+            print(f"Generating AI summary for {label}...")
+            summary = get_ai_summary(new_items, source_label=label)
+            all_summaries.append((label, summary))
+
+        except Exception as e:
+            # 单个源失败不影响其他源的处理
+            print(f"[ERROR] Failed to process {source}: {e}")
+            continue
+
+    if not all_summaries:
+        print("No new items from any source. Exiting.")
         return
-        
-    # 全部标记已读
-    update_storage([item['link'] for item in new_items])
-    
-    print(f"Processing AI summary...")
-    summary = get_ai_summary(new_items)
-    generate_rss_xml(summary)
-    
+
+    # 生成包含所有源摘要的RSS XML
+    generate_rss_xml(all_summaries)
+
     print("Summary generated successfully!")
     git_commit_push()
 

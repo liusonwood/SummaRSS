@@ -31,7 +31,7 @@ jobs:
       - name: Run summarizer
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          RSS_SOURCE: ${{ secrets.RSS_SOURCE }}
+          RSS_SOURCE: ${{ secrets.RSS_SOURCE }}  # 支持多个RSS源，用英文逗号分隔
           AI_MODEL: ${{ secrets.AI_MODEL }}
           GITHUB_ACTIONS: "true"
         run: |

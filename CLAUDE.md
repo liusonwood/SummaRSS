@@ -1,6 +1,6 @@
 # 🤖 GEMINI.md - RSS AI Daily Summarizer
 
-This project is an automated RSS feed summarization tool powered by Python and OpenRouter (Gemini). It monitors an RSS source, summarizes new entries using AI, and publishes a new RSS feed containing these summaries.
+This project is an automated RSS feed summarization tool powered by Python and OpenRouter (Gemini). It monitors multiple RSS sources, summarizes new entries from each source independently using AI, and publishes a new RSS feed containing separate summary items for each source.
 
 ## 🚀 Project Overview
 
@@ -10,9 +10,11 @@ This project is an automated RSS feed summarization tool powered by Python and O
   - **OpenRouter API**: Integration with LLMs (defaulting to `google/gemini-2.0-flash-001`) for high-quality summarization.
   - **GitHub Actions**: Automation for daily execution and repository-based state persistence.
 - **Architecture**:
+  - **Multi-Source Support**: `RSS_SOURCE` accepts comma-separated URLs. Each source is processed independently with its own AI summary.
   - **State Management**: `processed.txt` stores processed links to ensure incremental updates.
-  - **Incremental Workflow**: `fetch` -> `filter` -> `clean` -> `summarize` -> `publish`.
+  - **Incremental Workflow**: `fetch` -> `filter` -> `clean` -> `summarize` (per source) -> `publish` (combined).
   - **Git-as-DB**: The system treats the GitHub repository as a database, committing state changes back to the main branch after each run.
+  - **Error Isolation**: A single source failure does not affect processing of other sources.
 
 ## 🛠 Building and Running
 
@@ -24,7 +26,7 @@ This project is an automated RSS feed summarization tool powered by Python and O
 To test the script locally, set the required environment variables and run:
 ```bash
 export OPENROUTER_API_KEY="your_key_here"
-export RSS_SOURCE="path_to_local_xml_or_url"
+export RSS_SOURCE="https://9to5mac.com/feed/,https://techcrunch.com/feed/"  # Multiple sources, comma-separated
 export AI_MODEL="google/gemini-2.0-flash-001"
 python3 summarize.py
 ```
