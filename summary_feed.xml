@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://liusonwood.github.io/summarss/summary_feed.xml"/>
-    <lastBuildDate>Sun, 14 Jun 2026 01:59:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 02:03:30 GMT</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-06-15 10:03 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260615020330</link>
+      <description>&lt;strong&gt;[软件与功能更新]&lt;/strong&gt; (来源: 9To5Mac)&lt;br/&gt;&lt;br/&gt;• &lt;strong&gt;iOS 27 未公布功能&lt;/strong&gt;：据 Mark Gurman 报道，Apple 仍有三项功能预计在 9 月发布：&lt;br/&gt;    - &lt;strong&gt;简化版 Modular Ultra 表盘&lt;/strong&gt;：将为非 Ultra 系列 Apple Watch 提供精简版的大时钟表盘，取消第二行复杂功能。&lt;br/&gt;    - &lt;strong&gt;Siri 扩展 API&lt;/strong&gt;：计划允许第三方 AI 聊天机器人（如 Gemini、Claude 等）通过 &lt;strong&gt;Extensions API&lt;/strong&gt; 直接集成至 Siri，而非通过个别公司的专项合作协议。&lt;br/&gt;    - &lt;strong&gt;可自定义相机应用&lt;/strong&gt;：允许用户&lt;strong&gt;自定义相机界面控件&lt;/strong&gt;的位置，预计随 iPhone 18 Pro 同步推出。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260615020330</guid>
+      <pubDate>Mon, 15 Jun 2026 02:03:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-06-15 10:03 (UTC+8)</title>
+      <link>https://github.com/liusonwood/summarss#News-20260615020330</link>
+      <description>&lt;strong&gt;[人工智能]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Rio-3.5-Open-397B 模型造假&lt;/strong&gt;：证据显示该模型并非 IplanRIO 原创，而是由 Nex 和 Qwen 模型的权重直接进行元素级合并（约 0.6 Nex / 0.4 Qwen）而成。 (来源: News)&lt;br/&gt;• &lt;strong&gt;AI 普及率认知偏差&lt;/strong&gt;：数据表明并非所有人都在使用 AI。美国约 1/3 人口积极使用，1/3 偶尔使用，1/3 从不使用；Gen Z 对 AI 的采用率已陷入停滞，负面情绪上升。 (来源: News)&lt;br/&gt;• &lt;strong&gt;Jane Street 转向形式化方法&lt;/strong&gt;：由于 Agentic Coding（智能体编程）降低了证明成本并增加了验证需求，Jane Street 决定组建团队专注于形式化方法，以解决 AI 生成代码的质量和鲁棒性问题。 (来源: News)&lt;br/&gt;• &lt;strong&gt;AI 核心逻辑讨论&lt;/strong&gt;：观点认为 AI 本质是代码，无法仅通过 Prompt 让其变得更聪明。 (来源: News)&lt;br/&gt;• &lt;strong&gt;Inverse Rubric Optimization (IRO)&lt;/strong&gt;：Fulcrum Research 提出 IRO 框架，通过让 Agent 优化黑盒评委的偏好来研究 Agent 科学，发现前沿模型在资源利用率上仍有提升空间。 (来源: News)&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件开发与架构]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Postgres 大规模删除优化&lt;/strong&gt;：在 Postgres 中，大规模 `DELETE` 会增加 MVCC 负担且不立即释放空间。最可扩展的删除策略是使用 &lt;strong&gt;`DROP TABLE` 或 `TRUNCATE`&lt;/strong&gt;。 (来源: News)&lt;br/&gt;• &lt;strong&gt;分布式计算八大谬误&lt;/strong&gt;：回顾了 21 年前提出的网络可靠性、零延迟等八个常见误区，强调在设计网络软件时必须考虑数据丢失和延迟。 (来源: News)&lt;br/&gt;• &lt;strong&gt;Ruby 对 Lisp 的继承&lt;/strong&gt;：分析了 Ruby 中问号结尾的方法名、闭包/块、一等函数及符号（Symbols）等特性均深受 Lisp 影响。 (来源: News)&lt;br/&gt;• &lt;strong&gt;TorchCodec 0.14 发布&lt;/strong&gt;：新增快速 Wav 解码器（绕过 FFmpeg）以及支持 CPU 和 CUDA 的 &lt;strong&gt;HDR 视频解码&lt;/strong&gt;。 (来源: News)&lt;br/&gt;• &lt;strong&gt;Kage 离线网页快照工具&lt;/strong&gt;：可通过 headless Chrome 将网站克隆为无 JavaScript 的静态 HTML 文件夹，并支持打包为单个二进制文件实现完全离线访问。 (来源: News)&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[操作系统与硬件]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Linux 7.1 正式发布&lt;/strong&gt;：Linus Torvalds 发布 7.1 版本，包含大量驱动更新及网络、追踪工具修复。 (来源: News)&lt;br/&gt;• &lt;strong&gt;Windows 11 账户强制要求争议&lt;/strong&gt;：用户对微软强制要求创建 MS 账户（以绑定 BitLocker 恢复密钥）表示不满，呼吁恢复本地账户选项以增加用户控制权。 (来源: News)&lt;br/&gt;• &lt;strong&gt;USB Power Delivery (PD) 与 EPR&lt;/strong&gt;：USB PD 支持最高 100W，而新标准的 EPR 则可支持 &lt;strong&gt;140W 至 240W&lt;/strong&gt;，涵盖笔记本和显示器等高功耗设备。 (来源: News)&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[计算机历史与理论]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;哈希函数起源&lt;/strong&gt;：哈希概念由 Arnold Dumey 于 1956 年定义，最初用于将数据映射到内存地址以加快搜索（称为 indexing）。 (来源: News)&lt;br/&gt;• &lt;strong&gt;Chaosnet (1981)&lt;/strong&gt;：介绍了一种由 MIT 开发的无中心控制本地网络，旨在实现高速度、高可靠性的 Lisp Machine 系统通信。 (来源: News)&lt;br/&gt;• &lt;strong&gt;Perlisisms (1982)&lt;/strong&gt;：整理了 Alan Perlis 关于编程的 39 条名言，涵盖代码结构、语言设计及复杂性管理。 (来源: News)&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[其他]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;个人项目分享&lt;/strong&gt;：包括使用 M1 Max 索引 669GB GoPro 视频的本地 ML 项目、针对 2026 年 6 月的活动追踪器 Fringeflypost 等。 (来源: News)&lt;br/&gt;• &lt;strong&gt;创业洞察&lt;/strong&gt;：Y Combinator 创始人讨论通过指数级增长（如每月 93%）实现财富积累的逻辑。 (来源: News)</description>
+      <guid isPermaLink="false">ai-summary-News-20260615020330</guid>
+      <pubDate>Mon, 15 Jun 2026 02:03:30 GMT</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-06-14 09:59 (UTC+8)</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260614015900</link>
