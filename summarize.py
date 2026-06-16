@@ -5,6 +5,7 @@ from xml.dom import minidom
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone, timedelta
+from email.utils import format_datetime
 import subprocess
 import re
 import trafilatura
@@ -191,7 +192,9 @@ def generate_rss_xml(summaries):
 
     now_utc = datetime.now(timezone.utc)
     now_beijing = now_utc + timedelta(hours=8)
-    rfc822_date = now_utc.strftime("%a, %d %b %Y %H:%M:%S GMT")
+    # 使用 email.utils.format_datetime 生成符合 RFC 2822 的标准日期
+    # 不受系统 locale 影响，始终输出英文星期/月份缩写，RSS 验证器可识别
+    rfc822_date = format_datetime(now_utc)
     timestamp = now_utc.strftime('%Y%m%d%H%M%S')
 
     # 加载现有 RSS 或创建新 RSS
@@ -268,7 +271,7 @@ def generate_rss_xml(summaries):
 
         # 创建新的 Item 条目
         item = ET.Element("item")
-        ET.SubElement(item, "title").text = f"AI 简报 - {label} - {now_beijing.strftime('%Y-%m-%d %H:%M')} (UTC+8)"
+        ET.SubElement(item, "title").text = f"AI 简报 - {label} - {now_beijing.strftime('%Y-%m-%d')} (UTC+8)"
         ET.SubElement(item, "link").text = item_link
         ET.SubElement(item, "description").text = html_content
         ET.SubElement(item, "guid", isPermaLink="false").text = item_guid
@@ -308,7 +311,7 @@ def git_commit_push():
         ["git", "config", "user.name", "github-actions[bot]"],
         ["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"],
         ["git", "add", PROCESSED_FILE, OUTPUT_FEED],
-        ["git", "commit", "-m", f"Auto-update: {now_beijing.strftime('%Y-%m-%d %H:%M')} (UTC+8)"],
+        ["git", "commit", "-m", f"Auto-update: {now_beijing.strftime('%Y-%m-%d')} (UTC+8)"],
         ["git", "push"]
     ]
 
