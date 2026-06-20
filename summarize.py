@@ -221,7 +221,7 @@ def generate_rss_xml(summaries):
 
     # 处理 atom:link (解决验证报错)
     atom_ns = "http://www.w3.org/2005/Atom"
-    atom_link_url = "https://liusonwood.github.io/summarss/summary_feed.xml"
+    atom_link_url = "https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"
 
     atom_link = None
     for child in channel.findall(f"{{{atom_ns}}}link"):
