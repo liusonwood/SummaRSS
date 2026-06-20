@@ -1,5 +1,7 @@
 # 🤖 SummaRSS - RSS AI Daily Summarizer
 
+<a href="http://validator.w3.org/feed/check.cgi?url=https%3A//raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"><img src="https://validator.w3.org/feed/images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+
 这是一个基于 **GitHub Actions + OpenRouter (Gemini)** 的自动化 RSS 摘要生成器。它监控指定的 RSS 订阅源，通过智能正文提取工具获取最新文章全文，利用 AI 模型将多条新闻合并为一份精炼的中文每日简报，并自动发布为兼容 RSS 2.0 规范的全新订阅源，供 Reeder、NetNewsWire 等现代阅读器无缝订阅。
 
 ```mermaid
