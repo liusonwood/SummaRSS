@@ -271,7 +271,7 @@ def generate_rss_xml(summaries):
 
         # 创建新的 Item 条目
         item = ET.Element("item")
-        ET.SubElement(item, "title").text = f"AI 简报 - {label} - {now_beijing.strftime('%Y-%m-%d')} (UTC+8)"
+        ET.SubElement(item, "title").text = f"AI 简报 - {label} - {now_beijing.strftime('%Y-%m-%d')}"
         ET.SubElement(item, "link").text = item_link
         ET.SubElement(item, "description").text = html_content
         ET.SubElement(item, "guid", isPermaLink="false").text = item_guid
