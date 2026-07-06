@@ -70,7 +70,8 @@ def source_name(url):
 def fetch_rss_items(source, processed_links):
     """抓取 RSS：先判断是否已读，只有新文章才抓取全文"""
     try:
-        print(f"正在读取 RSS 源: {source}")
+        source_label = source_name(source)
+        print(f"正在读取 RSS 源: {source_label}")
         req = urllib.request.Request(source, headers={
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         })
@@ -330,7 +331,7 @@ def main():
     # 循环处理每个RSS源
     for source in RSS_SOURCES:
         print(f"\n{'='*50}")
-        print(f"Processing source: {source}")
+        print(f"Processing source: {source_name(source)}")
         print(f"{'='*50}")
 
         try:
@@ -353,7 +354,7 @@ def main():
 
         except Exception as e:
             # 单个源失败不影响其他源的处理
-            print(f"[ERROR] Failed to process {source}: {e}")
+            print(f"[ERROR] Failed to process {source_name(source)}: {e}")
             continue
 
     if not all_summaries:
