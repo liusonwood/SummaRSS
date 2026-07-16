@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Wed, 15 Jul 2026 00:57:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 01:04:14 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-07-16</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260716010414</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260716010414</guid>
+      <pubDate>Thu, 16 Jul 2026 01:04:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-07-16</title>
+      <link>https://github.com/liusonwood/summarss#News-20260716010414</link>
+      <description>&lt;strong&gt;[人工智能与大模型]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Inkling 模型发布&lt;/strong&gt;：推出一款基于 MoE 架构的开源权重模型，总参数 975B（激活 41B），支持 &lt;strong&gt;1M tokens 上下文&lt;/strong&gt;及多模态原生推理，旨在为定制化提供高性能基座。&lt;br/&gt;• &lt;strong&gt;Grok Build 开源&lt;/strong&gt;：SpaceXAI 发布基于 Rust 的终端 AI 编码代理，支持代码库理解、文件编辑及 shell 命令执行，可通过 &lt;strong&gt;ACP 协议&lt;/strong&gt;嵌入编辑器。&lt;br/&gt;• &lt;strong&gt;Gemma 4 硬件适配&lt;/strong&gt;：通过对 `ik_llama.cpp` 进行内核回退优化，成功在无 GPU 的 &lt;strong&gt;13 年前旧款 Xeon 处理器&lt;/strong&gt;上以 5 tokens/sec 的速度运行 Gemma 4 26B 模型。&lt;br/&gt;• &lt;strong&gt;Agent API 设计原则&lt;/strong&gt;：提出面向 AI Agent 的 API 应追求&lt;strong&gt;极致的显式化&lt;/strong&gt;，摒弃为人类设计的默认值和模糊错误处理，以降低 Agent 的调试难度并提高稳定性。&lt;br/&gt;• &lt;strong&gt;E-- 编程语言&lt;/strong&gt;：推出一种可确定性编译为 Python 的英文编程语言，通过 &lt;strong&gt;LLM 处理自然语言 $\rightarrow$ 规范化 E-- $\rightarrow$ 确定性解析 $\rightarrow$ Python&lt;/strong&gt; 的管线，兼顾灵活性与可复现性。&lt;br/&gt;• &lt;strong&gt;Agent 运行框架（Harness）思考&lt;/strong&gt;：探讨构建高效 Agent 框架的原则，主张借鉴 &lt;strong&gt;Unix 哲学&lt;/strong&gt;（单一功能、文本流接口），通过减少上下文负载和增强可审计性来提升 Agent 的可靠性。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[数据库与底层技术]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;SQLite 默认配置缺陷&lt;/strong&gt;：讨论 SQLite 默认&lt;strong&gt;忽略外键约束&lt;/strong&gt;以及允许列存储错误数据类型的问题，建议通过 `PRAGMA foreign_keys = ON` 增强一致性。&lt;br/&gt;• &lt;strong&gt;SQLite NUL 字符风险&lt;/strong&gt;：警告在字符串中嵌入 NUL 字符会导致 `length()` 等函数计算错误及 CLI 输出截断，建议使用 `instr(X, char(0))` 检测并清理。&lt;br/&gt;• &lt;strong&gt;misa77 编解码器&lt;/strong&gt;：一款针对“一次写入多次读取”场景的 LZ 编码器，在保持适中压缩比的同时，&lt;strong&gt;解压吞吐量可达 LZ4 的 2 倍&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;WebAssembly 实践&lt;/strong&gt;：展示了将 &lt;strong&gt;Gecko 引擎&lt;/strong&gt;编译至 WebAssembly，从而在浏览器标签页内完整运行 Firefox 浏览器的实现。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[科学与工程]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;金属有机框架（MOFs）&lt;/strong&gt;：这类超高孔隙率的晶体材料在&lt;strong&gt;大气集水&lt;/strong&gt;（每磅粉末 12 小时收集 1.3 升水）、碳捕获及靶向药物递送领域具有重大潜力。&lt;br/&gt;• &lt;strong&gt;作业队列（Job Queues）复杂性&lt;/strong&gt;：分析了构建批处理调度系统时的潜在陷阱，强调需关注&lt;strong&gt;故障模型&lt;/strong&gt;、内存预算以及队列大小对延迟的影响。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[计算机历史与界面]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;MITS 公司回顾&lt;/strong&gt;：记录了个人计算机先驱 MITS 的早期历史，从火箭遥测产品转向计算器套件，最终影响个人计算机产业。&lt;br/&gt;• &lt;strong&gt;Anti-Mac 界面理论&lt;/strong&gt;：回顾 1996 年提出的反常规 UI 理念，挑战 WIMP（窗口-图标-菜单-指针）模型，探索基于语言和专家模式的交互方式。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[其他科技资讯]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;企业动态&lt;/strong&gt;：据消息人士透露，Stripe 与 Advent 计划联合&lt;strong&gt;收购 PayPal&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;网络实践&lt;/strong&gt;：分享利用 LLM 配置 MikroTik 网络设备的经验，建议优先使用 &lt;strong&gt;REST/JSON API&lt;/strong&gt; 而非 SSH，并实施严格的配置备份与分步测试。&lt;br/&gt;• &lt;strong&gt;软件产品&lt;/strong&gt;：发布基于 WebRTC 的 P2P 本地文件传输工具 PairDrop 以及基于 Shadcn 的 Claude/Grok 风格组件库 Brainless。</description>
+      <guid isPermaLink="false">ai-summary-News-20260716010414</guid>
+      <pubDate>Thu, 16 Jul 2026 01:04:14 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-07-15</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260715005713</link>
