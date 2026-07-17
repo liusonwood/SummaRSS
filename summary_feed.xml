@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Thu, 16 Jul 2026 01:04:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 01:08:27 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-07-17</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260717010827</link>
+      <description>&lt;strong&gt;[硬件与芯片]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;M6 芯片&lt;/strong&gt;：预计今年推出，内存带宽将提升至 &lt;strong&gt;200 GB/s&lt;/strong&gt;，GPU 核心数增加至 &lt;strong&gt;12 核&lt;/strong&gt;。策略上将&lt;strong&gt;仅发布基础版&lt;/strong&gt;，不再推出 Pro、Max 或 Ultra 版本，旨在为 M7 的大幅升级铺路。&lt;br/&gt;• &lt;strong&gt;可折叠 iPhone&lt;/strong&gt;：传闻苹果大幅增加&lt;strong&gt;均热板（Vapor Chamber）&lt;/strong&gt;订单，预计用于首款可折叠 iPhone 及 20 周年纪念款，旨在提升散热性能。&lt;br/&gt;• &lt;strong&gt;iPad 更新&lt;/strong&gt;：&lt;strong&gt;OLED 版 iPad mini&lt;/strong&gt; 预计 10 月发布；入门级 iPad 将于明年一季度更新处理器；iPad Air 和 iPad Pro 预计在明年春季更新。&lt;br/&gt;• &lt;strong&gt;TSMC 扩产&lt;/strong&gt;：台积电计划在亚利桑那州总计建设 &lt;strong&gt;12 座工厂&lt;/strong&gt;（含封装厂），但分析认为最先进工艺仍将留在台湾，美国工厂可能仅生产旧款芯片。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与生态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iOS 27&lt;/strong&gt;：公测版推出。核心更新为&lt;strong&gt;首个独立 Siri 应用&lt;/strong&gt;（支持历史对话同步、文件分析及屏幕识别），且仅支持 iPhone 15 Pro 及更新机型。&lt;br/&gt;• &lt;strong&gt;Apple Music&lt;/strong&gt;：iOS 27 升级了 &lt;strong&gt;AutoMix&lt;/strong&gt; 功能，通过 AI 实现更自然的 DJ 式歌曲衔接；Android 版新增主屏组件及 WhatsApp 分享功能。&lt;br/&gt;• &lt;strong&gt;Android 版 Apple TV&lt;/strong&gt;：更新至 2.5 版本，新增三种主屏组件，支持快速接续观看。&lt;br/&gt;• &lt;strong&gt;游戏性能&lt;/strong&gt;：测试显示 &lt;strong&gt;Game Porting Toolkit 4 beta&lt;/strong&gt; 显著提升 Windows 游戏在 Mac 上的表现，GTA V 的帧率提升约 &lt;strong&gt;66%&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[AI 与第三方应用]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;LM Studio Bionic&lt;/strong&gt;：推出 AI 代理应用，支持通过本地或云端开源模型处理代码、研究及文档，内置本地语音转录。&lt;br/&gt;• &lt;strong&gt;Gemini Notebook&lt;/strong&gt;：NotebookLM 正式更名为 &lt;strong&gt;Gemini Notebook&lt;/strong&gt;，AI Pro 用户即将获得 Gemini 3.5 和 Antigravity 升级，支持原生执行代码进行复杂数据分析。&lt;br/&gt;• &lt;strong&gt;1Password&lt;/strong&gt;：推出 Claude 集成，允许 AI 代理在&lt;strong&gt;不接触密码&lt;/strong&gt;的情况下通过安全通道完成网站登录任务。&lt;br/&gt;• &lt;strong&gt;Roblox&lt;/strong&gt;：计划于 7 月 28 日在移动端推出 &lt;strong&gt;Roblox Build&lt;/strong&gt;，允许用户通过 AI 文本提示直接在 iPhone/iPad 上创建游戏。&lt;br/&gt;• &lt;strong&gt;Meta AI&lt;/strong&gt;：新增家长提醒功能，当青少年与 AI 讨论自残或自杀倾向时，系统将向监护人发送预警。&lt;br/&gt;• &lt;strong&gt;WhatsApp&lt;/strong&gt;：iPhone 端现可在通话界面直接切换&lt;strong&gt;麦克风模式&lt;/strong&gt;（如语音隔离）。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[法律、财务与服务]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;法律纠纷&lt;/strong&gt;：苹果起诉 &lt;strong&gt;OpenAI&lt;/strong&gt; 窃取商业秘密，OpenAI 已回应称未发现相关证据。&lt;br/&gt;• &lt;strong&gt;隐私诉讼&lt;/strong&gt;：苹果因 &lt;strong&gt;Hide My Email&lt;/strong&gt; 存在泄露真实邮箱的漏洞而面临集体诉讼，原告指控苹果在已知缺陷的情况下继续销售该服务。&lt;br/&gt;• &lt;strong&gt;AppleCare One&lt;/strong&gt;：在单品 AppleCare+ 价格上涨的情况下，涵盖三台设备的 &lt;strong&gt;AppleCare One 捆绑包&lt;/strong&gt;性价比进一步提升。&lt;br/&gt;• &lt;strong&gt;教育优惠&lt;/strong&gt;：2026 年返校季活动启动，购买 MacBook Pro 最高可获 &lt;strong&gt;150 美元&lt;/strong&gt;礼品卡，MacBook Air 和 iPad 系列可获 100 美元礼品卡。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[配件与健康]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Satechi 配件&lt;/strong&gt;：推出适配 MacBook Neo 颜色的 &lt;strong&gt;OntheGo 适配器&lt;/strong&gt;、Snap Hub 和 Slim EX 鼠标。&lt;br/&gt;• &lt;strong&gt;Signal Ring&lt;/strong&gt;：推出一款无需校准即可提供&lt;strong&gt;实时血压读数&lt;/strong&gt;的智能戒指，定价 399 美元。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[其他]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple TV+&lt;/strong&gt;：正念剧集《Stillwater》第五季将于 8 月 21 日首播。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260717010827</guid>
+      <pubDate>Fri, 17 Jul 2026 01:08:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-07-17</title>
+      <link>https://github.com/liusonwood/summarss#News-20260717010827</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260717010827</guid>
+      <pubDate>Fri, 17 Jul 2026 01:08:27 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-07-16</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260716010414</link>
