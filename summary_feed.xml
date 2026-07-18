@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Fri, 17 Jul 2026 01:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 01:03:28 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-07-18</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260718010328</link>
+      <description>&lt;strong&gt;[公司动态与法律]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;市值突破&lt;/strong&gt;：Apple 市值在盘中超过 Nvidia，重新夺回&lt;strong&gt;全球市值最高公司&lt;/strong&gt;称号，目前正向 5 万亿美元估值迈进。&lt;br/&gt;• &lt;strong&gt;反垄断进展&lt;/strong&gt;：据报道，Apple 正与美国司法部（DOJ）&lt;strong&gt;商讨和解&lt;/strong&gt;，以结束关于 iPhone 智能手机垄断的诉讼。&lt;br/&gt;• &lt;strong&gt;人才与商业纠纷&lt;/strong&gt;：Apple 起诉 OpenAI 及前员工窃取商业秘密，并向约 40 名现就职于 OpenAI 的前员工发送了&lt;strong&gt;法律保全函&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;高管变动&lt;/strong&gt;：Tim Cook 将于 8 月卸任 CEO 并转任执行主席，&lt;strong&gt;John Ternus 将接任 CEO&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[产品定价与市场]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;硬件涨价&lt;/strong&gt;：受日元贬值影响，Apple 将日本市场 iPhone 17 系列、iPhone Air 及 iPhone 16e 的价格&lt;strong&gt;上调最高 11%&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;服务涨价&lt;/strong&gt;：Apple Music 个人计划涨至 11.99 美元/月，部分 Apple One 组合方案价格同步上涨，主因为&lt;strong&gt;授权成本增加&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;定价趋势&lt;/strong&gt;：受全球内存等组件短缺影响，Mac 和 iPad 出现大幅涨价，分析预计供应链成本在 2028 年前难以改善，&lt;strong&gt;高定价可能成为长期状态&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[App Store 安全与监管]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;巴西赌博应用&lt;/strong&gt;：调查发现 App Store 巴西区存在大量&lt;strong&gt;伪装成游戏或工具的赌博应用&lt;/strong&gt;（Jacket Apps），通过 IP 过滤在巴西用户端显示赌博平台，在其他地区显示正常功能。&lt;br/&gt;• &lt;strong&gt;AI 违规应用&lt;/strong&gt;：在旧金山检察官压力下，Apple 被要求移除 8 款&lt;strong&gt; AI 剥离衣物（Nudify）应用&lt;/strong&gt;；Apple 表示已移除部分应用并正在终止相关开发者账号。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与生态更新]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iOS 27 公测版&lt;/strong&gt;：&lt;br/&gt;    - &lt;strong&gt;CarPlay 升级&lt;/strong&gt;：引入 &lt;strong&gt;Siri AI&lt;/strong&gt;（支持个人上下文查询）、新增“正在播放”迷你播放器及进度条、更新壁纸并提升 GPS 精度与无线连接稳定性。&lt;br/&gt;    - &lt;strong&gt;视频支持&lt;/strong&gt;：将允许开发者为 CarPlay 开发视频应用（需车企支持）。&lt;br/&gt;• &lt;strong&gt;Car Keys 扩展&lt;/strong&gt;：后端代码显示 Apple Wallet 的数字车钥匙功能将支持&lt;strong&gt;中国长城汽车（GWM）的坦克系列&lt;/strong&gt;。&lt;br/&gt;• &lt;strong&gt;WhatsApp 更新&lt;/strong&gt;：开始向部分 iPhone 用户激活&lt;strong&gt;自定义用户名&lt;/strong&gt;功能，允许用户通过唯一句柄进行联系。&lt;br/&gt;• &lt;strong&gt;ChatGPT Mac 版&lt;/strong&gt;：OpenAI 更新 Mac 应用，修复了之前版本中聊天记录入口不明显的问题，&lt;strong&gt;恢复了侧边栏聊天访问&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[其他资讯]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple TV+&lt;/strong&gt;：发布三部曲纪录片《The Dynasty: UConn Huskies》预告片，将于 8 月 21 日上线。&lt;br/&gt;• &lt;strong&gt;促销活动&lt;/strong&gt;：Apple 启动 2026 返校季促销，购买 Mac 或 iPad 最高可获 150 美元礼品卡。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260718010328</guid>
+      <pubDate>Sat, 18 Jul 2026 01:03:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-07-18</title>
+      <link>https://github.com/liusonwood/summarss#News-20260718010328</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260718010328</guid>
+      <pubDate>Sat, 18 Jul 2026 01:03:28 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-07-17</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260717010827</link>
