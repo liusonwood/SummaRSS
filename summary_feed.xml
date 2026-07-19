@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Sat, 18 Jul 2026 01:03:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 01:08:03 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-07-19</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260719010803</link>
+      <description>&lt;strong&gt;[硬件与产品预测]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iPhone 18 Pro&lt;/strong&gt; 预计将于 9 月发布，重点升级包括 &lt;strong&gt;C2 调制解调器&lt;/strong&gt;（支持卫星 5G 连接）、&lt;strong&gt;可变光圈主摄&lt;/strong&gt;、更小的灵动岛以及 &lt;strong&gt;A20 Pro 芯片&lt;/strong&gt;（首款 2nm 芯片）。&lt;br/&gt;• 预测 iPhone 18 Pro 系列将出现 &lt;strong&gt;大幅涨价&lt;/strong&gt;（最高可能增加 300 美元），建议用户考虑购买性价比更高的 iPhone 17 Pro。&lt;br/&gt;• &lt;strong&gt;SwitchBot&lt;/strong&gt; 发布支持 &lt;strong&gt;Matter 协议&lt;/strong&gt; 的 RGBICWW 吸顶灯，无需 Hub 即可原生接入 Apple Home，提供 2000-3200 流明亮度及多色动态光效。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[服务与订阅]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple One&lt;/strong&gt; 价格调整：Apple Music 及部分组合包涨价，但 &lt;strong&gt;Individual 方案价格维持不变&lt;/strong&gt;，使其相对性价比提升。&lt;br/&gt;• &lt;strong&gt;iCloud+&lt;/strong&gt; 在埃及、尼日利亚、土耳其、日本、新西兰、菲律宾和越南等多个国家和地区 &lt;strong&gt;上调订阅价格&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与应用]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;YouTube&lt;/strong&gt; 的 &lt;strong&gt;画中画 (PiP) 模式&lt;/strong&gt; 在 iOS 和 Android 上出现故障，关闭 App 时无法触发浮窗，官方目前正在调查中。&lt;br/&gt;• 独立应用 &lt;strong&gt;Passable&lt;/strong&gt; 上线，允许用户将联系方式、社交链接等自定义为 &lt;strong&gt;Apple Wallet 票据&lt;/strong&gt;，实现更灵活的面对面信息分享。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[安全与隐私]&lt;/strong&gt;&lt;br/&gt;• 警告一种名为 &lt;strong&gt;ClickFix&lt;/strong&gt; 的 macOS 恶意软件，通过社交工程诱导用户在终端运行指令，从而&lt;strong&gt;窃取 Keychain 密码、会话 Cookie 及加密货币钱包&lt;/strong&gt;。&lt;br/&gt;• 针对数据经纪人买卖个人隐私的问题，推荐使用 &lt;strong&gt;Incogni&lt;/strong&gt; 等自动化工具申请删除互联网上的个人敏感信息。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[法律与公司]&lt;/strong&gt;&lt;br/&gt;• Apple 试图利用一起被暂停的证券欺诈案作为先例，请求法院 &lt;strong&gt;暂停与 Epic Games 的法律程序&lt;/strong&gt;，直至最高法院就相关藐视法庭裁决作出决定。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[优惠信息]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;产品折扣&lt;/strong&gt;：AirPods Pro 3 优惠 50 美元；MacBook Pro (M5 系列) 最高优惠 400 美元；Apple Watch Series 11 起售价降至 299 美元。&lt;br/&gt;• &lt;strong&gt;配件促销&lt;/strong&gt;：Nomad 举办周年庆活动，涵盖表带及 Qi2 充电器；Anker 开展夏季充电设备促销。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260719010803</guid>
+      <pubDate>Sun, 19 Jul 2026 01:08:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-07-19</title>
+      <link>https://github.com/liusonwood/summarss#News-20260719010803</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260719010803</guid>
+      <pubDate>Sun, 19 Jul 2026 01:08:03 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-07-18</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260718010328</link>
