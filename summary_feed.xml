@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Sun, 19 Jul 2026 01:08:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 01:12:04 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-07-20</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260720011204</link>
+      <description>&lt;strong&gt;[软件更新]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iOS 27 公测版发布&lt;/strong&gt;：该版本通过 30 多项优化显著提升性能，其中 &lt;strong&gt;AirDrop 传输速度提升最高 80%&lt;/strong&gt;，&lt;strong&gt;应用启动速度提升最高 30%&lt;/strong&gt;，照片加载速度提升最高 70%。该版本兼容至 iPhone 11 系列，将于今年秋季正式发布。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[产品战略与硬件]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Mac Pro 计划终止详情&lt;/strong&gt;：此前被取消的 Mac Pro 计划曾包含两款原型机（J170 和 J190），其中 &lt;strong&gt;J170 为 Intel 芯片版本&lt;/strong&gt;，J190 为 M3 Ultra 版本。此外，苹果曾开发 M2 和 M3 &lt;strong&gt;Extreme 芯片&lt;/strong&gt;，但因成本和需求问题最终放弃。预计 M5 Ultra 芯片的 Mac Studio 将于今年秋季推出。&lt;br/&gt;• &lt;strong&gt;全线产品及服务涨价&lt;/strong&gt;：受存储组件成本上涨（AI 数据中心需求导致）、版权许可费用增加及汇率波动影响，苹果近期上调了 &lt;strong&gt;Mac、iPad、Apple TV、HomePod 及 Vision Pro&lt;/strong&gt; 的价格。此外，&lt;strong&gt;AppleCare+、Apple Music 及 Apple One&lt;/strong&gt; 部分订阅方案的价格同步上涨。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[零售与 AI 应用]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Genius Bar 测试 AI 记录系统&lt;/strong&gt;：苹果正试点名为 &lt;strong&gt;Live Notes&lt;/strong&gt; 的 AI 系统，用于录音、转写并总结 Genius Bar 的客户服务对话，旨在减轻员工记录负担。该系统采用 &lt;strong&gt;选择性加入（Opt-in）&lt;/strong&gt; 机制，且员工可在保存前编辑内容。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260720011204</guid>
+      <pubDate>Mon, 20 Jul 2026 01:12:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-07-20</title>
+      <link>https://github.com/liusonwood/summarss#News-20260720011204</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260720011204</guid>
+      <pubDate>Mon, 20 Jul 2026 01:12:04 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-07-19</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260719010803</link>
