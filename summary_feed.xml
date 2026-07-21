@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Mon, 20 Jul 2026 01:12:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 01:04:04 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-07-21</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260721010404</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260721010404</guid>
+      <pubDate>Tue, 21 Jul 2026 01:04:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-07-21</title>
+      <link>https://github.com/liusonwood/summarss#News-20260721010404</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260721010404</guid>
+      <pubDate>Tue, 21 Jul 2026 01:04:04 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-07-20</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260720011204</link>
