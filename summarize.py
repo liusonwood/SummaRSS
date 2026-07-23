@@ -13,6 +13,7 @@ import time
 
 PROCESSED_FILE = "processed.txt"
 OUTPUT_FEED = "summary_feed.xml"
+OPENROUTER_API_ENDPOINT = os.getenv("OPENROUTER_API_ENDPOINT", "https://openrouter.ai/api/v1/chat/completions")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MAX_ITEMS = 50
 AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
@@ -159,7 +160,7 @@ def get_ai_summary(items, source_label=None):
     for attempt in range(max_retries):
         try:
             req = urllib.request.Request(
-                "https://openrouter.ai/api/v1/chat/completions",
+                OPENROUTER_API_ENDPOINT,
                 data=json.dumps(data).encode('utf-8'),
                 headers={
                     "Authorization": f"Bearer {OPENROUTER_API_KEY}",

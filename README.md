@@ -55,6 +55,7 @@ graph TD
 | `OPENROUTER_API_KEY` | Secret | **是** | OpenRouter API 密钥 | `sk-or-v1-xxxx...` |
 | `RSS_SOURCE` | Secret | 否 | 你要监控的 RSS 源地址，多个源用英文逗号分隔 | `https://9to5mac.com/feed/,https://techcrunch.com/feed/` |
 | `AI_MODEL` | Secret | 否 | 使用的 AI 模型（默认为 Gemini 2.0 Flash） | `google/gemini-2.0-flash-001` |
+| `OPENROUTER_API_ENDPOINT` | Secret | 否 | OpenRouter API 端点 | `https://openrouter.ai/api/v1/chat/completions` |
 
 #### 4. 激活订阅
 *   GitHub Actions 默认配置为**每天北京时间 07:35 运行**（23:35 UTC）。
@@ -81,6 +82,7 @@ pip install -r requirements.txt
 export OPENROUTER_API_KEY="your_openrouter_api_key"
 export RSS_SOURCE="https://9to5mac.com/feed/,https://techcrunch.com/feed/" # 多个源用英文逗号分隔，也可以是本地 XML 路径
 export AI_MODEL="google/gemini-2.0-flash-001"
+export OPENROUTER_API_ENDPOINT="https://openrouter.ai/api/v1/chat/completions"  # 否 OpenRouter API 端点
 
 python3 summarize.py
 ```
