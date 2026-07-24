@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Fri, 24 Jul 2026 01:04:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 10:07:48 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-07-24</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260724100748</link>
+      <description>&lt;strong&gt;[苹果设计幕后]&lt;/strong&gt;&lt;br/&gt;• 苹果艺术总监 Sofia Coelho 公开分享了 MacBook Neo 宣传活动吉祥物 &lt;strong&gt;Lil' Finder Guy&lt;/strong&gt; 的早期设计草图与物理喷涂原型，展示了该角色的表情与比例探索过程。&lt;br/&gt;• Lil' Finder Guy 在 MacBook Neo 营销中广泛应用，并迅速成为网络迷因，不仅在 WWDC 2026 的会议中以彩蛋形式出现，还被制成纪念徽章赠予参会者。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260724100748</guid>
+      <pubDate>Fri, 24 Jul 2026 10:07:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-07-24</title>
+      <link>https://github.com/liusonwood/summarss#News-20260724100748</link>
+      <description>&lt;strong&gt;[人工智能与多模态模型]&lt;/strong&gt;&lt;br/&gt;• FLUX 3 多模态基础模型进入早期测试阶段，采用统一架构联合学习图像、视频和音频，支持单次生成最长20秒带原生音频的视频，内容涵盖文生视频、图生视频及多语言对话等功能。&lt;br/&gt;• 与机器人公司 Mimic 合作推出 FLUX-mimic 视频动作模型，已在奥迪机器人上测试部署。通过将动作预测加入训练模型，系统在短暂性能波动后即可恢复原有视频生成质量，实现视觉内容生成与物理 AI 控制的统一底层架构。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开发工具与编程实践]&lt;/strong&gt;&lt;br/&gt;• C++26 标准库将引入 `std::indirect` 类型，以简化传统 PImpl（Pointer to implementation）惯用法的实现，解决基于原始指针实现时 const 属性无法传递至底层实现类的问题，有效降低编译依赖。&lt;br/&gt;• Git 官方目前推荐使用 `git filter-repo` 工具替代 `git filter-branch` 进行代码库历史重写，新工具在非简单重写场景下具备显著性能优势，避免了旧工具易导致数据静默损坏等设计缺陷。&lt;br/&gt;• Claude Cookbook 汇集了多套 Anthropic 智能体开发实践，涵盖多智能体协调、长上下文记忆压缩、长时任务回退策略及运维自动化闭环等高级上下文工程与部署模式。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开源生态与平台政策]&lt;/strong&gt;&lt;br/&gt;• 代码托管平台 Codeberg 更新服务条款，宣布禁止主流由 LLM 生成的项目及加密货币项目。此举在独立开发者中引发争议，批评者认为该分级政策脱离了单人开发者为主的自由软件开发现状。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[科技行业观察]&lt;/strong&gt;&lt;br/&gt;• 分析指出大型软件公司的工程复杂性远超外界预期：除基础功能开发外，超大规模索引的延迟优化、搜索结果排序及细微功能调优均需投入大量工程师资源，“仅用一个周末即可复刻”的观点低估了商业系统优化与维护的真实成本。</description>
+      <guid isPermaLink="false">ai-summary-News-20260724100748</guid>
+      <pubDate>Fri, 24 Jul 2026 10:07:48 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-07-24</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260724010440</link>
