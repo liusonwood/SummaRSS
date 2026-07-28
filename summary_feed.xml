@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Mon, 27 Jul 2026 01:16:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 01:06:21 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-07-28</title>
+      <link>https://github.com/liusonwood/summarss#9To5Mac-20260728010621</link>
+      <description>&lt;strong&gt;[系统更新与安全]&lt;/strong&gt;&lt;br/&gt;• Apple 发布 iOS 26.6、iPadOS 26.6、macOS 26.6 及 watchOS 26.6 等全系列系统更新，重点修复了超过 &lt;strong&gt;194 个安全漏洞&lt;/strong&gt;，并优化 Spotlight 索引为秋季的 iOS 27 做铺垫。&lt;br/&gt;• Apple 跨版本的旧系统更新同步推出：&lt;strong&gt;macOS Sonoma 14.8.8 和 macOS Sequoia 15.7.8&lt;/strong&gt; 发布，共修复超过 138 个安全漏洞。&lt;br/&gt;• Apple 最新安全文档显示，&lt;strong&gt;Anthropic 的 Claude、OpenAI Codex 等多个 AI 工具&lt;/strong&gt;被列为漏洞研究贡献者，表明 AI 辅助安全研究正在加速融入系统维护流程。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件生态与周边]&lt;/strong&gt;&lt;br/&gt;• iPhone 18 秋季发布会可能重演 2020 年的延期首发策略：预计 &lt;strong&gt;iPhone 18 Pro 系列将率先上市&lt;/strong&gt;，而可折叠的 iPhone Ultra 可能会推迟数周发货。&lt;br/&gt;• 苹果市值再次超越英伟达，重夺全球第一，目前市值已逼近 &lt;strong&gt;5 万亿美元&lt;/strong&gt;大关。&lt;br/&gt;• AppleCare One 订阅服务在英国上线，支持以每月 16.99 英镑覆盖三款设备，同时防盗防丢服务扩展至 &lt;strong&gt;iPad 和 Apple Watch&lt;/strong&gt;。&lt;br/&gt;• ESR 推出针对 AirPods Pro 3 的 FlickLock 磁吸保护壳，采用&lt;strong&gt;物理锁定翻盖&lt;/strong&gt;设计，解决跌落时盒盖弹开的问题。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[AI 与软件应用]&lt;/strong&gt;&lt;br/&gt;• LM Studio Bionic 智能体工作平台新增对月之暗面 &lt;strong&gt;Kimi K3 模型&lt;/strong&gt;的支持，提供高达 100 万 token 的上下文窗口，输入成本为每百万 token 3 美元。&lt;br/&gt;• 安全团队披露 Anthropic 的 Claude Cowork 存在名为 ShareRoot 的&lt;strong&gt;沙箱逃逸漏洞&lt;/strong&gt;，曾导致约 50 万名 Mac 用户的本地文件面临暴露风险。&lt;br/&gt;• Meta 在 Threads 私信中引入 &lt;strong&gt;Meta AI 私聊功能&lt;/strong&gt;，允许用户就特定帖子或链接向 AI 提问，避免污染公开信息流。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[影视内容流媒体]&lt;/strong&gt;&lt;br/&gt;• 苹果宣布科幻剧《人生切割术》第三季已&lt;strong&gt;正式开机拍摄&lt;/strong&gt;，预计将于 2027 年秋季首播。&lt;br/&gt;• 《足球教练》第四季官宣回归，剧集重心转向女子足球队，多位上一季男足常规角色将不再出现。&lt;br/&gt;• 苹果在圣地亚哥动漫展宣布，《羊毛战记》第四季将于 2027 年夏季首播，并确认该季为&lt;strong&gt;全剧最终季&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[网络安全与通信运营商]&lt;/strong&gt;&lt;br/&gt;• 三名用户因虚假加密货币钱包应用蒙受损失，对 Apple 提起诉讼，指控 App Store 审核不严导致其被诈骗 &lt;strong&gt;180 万美元&lt;/strong&gt;。&lt;br/&gt;• T-Mobile 确认正在抢修美国境内的大规模&lt;strong&gt;网络中断故障&lt;/strong&gt;，大量受影响的 iPhone 用户设备状态栏显示为“SOS”。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[行业动态与数码配件]&lt;/strong&gt;&lt;br/&gt;• X 平台正式向美国境内的高级订阅用户推出 &lt;strong&gt;X Money 支付服务&lt;/strong&gt;，支持 Apple Wallet 绑定虚拟卡并具备 P2P 转账功能。&lt;br/&gt;• 播客应用 &lt;strong&gt;Pocket Casts 推出 Apple TV 原生应用&lt;/strong&gt;，支持跨设备同步播放进度。&lt;br/&gt;• Snapchat 与 Spotify 合作推出 Now Playing 功能，用户可在 &lt;strong&gt;Snap Map 上实时展示&lt;/strong&gt;当前收听的音乐。&lt;br/&gt;• Meta 暂停了针对 Ray-Ban 智能眼镜“对话聚焦”辅助功能的&lt;strong&gt;付费墙测试计划&lt;/strong&gt;，此前该限制引发广泛争议。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260728010621</guid>
+      <pubDate>Tue, 28 Jul 2026 01:06:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-07-28</title>
+      <link>https://github.com/liusonwood/summarss#News-20260728010621</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260728010621</guid>
+      <pubDate>Tue, 28 Jul 2026 01:06:21 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-07-27</title>
       <link>https://github.com/liusonwood/summarss#9To5Mac-20260727011629</link>
