@@ -17,7 +17,7 @@ OPENROUTER_API_ENDPOINT = os.getenv("OPENROUTER_API_ENDPOINT", "https://openrout
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MAX_ITEMS = 50
 AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
-MAX_HISTORY_ITEMS = int(os.getenv("MAX_HISTORY_ITEMS", "400"))  # RSS 输出文件保留的最大条目数
+MAX_HISTORY_ITEMS = int(os.getenv("MAX_HISTORY_ITEMS", "25"))  # RSS 输出文件保留的最大条目数
 MAX_PROCESSED_LINKS = int(os.getenv("MAX_PROCESSED_LINKS", "5000"))  # processed.txt 保留的最大链接数
 
 # 配置 - 支持多个RSS源，用逗号分隔
