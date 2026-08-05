@@ -261,8 +261,10 @@ def generate_rss_xml(summaries):
         html_content = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html_content)
 
         # 每个源独立的唯一标识符
+        # 使用 query 而非 fragment：多数去重逻辑（如 OughtGather normalize_url）会剥离 #
+        # 导致所有条目归一成同一 URL；?item= 会被保留，保证每条 hash 唯一
         item_guid = f"ai-summary-{label}-{timestamp}"
-        item_link = f"https://github.com/liusonwood/summarss#{label}-{timestamp}"
+        item_link = f"https://github.com/liusonwood/summarss?item={label}-{timestamp}"
 
         # 去重：移除已存在的相同GUID的item
         for existing in channel.findall("item"):
