@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Fri, 07 Aug 2026 01:59:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 00:10:40 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-08-08</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260808001040</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260808001040</guid>
+      <pubDate>Sat, 08 Aug 2026 00:10:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-08-08</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260808001040</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260808001040</guid>
+      <pubDate>Sat, 08 Aug 2026 00:10:40 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-08-07</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260807015933</link>
@@ -166,20 +180,6 @@
       <description>&lt;strong&gt;[苹果服务状况]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple TV、Apple Music 等多项服务出现中断&lt;/strong&gt;。苹果系统状态页面显示，Apple TV、播客、Apple Music 订阅以及 App Store 内购、收据验证和服务器 API 服务均因日常维护或故障对部分用户和开发者造成影响。目前苹果官方尚未公布完全恢复的具体时间表。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件产品曝光]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;新一代 Apple Watch 将舍弃外观大改，专注性能与健康功能&lt;/strong&gt;。爆料称 Apple Watch Series 12 和 Ultra 4 已进入后期测试阶段，预计今年 9 月发布。新品将&lt;strong&gt;搭载全新性能更强芯片&lt;/strong&gt;并改进健康追踪功能，但今年不会推出 Apple Watch SE 新款，产品线的大规模重新设计预计还需一至两年。&lt;br/&gt;• &lt;strong&gt;苹果 AI 智能眼镜预计于 WWDC27 亮相&lt;/strong&gt;。该硬件不带显示屏，支持拍照、通话及 Siri 交互。为应对隐私争议，苹果正评估多种方案，包括推出&lt;strong&gt;无摄像头版本&lt;/strong&gt;或限制摄像头仅用于环境数据采集以赋能 AI，而不进行任何照片或视频录制。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[Mac 购买指南与市场动态]&lt;/strong&gt;&lt;br/&gt;• 受内存短缺影响，&lt;strong&gt;Mac 产品线近期整体涨价&lt;/strong&gt;。尽管近期起步价走高，但 7 月市场仍有部分折扣。MacBook Air (M5) 降幅约 50 至 100 美元；廉价机型 MacBook Neo 起售价 699 美元，结构几乎没有折扣。&lt;br/&gt;• 针对高端 MacBook Pro，&lt;strong&gt;今年晚些时候搭载 M5 Pro/M5 Max 的机型将迎来全面重新设计&lt;/strong&gt;，引入 OLED 屏幕和触控屏。若购买基础款 M5 机型，当前仍有 150 至 400 美元不等的优惠空间。</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260727011629</guid>
       <pubDate>Mon, 27 Jul 2026 01:16:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-07-27</title>
-      <link>https://github.com/liusonwood/summarss#News-20260727011629</link>
-      <description>&lt;strong&gt;[航天与大气科学]&lt;/strong&gt;&lt;br/&gt;• 德国研究人员利用高温等离子体风洞模拟卫星重返大气层的燃烧过程。研究警告，随着近地轨道卫星数量激增，大量卫星焚毁后留下的&lt;strong&gt;铝氧化物微粒&lt;/strong&gt;可能破坏臭氧层并改变高层大气的热平衡。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[信息安全与隐私]&lt;/strong&gt;&lt;br/&gt;• 美国司法部起诉一名 GrapheneOS 用户，指控其在机场边检时利用系统密码触发&lt;strong&gt;设备数据擦除&lt;/strong&gt;，涉嫌故意销毁证据。此案引发了关于边境宪法权利适用范围及隐私操作系统是否被默认视为犯罪工具的广泛争议。&lt;br/&gt;• GrapheneOS 详解了其针对锁定设备的&lt;strong&gt;数据提取防御机制&lt;/strong&gt;，包括依托安全元件的严格限速、内部攻击防御以及锁定状态下的默认 USB 数据禁用，以抵御最高级别的物理提取攻击。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件开发与工具]&lt;/strong&gt;&lt;br/&gt;• Go 语言官方团队推出 &lt;strong&gt;模块化静态分析框架&lt;/strong&gt;，允许检查器在命令行工具、IDE 及构建系统中跨包复用分析结果。&lt;br/&gt;• Port Zero 工具发布，通过为本地进程或容器分配稳定的本地域名及云端隧道，帮助开发者&lt;strong&gt;消除端口冲突&lt;/strong&gt;，并支持每个 Git 工作树并行运行独立的开发服务器。&lt;br/&gt;• 一个基于 FFmpeg 的脚本工具开源，通过模拟磁带噪音、抖动和频率截断等参数，将数字音频转换为复古&lt;strong&gt;盒式磁带音效&lt;/strong&gt;。&lt;br/&gt;• 一款适用于 Linux 单板计算机的轻量级自托管监控方案开源，提供本地化存储、运动检测及 &lt;strong&gt;Telegram 集成&lt;/strong&gt;，兼顾低成本与隐私保护。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[编程语言与理论]&lt;/strong&gt;&lt;br/&gt;• 分析指出，大语言模型（LLM）与证明无关性结合，有望实现&lt;strong&gt;定理证明自动化&lt;/strong&gt;，大幅降低依赖类型语言的使用门槛，使其从极小众研究走向实用。&lt;br/&gt;• 记录了开发者向中学生教授 1970 年代堆栈连接式语言 Forth 的教学实践，指出其避开复杂语法的特性有助于初学者&lt;strong&gt;专注计算基础概念&lt;/strong&gt;。&lt;br/&gt;• 整理了 John Backus 在函数式与归约语言方面的研究历史档案，回顾了 1960 年代末&lt;strong&gt;软件危机&lt;/strong&gt;背景下其探索无变量编程的历程。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件创客项目]&lt;/strong&gt;&lt;br/&gt;• 创客自制了一款名为 Pentaton LP 的音乐流媒体设备，外形如黑胶唱片封套。该项目涉及&lt;strong&gt;底层 PCB 设计、3D 打印外壳与定制 Linux 驱动&lt;/strong&gt;，并突破了 AirPlay 低分辨率封面的限制实现高分辨率图像流畅显示。&lt;br/&gt;• 开发者因不满市售需手动调时的 LED 时钟，利用 3D 打印与定制硬件自制了一款&lt;strong&gt;自动校准且无需设置&lt;/strong&gt;的红光七段显示时钟。&lt;br/&gt;• Decker 是一款基于经典 Mac OS 风格的多媒体互动文档平台，复刻了 HyperCard 的易用性，并引入 Lil 脚本语言，支持无网络环境下的&lt;strong&gt;像素艺术创作与线性文本版本控制&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[环境与自然]&lt;/strong&gt;&lt;br/&gt;• 法国西南部野火引发了该国历史上首次观测到的&lt;strong&gt;火积雨云&lt;/strong&gt;现象。该极端天气系统能自行生成大风和闪电，导致火势呈多锋面放射状扩散，消防力量被迫承认行动受限并转入&lt;strong&gt;战略性防御&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[设计与数字文化]&lt;/strong&gt;&lt;br/&gt;• 设计评论指出，优秀的设计本质上是&lt;strong&gt;做出正确的权衡&lt;/strong&gt;，具有强烈主张的特质产品比试图满足所有人的平庸产品更有价值。&lt;br/&gt;• 欧盟委员会提议通过浏览器自动发送隐私偏好信号来&lt;strong&gt;消除烦人的 Cookie 弹窗&lt;/strong&gt;，但遭到以 Google 为首的追踪行业游说阻挠，相关法律决策仍处未定状态。&lt;br/&gt;• 预测市场评论员反思，原本旨在聚合经济信息的预测市场已沦为&lt;strong&gt;变相体育博彩&lt;/strong&gt;，且内部人员利用不对称信息进行操纵严重损害了市场的有效性。&lt;br/&gt;• 一款名为反向扫雷的开源游戏更新了难度引擎，引入子集、重叠和假设链等逻辑推理机制，并将&lt;strong&gt;数独式强制链逻辑&lt;/strong&gt;应用于扫雷难度分级。&lt;br/&gt;• 其他科技文化动态：Htmx 4.0 采取游戏化发布形式，推出专属 Game Boy 平台游戏；编译器工具 ast-grep 宣布用 Rust 重写 Tree-sitter 并将性能提升 30%。</description>
-      <guid isPermaLink="false">ai-summary-News-20260727011629</guid>
-      <pubDate>Mon, 27 Jul 2026 01:16:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-07-26</title>
-      <link>https://github.com/liusonwood/summarss#9To5Mac-20260726011229</link>
-      <description>&lt;strong&gt;[硬件产品与周边]&lt;/strong&gt;&lt;br/&gt;• 亚马逊推出支持 Matter 协议的智能插座，售价低于 10 美元。该设备可通过 Wi-Fi 直连苹果 HomeKit 生态，且采用紧凑设计，但暂不支持 Thread 协议。&lt;br/&gt;• Meirro Pro 6K 显示器或成为苹果 Studio Display 的有力竞品。该产品采用 32 英寸 6K Nano IPS 面板，全铝机身并配备可调节支架，单线传输功率达 96W，售价 1199 美元。&lt;br/&gt;• 第四代 AirPods Pro 可能即将发布，消息称其主动降噪能力将达到 AirPods Pro 2 的两倍。&lt;br/&gt;• 黑色星期星期五提前促销开启，苹果多款设备大幅降价。其中 M5 Pro 版 MacBook Pro 降价高达 500 美元，iPhone 17 Pro 降价 220 美元，AirPods Max 2 降价 100 美元。安客的充电器、扩展坞等配件也有折扣。&lt;br/&gt;• 复古摄影应用 NeoCam 上架 App Store。该应用可将 iPhone 照片转为 Game Boy 风格，支持实时调整像素和色彩，基础功能免费，视频录制等高级功能需 5.99 美元买断。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[iPhone 产品线与发布策略]&lt;/strong&gt;&lt;br/&gt;• 苹果计划改变 iPhone 统一发布策略，实行春秋两季分批发布。iPhone 18 系列预计包含六款机型，秋季发布旗舰机型 Pro、Pro Max 及折叠屏版，春季发布标准版及廉价版。&lt;br/&gt;• 据悉苹果正致力于缩小 iPhone 18 标准版与 iPhone 18e 的生产差异，两者区别可能仅限于屏幕面板和摄像头。分批发布策略有望提升 iPhone 的平均售价。&lt;br/&gt;• 播客节目探讨三星 Galaxy Z Fold8 的新特性，包括 4:3 屏幕比例及折痕处理方案，并分析了其对苹果未来折叠屏 iPhone 的影响。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[企业级应用与行业报告]&lt;/strong&gt;&lt;br/&gt;• 数字标牌行业报告指出，在企业级大规模部署中苹果 Apple TV 的可靠性优于安卓设备。数据显示 Apple TV 年度正常运行时间达 99%，年均离线 5.3 次；安卓设备年均离线 15.2 次，硬件更换率达 18%。尽管近期涨价，Apple TV 仍是更优的企业部署选择。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[供应链与地缘政治]&lt;/strong&gt;&lt;br/&gt;• 苹果与美国存储芯片制造商美光在白宫发生游说冲突。苹果正游说政府批准在非美国市场销售的产品中使用中国长鑫存储和长江存储的芯片，美光则警告此举将重创美国本土制造业，并指责苹果此前激进的压价采购是当前存储芯片短缺的推手。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[影视内容更新]&lt;/strong&gt;&lt;br/&gt;• 苹果剧版《神经漫游者》定档 2027 年 1 月 22 日首播，共十集；科幻剧《暗物质》第二季公布官方预告，将于八月末回归；改编自玩具品牌的动作喜剧电影《火柴盒》将于十月上线。</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260726011229</guid>
-      <pubDate>Sun, 26 Jul 2026 01:12:29 +0000</pubDate>
     </item>
   </channel>
 </rss>
