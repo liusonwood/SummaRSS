@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Tue, 11 Aug 2026 00:07:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 00:43:49 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-08-12</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260812004349</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260812004349</guid>
+      <pubDate>Wed, 12 Aug 2026 00:43:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-08-12</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260812004349</link>
+      <description>&lt;strong&gt;[企业与大模型动态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;NVIDIA 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard&lt;/strong&gt;：作为拥有 300 亿参数的混合专家模型，Nemotron 3.5 Lightning 专为高吞吐量的自主智能体任务设计，输出速度提升最高达 4 倍；NeMo Switchyard 则作为开源智能路由库，支持跨不同模型的高效请求分发，提升多模型系统的部署与运行控制力。&lt;br/&gt;• &lt;strong&gt;Manus 宣布回归独立运营&lt;/strong&gt;：为符合特定司法管辖区的合规要求，Manus 将对部分在 2025 年 12 月 29 日及之后生成数据的用户进行数据删除，并提供指定窗口期的备份与恢复工具，以平稳过渡至独立运营状态。&lt;br/&gt;• &lt;strong&gt;OpenAI 伦理负责人离职&lt;/strong&gt;：该高管在加入 OpenAI 不到一年后即宣布离职，引发业界对 AI 伦理监管稳定性的关注。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[AI 研究与前沿技术]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;大模型涌现内省意识&lt;/strong&gt;：研究发现在特定情境下，大语言模型能够识别被注入概念并准确报告内部状态，部分模型甚至能通过回忆先前意图区分自身输出与人工预设内容，其中 Claude Opus 4 与 4.1 表现出最强的内省感知能力，但该能力目前仍高度依赖上下文且极不稳定。&lt;br/&gt;• &lt;strong&gt;苹果系统虚拟化突破提升 LLM 推理速度&lt;/strong&gt;：开发者在基于 Apple Virtualization.framework 的 macOS 虚拟机中引入 Metal 兼容层，解决了虚拟 GPU 报告保守能力配置导致 llama.cpp 运行降速的问题。在 M1 Ultra 测试中，该方案使提示处理速度提升最高 11.08 倍，达到裸机性能的 98%。&lt;br/&gt;• &lt;strong&gt;递归自我改进经济学模型发布&lt;/strong&gt;：研究团队基于经济学论文推出 RSI Simulator 网页游戏与探索工具，指出 AI 研究遭遇算力与数据瓶颈时可能停滞，且参数弹性显著影响预测轨迹，直观演示了 AI 递归自我改进过程中的制约因素。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开源与开发工具]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Mojo 语言正式发布 1.0 版本&lt;/strong&gt;：该版本标志着语言基础趋于稳定，完成了变量统一声明、闭包合并及单一指针类型等核心标准化简化工作，支持类 Python 的 lambda 语法，并提升了内存安全诊断与 LSP 服务器稳定性，为通用系统编程奠定基础。&lt;br/&gt;• &lt;strong&gt;Go 语言高度契合 AI 辅助工程&lt;/strong&gt;：在 AI 辅助生成代码的开发范式下，代码的审查、验证与维护比手写速度更为重要。Go 语言凭借内置完整工具链、强兼容性及生态一致性，有效避免了 AI 多次迭代重构导致的性能下降与上下文窗口污染问题。&lt;br/&gt;• &lt;strong&gt;Jolt 推出基于 Chez Scheme 的 Clojure 编译器&lt;/strong&gt;：该编译器实现自托管，移除了对 JVM 的依赖，能够将项目提前编译为独立的单文件可执行程序，并支持在共享堆上运行操作系统线程及核心异步并发机制。&lt;br/&gt;• &lt;strong&gt;pg_clickhouse 发布 v0.10 版本&lt;/strong&gt;：通过拓展子查询下推覆盖范围，新版本在 TPC-H 基准测试中实现了最多 1000 倍的查询性能提升，并重构了底层二进制驱动，修复了并发相关的 Bug。&lt;br/&gt;• &lt;strong&gt;OpenSSH 发布 10.5 版本&lt;/strong&gt;：新版本因 AI 辅助安全漏洞报告增多采取了更高频的发布策略，修复了 ssh-agent 锁定转发的交互漏洞及客户端潜在的释放后使用风险，并增加了对 FIDO 私钥的标记设置功能。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[应用创新与计算理论]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iPhone 多镜头同摄融合应用 Photosynthesis 发布&lt;/strong&gt;：该应用通过同时调用两个镜头进行一次拍摄，并在无生成式 AI 介入的前提下，自动对齐色彩与光学细节，将广角视野与长焦/主摄细节合成为单张高分辨率图像。&lt;br/&gt;• &lt;strong&gt;Git-knife 桌面端工具发布&lt;/strong&gt;：填补了现有 GUI 仓库管理工具无法编辑提交元数据的空白，支持像操作表格一样批量、直接修改 git 历史中的提交信息、作者及日期，全程底层调用系统 git CLI 确保文件内容安全不变。&lt;br/&gt;• &lt;strong&gt;论证数据压缩与语言模型的底层互通性&lt;/strong&gt;：技术分析指出现代压缩工具的模型与熵编码器协同工作机制，与大语言模型在核心上面临相同的预测问题，二者均依赖对数据冗余与符号概率分布的压缩处理。&lt;br/&gt;• &lt;strong&gt;绘图仪制作光学全息图技术解析&lt;/strong&gt;：开发者利用反射脊的曲率控制高光视差移动速度的现象，推导出无需数学公式的手工全息图光路逻辑，通过生成特定双曲面截面的路径坐标，使用笔式绘图仪成功渲染出真实反映深度信息的 3D 场景。</description>
+      <guid isPermaLink="false">ai-summary-News-20260812004349</guid>
+      <pubDate>Wed, 12 Aug 2026 00:43:49 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-08-11</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260811000750</link>
@@ -166,20 +180,6 @@
       <description>摘要生成失败：API 调用多次重试均告失败。</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260731011600</guid>
       <pubDate>Fri, 31 Jul 2026 01:16:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-07-31</title>
-      <link>https://github.com/liusonwood/summarss#News-20260731011600</link>
-      <description>摘要生成失败：API 调用多次重试均告失败。</description>
-      <guid isPermaLink="false">ai-summary-News-20260731011600</guid>
-      <pubDate>Fri, 31 Jul 2026 01:16:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-07-30</title>
-      <link>https://github.com/liusonwood/summarss#9To5Mac-20260730010314</link>
-      <description>&lt;strong&gt;[硬件与供应链动态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;苹果采购中国内存芯片遭美国参议院两党抵制&lt;/strong&gt;：议员警告从长鑫存储(CXMT)和长江存储(YMTC)采购存在国家安全风险，要求苹果在8月21日前承诺放弃使用相关组件。&lt;br/&gt;• &lt;strong&gt;高通称来自苹果的营收下滑速度快于预期&lt;/strong&gt;：受供应链限制影响，高通在下一代iPhone中的组件份额将远低于此前估计的20%。公司正通过向数据中心业务多元化转型来弥补损失。&lt;br/&gt;• &lt;strong&gt;美国对进口扫地机器人实施禁令&lt;/strong&gt;：美国联邦通信委员会(FCC)将“高级机器人设备”纳入禁令范围，未来外国制造的扫地机器人将面临进口限制，而已获批或本土制造的产品不受影响。&lt;br/&gt;• &lt;strong&gt;华硕ProArt 4K显示器评测&lt;/strong&gt;：该款27英寸显示器支持160Hz刷新率，配备防眩光涂层及内置电动色度计，但受限于4K分辨率，在macOS系统下无法实现完美的1:1缩放。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与系统更新]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iOS 27与macOS 27引入多项AI驱动功能&lt;/strong&gt;：iOS 27全面重构Siri并新增AI拼写与语法检查；macOS 27新增基于Apple Intelligence的文件名自动建议、触控板下拉刷新及iPhone镜像窗口缩放等功能。&lt;br/&gt;• &lt;strong&gt;Apple Maps与Apple One Premier服务升级&lt;/strong&gt;：iOS 27中Maps的“建议地点”功能扩展至最多10个推荐；Apple One Premier用户在iOS 27中可解锁Apple Home的专属AI功能及更高的图像生成使用额度。&lt;br/&gt;• &lt;strong&gt;iOS 26.6发布并修复大量安全漏洞&lt;/strong&gt;：此次更新修复了iPhone上的75个以上安全问题以及Mac上的150多个漏洞，部分安全记录中将Claude等AI工具列为漏洞发现者。&lt;br/&gt;• &lt;strong&gt;Gemini for macOS推出高级语音控制&lt;/strong&gt;：新功能支持智能听写与屏内上下文理解，可自动过滤语气词并执行文本重写、信息提取及图像生成等复杂任务。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[政策与法律诉讼]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;苹果反对英国放宽App Store支付规则的提案&lt;/strong&gt;：英国竞争与市场管理局(CMA)拟允许开发者引导用户使用替代支付方式，苹果回应称此举实质为价格监管，将阻碍创新与投资。&lt;br/&gt;• &lt;strong&gt;美司法部请求法院推翻苹果在反垄断案中的证据调取权&lt;/strong&gt;：司法部反对苹果向14个联邦机构调取文件的请求，认为此举范围过广且可能泄露涉及国家安全的敏感信息。&lt;br/&gt;• &lt;strong&gt;iPhone数字驾照拟拓展至美国第15个州&lt;/strong&gt;：后台资产显示俄克拉何马州即将支持在iPhone钱包应用中添加数字版驾照或州身份证。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[产品传闻与购买资讯]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iPhone 18 Pro与iPhone Ultra主要差异曝光&lt;/strong&gt;：iPhone Ultra将采用折叠屏设计并使用钛合金机身，但缺失长焦镜头且高温下性能可能受限；iPhone 18 Pro则维持传统形态、铝制机身并保留长焦镜头。&lt;br/&gt;• &lt;strong&gt;苹果推出Apple Upgrade租赁计划&lt;/strong&gt;：用户可零首付租赁iPhone等产品，租期满后可选择买断，且买断价格等于产品原价减去已付租金，整体不产生利息或额外费用。&lt;br/&gt;• &lt;strong&gt;苹果官方翻新店上架Studio Display XDR&lt;/strong&gt;：翻新版显示器提供约15%的折扣，价格较全新机最高节省540美元。&lt;br/&gt;• &lt;strong&gt;MacBook系列迎来大幅降价&lt;/strong&gt;：14英寸M5 MacBook Pro最高降价320美元，15英寸M5 MacBook Air降价170美元，AirPods Pro 3及官方配件等均有不同程度折扣。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[行业与安全动态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;美国网络诈骗实际损失被严重低估&lt;/strong&gt;：美国消费者联合会估计去年网络诈骗损失近1482亿美元，是FCC报告金额的7倍，其中加密货币和投资诈骗占比最高，AI技术加剧了深度伪造诈骗的泛滥。&lt;br/&gt;• &lt;strong&gt;支持校园手机禁令的美国公众比例创新高&lt;/strong&gt;：调查显示77%的美国成年人支持初高中生在上课期间禁用手机，近半数受访者支持全天候禁用。&lt;br/&gt;• &lt;strong&gt;HBO Max测试竖屏短视频功能&lt;/strong&gt;：华纳兄弟利用内部AI工具筛选经典剧集片段，向部分美国iPhone用户推送竖屏的HBO Max Shorts以辅助内容发现。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[健康科技与应用更新]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;加州大学工程师研发原型智能戒指&lt;/strong&gt;：该原型机通过分析汗液中的化学生物标志物实现无创连续血糖监测，准确度已接近有创监测设备，未来有望惠及糖尿病患者。&lt;br/&gt;• &lt;strong&gt;运动应用Runna新增高温适应性训练功能&lt;/strong&gt;：根据当地温湿度自动调整配速目标，并重新上线赛后恢复计划功能。&lt;br/&gt;• &lt;strong&gt;The Outsiders应用升级运动数据追踪&lt;/strong&gt;：新增运动数据多维分析、个性化分享选项及跑步相对强度指标，并支持同步第三方设备的体温数据。</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260730010314</guid>
-      <pubDate>Thu, 30 Jul 2026 01:03:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
