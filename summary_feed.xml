@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Fri, 21 Aug 2026 23:55:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 23:53:47 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-08-23</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260822235347</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260822235347</guid>
+      <pubDate>Sat, 22 Aug 2026 23:53:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-08-23</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260822235347</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260822235347</guid>
+      <pubDate>Sat, 22 Aug 2026 23:53:47 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-08-22</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260821235559</link>
@@ -166,20 +180,6 @@
       <description>&lt;strong&gt;[硬件产品与供应链传闻]&lt;/strong&gt;&lt;br/&gt;• 苹果预计在 9 月发布会推出八款新品，包括折叠屏 iPhone、iPhone 18 Pro/Pro Max、Apple Watch Series 12 与 Ultra 4、新 Apple TV 及 HomePod mini，并可能预览首款智能家居中枢。&lt;br/&gt;• 供应链分析指出，由于内存成本大幅飙升，iPhone 18 Pro 的物料成本同比增加约 38%，但预计苹果将自行吸收部分成本以维持销量，零售价不会出现大幅跳涨。&lt;br/&gt;• 分析师报告称，因良率过低，原计划于 2027 年推出的 20 周年纪念版全玻璃设计 iPhone 可能已遭取消。&lt;br/&gt;• 关于 iPhone 18 Pro 颜色，爆料显示旗舰配色将主打暗樱桃色（带紫色调的深红色），并辅以浅蓝色和银色。&lt;br/&gt;• 关于 Apple Watch 产品线，苹果正在考虑为未来机型采用圆形表盘设计，但相较于圆形手表，推出智能戒指以主打健康监测的可能性更大。&lt;br/&gt;• 第三方配件推出 AirTag 扩展电池壳，通过外接 AA 电池将服役约一年的 AirTag 2 续航延长至 10 年。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件系统与 AI 更新]&lt;/strong&gt;&lt;br/&gt;• iOS 27 beta 5 向开发者发布，重点推进 Siri AI 升级，涵盖视觉智能、跨应用操作及由基础大模型驱动的个人上下文理解；同时更新了多个系统应用图标并微调了 Liquid Glass 设计。&lt;br/&gt;• Siri 语音自定义功能扩展，语速和表现力调节滑块现已支持所有美式及英式口音，但该功能对设备硬件要求较高。&lt;br/&gt;• iOS 27 Apple Maps 引入增强版 Flyover 功能，结合 AI 提供高清城市鸟瞰图；新增本地化场所列表及自然语言路线搜索。&lt;br/&gt;• iOS 27 底层新增 Reference Image 功能，可通过绑定设备传感器数据认证照片是否由 iPhone 相机拍摄，以应对 AI 合成图像问题，且认证过程具备隐私保护机制。&lt;br/&gt;• 苹果证实 Siri AI 在中国市场将采用阿里巴巴的 Qwen 模型，系出于合规需要，用户需登录 Qwen 账户使用，隐私保护策略与全球其他地区有所差异。&lt;br/&gt;• 苹果同步推送 iOS 26.6.1 及 macOS 26.6.2 等旧版本系统测试更新，主要侧重于安全修复；macOS 27 Golden Gate 第五个测试版推进了快捷指令自然语言生成及全新壁纸等界面优化。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[服务与内容生态]&lt;/strong&gt;&lt;br/&gt;• Apple TV 即将推出与导演阿方索·卡隆合作的第二部剧集 Ascension，定位为心理惊悚题材。&lt;br/&gt;• 苹果宣布将通过 Apple Immersive Video 技术在 Vision Pro 上直播四场美国职业棒球大联盟比赛，提供定制解说与多机位沉浸式体验。&lt;br/&gt;• ChatGPT 扩大与 Yelp 的集成，美国和加拿大用户现可直接在对话中完成餐厅预订及加入候补名单。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[公司动态与法律合规]&lt;/strong&gt;&lt;br/&gt;• 苹果同意支付 15 万美元和解美国平等就业机会委员会提起的宗教歧视诉讼，案件涉及弗吉尼亚州一名犹太教员工被辞退事件，协议要求苹果对部分员工进行相关培训，但苹果在和解中未承认违规。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[配件与购物资讯]&lt;/strong&gt;&lt;br/&gt;• TESSAN 推出 AERO 5000 MagSafe 充电宝，采用超薄设计及钛合金材质，并引入半固态电池技术以降低发热。&lt;br/&gt;• 苹果官方翻新商店本周多款产品出现折扣，Studio Display XDR、MacBook Neo 及 Apple Watch Ultra 2 均有大幅降价。&lt;br/&gt;• 线上零售渠道 AirPods Pro 3 降至 190 美元，同时翻新 M5 MacBook Pro 降价 300 美元开放购买。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[其他应用与开发者资讯]&lt;/strong&gt;&lt;br/&gt;• WhatsApp iOS 端正在开发快捷搜索功能，用户向上滚动聊天记录时将出现搜索按钮，免于退出当前对话界面去查找信息。&lt;br/&gt;• Meta 推出全新 Facebook Creator Studio 应用，定位为集成 AI 能力的内容创作者辅助工具，提供定制化 Feed、Reels 及集成 Meta AI 服务。&lt;br/&gt;• 针对 iOS 应用设置入口分散问题，当前已有第三方快捷指令辅助跳转，建议苹果强制要求应用内置菜单提供一键跳转至系统设置的接口。</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260811000750</guid>
       <pubDate>Tue, 11 Aug 2026 00:07:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-08-11</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260811000750</link>
-      <description>&lt;strong&gt;[人工智能模型与端侧部署]&lt;/strong&gt;&lt;br/&gt;• Meta发布开源大模型Muse Glimmer，具备&lt;strong&gt;300亿参数&lt;/strong&gt;，专为本地常驻智能体工作流优化。该模型可在单张消费级GPU上运行，支持离线环境下的工具调用、代码编写及多模态理解。&lt;br/&gt;• 研究团队发布超微型开源模型Needle2，参数量仅&lt;strong&gt;4500万&lt;/strong&gt;，采用2比特量化压缩为14MB单文件。该模型专为低于200美元的低功耗边缘设备（如手机、可穿戴设备、微控制器）设计，专注函数调用与结构化数据提取。&lt;br/&gt;• 探讨大语言模型编程语言的Token效率研究指出，&lt;strong&gt;动态语言&lt;/strong&gt;在简单任务中产生的Token开销低于静态语言。但评估表明，随着任务复杂度增加，这种Token效率优势会被显著稀释。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[大模型训练与底层技术]&lt;/strong&gt;&lt;br/&gt;• 通过对Claude和GPT模型进行知识探测分析，可推断其&lt;strong&gt;预训练数据时间节点&lt;/strong&gt;与参数规模。推测显示Anthropic部分模型共享同一截止于2025年底的训练轮次。&lt;br/&gt;• Mistral申请大模型工具调用相关专利，提出由LLM生成封装工具调用的代码块，在沙箱中执行并支持&lt;strong&gt;暂停与结果替换&lt;/strong&gt;的机制。&lt;br/&gt;• 技术评论指出，要求智能体直接输出拟人化或简化技术语言会引发&lt;strong&gt;信息有损压缩&lt;/strong&gt;，智能体应保持高保真底层状态，仅在呈现给用户的边界层进行排版渲染。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[GPU市场与AI算力基建]&lt;/strong&gt;&lt;br/&gt;• 初创公司Stoa Markets推出GPU与AI服务器交易市场，提供&lt;strong&gt;价格发现机制&lt;/strong&gt;与经验证的交易对手方，试图解决当前AI硬件供应链分散及定价不透明的问题。&lt;br/&gt;• 亚马逊在德州投资离网天然气电厂为AI数据中心供电。该电厂年碳排放量预计达&lt;strong&gt;3300万吨&lt;/strong&gt;，或将成为全美最大单一气候污染源，与其2040年净零碳排放承诺相冲突。&lt;br/&gt;• OpenAI致信德州州长，承诺将在该州建设&lt;strong&gt;负责任的AI基础设施&lt;/strong&gt;，并配合当地政府与公用事业部门运作。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开发与编程技术]&lt;/strong&gt;&lt;br/&gt;• Rust的便携式SIMD现已成功扩展至GPU平台支持。通过将SIMD向量映射到GPU的warp单元，实现了&lt;strong&gt;跨架构的统一并行编程&lt;/strong&gt;。&lt;br/&gt;• 讨论指出C语言中的尾调用优化实际上直到近期才得到编译器的广泛支持，改变了早期C调用约定限制导致的优化缺失问题。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件安全与系统漏洞]&lt;/strong&gt;&lt;br/&gt;• 安全研究演示了针对x86系统管理模式（SMM）的破解：通过在一个核心上执行超长耗时指令，使其未能同步进入SMM，从而&lt;strong&gt;破坏SMM同步安全模型&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[法律政策与企业动态]&lt;/strong&gt;&lt;br/&gt;• 伊利诺伊州通过儿童社交媒体安全法案，除限制社交平台对未成年人推送算法外，还要求&lt;strong&gt;操作系统提供商&lt;/strong&gt;在2028年前内置年龄声明机制，且未对开源操作系统提供豁免。&lt;br/&gt;• Stop Killing Games组织发起对索尼的诉讼，指控PlayStation封闭数字游戏商店导致&lt;strong&gt;定价不公&lt;/strong&gt;且排斥竞争。&lt;br/&gt;• 一艘失去动力的演习船在阿拉斯加水域求救，附近马克扎克伯格的超级游艇被指未响应协助请求，后续由其他游轮完成救援。</description>
-      <guid isPermaLink="false">ai-summary-News-20260811000750</guid>
-      <pubDate>Tue, 11 Aug 2026 00:07:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-08-10</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260810000211</link>
-      <description>&lt;strong&gt;苹果产品战略与定价&lt;/strong&gt;&lt;br/&gt;• 受全球内存危机影响，苹果近期大幅上调了多款产品售价，如 iPad Air 和 Apple TV 等。为维持产品在新价位段的吸引力，苹果可能需要在现有产品线上增加配置，例如为 iMac 配备 miniLED 显示屏或为 iPad Air 提供 120Hz 刷新率。同时，苹果也有可能采取降级配置的策略以对冲成本压力。&lt;br/&gt;• 苹果曾计划为 iPhone 升级计划推出一项“白手套”无缝换机服务，新机出厂前将预装用户的 iCloud 备份数据，实现开机即用。由于存在数据时效性滞后及隐私隐患等技术难题，该功能最终被搁置。&lt;br/&gt;• iPhone 17 预计将打破过去 15 年来旗舰机型的最长销售周期纪录。由于后续标准版 iPhone 18 可能推迟至 2027 年春季发布，iPhone 17 作为主力机型的在售时间将达到约 18 个月。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;iPhone 与可穿戴设备硬件展望&lt;/strong&gt;&lt;br/&gt;• 最新的供应链配件泄露显示，苹果首款折叠屏手机 iPhone Ultra 可能提供两种配色：银色和深蓝色。此外，即将发布的 iPhone 18 Pro 预计将提供深樱桃色和浅蓝色等新配色选项。&lt;br/&gt;• 苹果正计划时隔多年重新推出陶瓷外壳的 Apple Watch，预计最早于今年或明年面世。陶瓷材质将作为比钛金属更高端的选项，进一步丰富 Apple Watch 的产品线。&lt;br/&gt;• 面对无屏幕智能戒指等新型穿戴设备的竞争压力，苹果正在重新评估 Apple Watch 的设计理念。内部正考虑采用圆形屏幕或无屏幕的激进设计方案，但由于计划尚未最终敲定，这些颠覆性产品距离真正上市仍有数年时间。今年秋季苹果仍将发布常规迭代更新的 Series 12 和 Ultra 4。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;智能家居与配件生态&lt;/strong&gt;&lt;br/&gt;• Eve Weather 气象传感器凭借对 Matter 和 Thread 协议的支持，成为 Apple Home 自动化的重要组件。该设备提供高精度的本地气温、湿度和气压数据，并可触发防冻防水等智能场景。其完全本地化的通信机制有效保障了用户隐私，且无需创建云账户即可运行。&lt;br/&gt;• MCON 模块化游戏控制器通过 MagSafe 磁吸与手机连接，按下启动键即可滑出实体按键和手柄。该控制器支持分离式 Kickback 模式，兼具备用支架功能，并全面适配云游戏和 Apple Arcade 等平台，为移动设备提供接近传统掌机的游戏体验。</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260810000211</guid>
-      <pubDate>Mon, 10 Aug 2026 00:02:11 +0000</pubDate>
     </item>
   </channel>
 </rss>
