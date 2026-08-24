@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Sat, 22 Aug 2026 23:53:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 00:00:12 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-08-24</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260824000012</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260824000012</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-08-24</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260824000012</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260824000012</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:12 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-08-23</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260822235347</link>
@@ -166,20 +180,6 @@
       <description>摘要生成失败：API 调用多次重试均告失败。</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260812004349</guid>
       <pubDate>Wed, 12 Aug 2026 00:43:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-08-12</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260812004349</link>
-      <description>&lt;strong&gt;[企业与大模型动态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;NVIDIA 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard&lt;/strong&gt;：作为拥有 300 亿参数的混合专家模型，Nemotron 3.5 Lightning 专为高吞吐量的自主智能体任务设计，输出速度提升最高达 4 倍；NeMo Switchyard 则作为开源智能路由库，支持跨不同模型的高效请求分发，提升多模型系统的部署与运行控制力。&lt;br/&gt;• &lt;strong&gt;Manus 宣布回归独立运营&lt;/strong&gt;：为符合特定司法管辖区的合规要求，Manus 将对部分在 2025 年 12 月 29 日及之后生成数据的用户进行数据删除，并提供指定窗口期的备份与恢复工具，以平稳过渡至独立运营状态。&lt;br/&gt;• &lt;strong&gt;OpenAI 伦理负责人离职&lt;/strong&gt;：该高管在加入 OpenAI 不到一年后即宣布离职，引发业界对 AI 伦理监管稳定性的关注。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[AI 研究与前沿技术]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;大模型涌现内省意识&lt;/strong&gt;：研究发现在特定情境下，大语言模型能够识别被注入概念并准确报告内部状态，部分模型甚至能通过回忆先前意图区分自身输出与人工预设内容，其中 Claude Opus 4 与 4.1 表现出最强的内省感知能力，但该能力目前仍高度依赖上下文且极不稳定。&lt;br/&gt;• &lt;strong&gt;苹果系统虚拟化突破提升 LLM 推理速度&lt;/strong&gt;：开发者在基于 Apple Virtualization.framework 的 macOS 虚拟机中引入 Metal 兼容层，解决了虚拟 GPU 报告保守能力配置导致 llama.cpp 运行降速的问题。在 M1 Ultra 测试中，该方案使提示处理速度提升最高 11.08 倍，达到裸机性能的 98%。&lt;br/&gt;• &lt;strong&gt;递归自我改进经济学模型发布&lt;/strong&gt;：研究团队基于经济学论文推出 RSI Simulator 网页游戏与探索工具，指出 AI 研究遭遇算力与数据瓶颈时可能停滞，且参数弹性显著影响预测轨迹，直观演示了 AI 递归自我改进过程中的制约因素。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开源与开发工具]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Mojo 语言正式发布 1.0 版本&lt;/strong&gt;：该版本标志着语言基础趋于稳定，完成了变量统一声明、闭包合并及单一指针类型等核心标准化简化工作，支持类 Python 的 lambda 语法，并提升了内存安全诊断与 LSP 服务器稳定性，为通用系统编程奠定基础。&lt;br/&gt;• &lt;strong&gt;Go 语言高度契合 AI 辅助工程&lt;/strong&gt;：在 AI 辅助生成代码的开发范式下，代码的审查、验证与维护比手写速度更为重要。Go 语言凭借内置完整工具链、强兼容性及生态一致性，有效避免了 AI 多次迭代重构导致的性能下降与上下文窗口污染问题。&lt;br/&gt;• &lt;strong&gt;Jolt 推出基于 Chez Scheme 的 Clojure 编译器&lt;/strong&gt;：该编译器实现自托管，移除了对 JVM 的依赖，能够将项目提前编译为独立的单文件可执行程序，并支持在共享堆上运行操作系统线程及核心异步并发机制。&lt;br/&gt;• &lt;strong&gt;pg_clickhouse 发布 v0.10 版本&lt;/strong&gt;：通过拓展子查询下推覆盖范围，新版本在 TPC-H 基准测试中实现了最多 1000 倍的查询性能提升，并重构了底层二进制驱动，修复了并发相关的 Bug。&lt;br/&gt;• &lt;strong&gt;OpenSSH 发布 10.5 版本&lt;/strong&gt;：新版本因 AI 辅助安全漏洞报告增多采取了更高频的发布策略，修复了 ssh-agent 锁定转发的交互漏洞及客户端潜在的释放后使用风险，并增加了对 FIDO 私钥的标记设置功能。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[应用创新与计算理论]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iPhone 多镜头同摄融合应用 Photosynthesis 发布&lt;/strong&gt;：该应用通过同时调用两个镜头进行一次拍摄，并在无生成式 AI 介入的前提下，自动对齐色彩与光学细节，将广角视野与长焦/主摄细节合成为单张高分辨率图像。&lt;br/&gt;• &lt;strong&gt;Git-knife 桌面端工具发布&lt;/strong&gt;：填补了现有 GUI 仓库管理工具无法编辑提交元数据的空白，支持像操作表格一样批量、直接修改 git 历史中的提交信息、作者及日期，全程底层调用系统 git CLI 确保文件内容安全不变。&lt;br/&gt;• &lt;strong&gt;论证数据压缩与语言模型的底层互通性&lt;/strong&gt;：技术分析指出现代压缩工具的模型与熵编码器协同工作机制，与大语言模型在核心上面临相同的预测问题，二者均依赖对数据冗余与符号概率分布的压缩处理。&lt;br/&gt;• &lt;strong&gt;绘图仪制作光学全息图技术解析&lt;/strong&gt;：开发者利用反射脊的曲率控制高光视差移动速度的现象，推导出无需数学公式的手工全息图光路逻辑，通过生成特定双曲面截面的路径坐标，使用笔式绘图仪成功渲染出真实反映深度信息的 3D 场景。</description>
-      <guid isPermaLink="false">ai-summary-News-20260812004349</guid>
-      <pubDate>Wed, 12 Aug 2026 00:43:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-08-11</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260811000750</link>
-      <description>&lt;strong&gt;[硬件产品与供应链传闻]&lt;/strong&gt;&lt;br/&gt;• 苹果预计在 9 月发布会推出八款新品，包括折叠屏 iPhone、iPhone 18 Pro/Pro Max、Apple Watch Series 12 与 Ultra 4、新 Apple TV 及 HomePod mini，并可能预览首款智能家居中枢。&lt;br/&gt;• 供应链分析指出，由于内存成本大幅飙升，iPhone 18 Pro 的物料成本同比增加约 38%，但预计苹果将自行吸收部分成本以维持销量，零售价不会出现大幅跳涨。&lt;br/&gt;• 分析师报告称，因良率过低，原计划于 2027 年推出的 20 周年纪念版全玻璃设计 iPhone 可能已遭取消。&lt;br/&gt;• 关于 iPhone 18 Pro 颜色，爆料显示旗舰配色将主打暗樱桃色（带紫色调的深红色），并辅以浅蓝色和银色。&lt;br/&gt;• 关于 Apple Watch 产品线，苹果正在考虑为未来机型采用圆形表盘设计，但相较于圆形手表，推出智能戒指以主打健康监测的可能性更大。&lt;br/&gt;• 第三方配件推出 AirTag 扩展电池壳，通过外接 AA 电池将服役约一年的 AirTag 2 续航延长至 10 年。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件系统与 AI 更新]&lt;/strong&gt;&lt;br/&gt;• iOS 27 beta 5 向开发者发布，重点推进 Siri AI 升级，涵盖视觉智能、跨应用操作及由基础大模型驱动的个人上下文理解；同时更新了多个系统应用图标并微调了 Liquid Glass 设计。&lt;br/&gt;• Siri 语音自定义功能扩展，语速和表现力调节滑块现已支持所有美式及英式口音，但该功能对设备硬件要求较高。&lt;br/&gt;• iOS 27 Apple Maps 引入增强版 Flyover 功能，结合 AI 提供高清城市鸟瞰图；新增本地化场所列表及自然语言路线搜索。&lt;br/&gt;• iOS 27 底层新增 Reference Image 功能，可通过绑定设备传感器数据认证照片是否由 iPhone 相机拍摄，以应对 AI 合成图像问题，且认证过程具备隐私保护机制。&lt;br/&gt;• 苹果证实 Siri AI 在中国市场将采用阿里巴巴的 Qwen 模型，系出于合规需要，用户需登录 Qwen 账户使用，隐私保护策略与全球其他地区有所差异。&lt;br/&gt;• 苹果同步推送 iOS 26.6.1 及 macOS 26.6.2 等旧版本系统测试更新，主要侧重于安全修复；macOS 27 Golden Gate 第五个测试版推进了快捷指令自然语言生成及全新壁纸等界面优化。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[服务与内容生态]&lt;/strong&gt;&lt;br/&gt;• Apple TV 即将推出与导演阿方索·卡隆合作的第二部剧集 Ascension，定位为心理惊悚题材。&lt;br/&gt;• 苹果宣布将通过 Apple Immersive Video 技术在 Vision Pro 上直播四场美国职业棒球大联盟比赛，提供定制解说与多机位沉浸式体验。&lt;br/&gt;• ChatGPT 扩大与 Yelp 的集成，美国和加拿大用户现可直接在对话中完成餐厅预订及加入候补名单。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[公司动态与法律合规]&lt;/strong&gt;&lt;br/&gt;• 苹果同意支付 15 万美元和解美国平等就业机会委员会提起的宗教歧视诉讼，案件涉及弗吉尼亚州一名犹太教员工被辞退事件，协议要求苹果对部分员工进行相关培训，但苹果在和解中未承认违规。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[配件与购物资讯]&lt;/strong&gt;&lt;br/&gt;• TESSAN 推出 AERO 5000 MagSafe 充电宝，采用超薄设计及钛合金材质，并引入半固态电池技术以降低发热。&lt;br/&gt;• 苹果官方翻新商店本周多款产品出现折扣，Studio Display XDR、MacBook Neo 及 Apple Watch Ultra 2 均有大幅降价。&lt;br/&gt;• 线上零售渠道 AirPods Pro 3 降至 190 美元，同时翻新 M5 MacBook Pro 降价 300 美元开放购买。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[其他应用与开发者资讯]&lt;/strong&gt;&lt;br/&gt;• WhatsApp iOS 端正在开发快捷搜索功能，用户向上滚动聊天记录时将出现搜索按钮，免于退出当前对话界面去查找信息。&lt;br/&gt;• Meta 推出全新 Facebook Creator Studio 应用，定位为集成 AI 能力的内容创作者辅助工具，提供定制化 Feed、Reels 及集成 Meta AI 服务。&lt;br/&gt;• 针对 iOS 应用设置入口分散问题，当前已有第三方快捷指令辅助跳转，建议苹果强制要求应用内置菜单提供一键跳转至系统设置的接口。</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260811000750</guid>
-      <pubDate>Tue, 11 Aug 2026 00:07:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
