@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Mon, 24 Aug 2026 00:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:40 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-08-25</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260825000040</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260825000040</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-08-25</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260825000040</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260825000040</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:40 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-08-24</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260824000012</link>
@@ -166,20 +180,6 @@
       <description>&lt;strong&gt;[硬件产品与供应链]&lt;/strong&gt;&lt;br/&gt;• Apple今年秋季将暂停发布基础款iPhone 18，产品线仅保留&lt;strong&gt;iPhone 18 Pro与Pro Max&lt;/strong&gt;，iPhone 18 Pro将成为今年秋季的默认主推机型。基础款iPhone 18则推迟至2027年初发布，预计将升级搭载&lt;strong&gt;12GB内存&lt;/strong&gt;及缩小版的灵动岛。&lt;br/&gt;• 首款折叠屏手机&lt;strong&gt;iPhone Ultra&lt;/strong&gt;的前置摄像头可能采用非居中设计，内外屏的摄像头分别放置在屏幕角落，这将打破iPhone长期的居中摄像头布局传统。&lt;br/&gt;• 供应链消息透露，Apple正在推进&lt;strong&gt;全玻璃设计的iPhone 20 Pro&lt;/strong&gt;项目。该设备将采用四曲面玻璃与光线折射技术，视觉上实现无边框屏幕效果。&lt;br/&gt;• 受内存成本上涨影响，2026年第二季度美国智能手机整体销量下滑，100美元以下机型销量暴跌近65%。受此成本压力影响，分析师预计即将发布的&lt;strong&gt;iPhone 18系列将上调售价&lt;/strong&gt;，顶配Ultra机型起售价可能达到2500美元左右。&lt;br/&gt;• 鸿海（Foxconn）的营收结构发生根本性转变，AI服务器业务营收占比首次过半，而包含iPhone组装的&lt;strong&gt;消费电子业务营收占比已降至29%以下&lt;/strong&gt;且呈永久性趋势。&lt;br/&gt;• 受行业内存短缺危机加剧影响，MacBook Air全系供货出现严重紧张，定制版交货期长达一个月以上。目前部分第三方零售商及Apple官方翻新店仍有现货供应。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件开发与功能更新]&lt;/strong&gt;&lt;br/&gt;• iOS 27为Apple日历新增两款&lt;strong&gt;特大号桌面小组件&lt;/strong&gt;，可一览未来数日日程。&lt;br/&gt;• Apple计划为钱包App新增&lt;strong&gt;以旧换新凭证管理功能&lt;/strong&gt;，用户可通过扫描二维码将换新报价保存至钱包，且报价有效期可能从14天延长至90天。&lt;br/&gt;• iOS 27 Beta 5代码显示，Apple正在开发&lt;strong&gt;照片真实性认证功能&lt;/strong&gt;，允许将iPhone拍摄的照片上传至服务器进行源头验证。&lt;br/&gt;• watchOS 27将新增两款独立应用：全新&lt;strong&gt;Siri应用&lt;/strong&gt;可跨设备同步历史对话记录；&lt;strong&gt;查找应用&lt;/strong&gt;将整合现有查找设备、物品和人物功能，提供基于地图的统合界面。&lt;br/&gt;• iOS 27中，GymKit生态进一步扩大，支持&lt;strong&gt;iPhone直接连接兼容健身设备&lt;/strong&gt;，并可通过AirPods Pro 3获取心率数据。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[企业动态与法律纠纷]&lt;/strong&gt;&lt;br/&gt;• Apple聘请美国航空前高管Nate Gatten担任&lt;strong&gt;政府事务副总裁&lt;/strong&gt;，负责与政府及政策制定者沟通协调，该高管将于8月31日上任。&lt;br/&gt;• Apple Pay负责人&lt;strong&gt;Jennifer Bailey将于10月退休&lt;/strong&gt;。&lt;br/&gt;• 美国最高法院批准了Apple的紧急申请，在审理App Store反垄断合规案期间暂缓加州下级法院的诉讼程序。此前法院要求Apple提交其在App站外购买中收取佣金比例的方案。&lt;br/&gt;• 意大利儿童权益监管机构指控Apple在米兰展示的一幅&lt;strong&gt;幼儿手持iPhone的 billboard广告&lt;/strong&gt;变相鼓励电子设备带娃，已将此案转介至多家监管机构审查。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[人工智能行业动态]&lt;/strong&gt;&lt;br/&gt;• Apple正与多家新闻出版商洽谈&lt;strong&gt;价值达九位数的内容授权协议&lt;/strong&gt;，旨在提升Siri AI对实时新闻和时事信息的获取与分析能力，并拟根据内容使用情况向出版商付费。&lt;br/&gt;• Anthropic将Claude的Chrome扩展侧边栏升级为完整的&lt;strong&gt;Cowork协同会话&lt;/strong&gt;，允许浏览器自动化任务及上下文记录在桌面和移动端跨平台无缝同步继续。&lt;br/&gt;• Raycast推出&lt;strong&gt;屏幕感知功能&lt;/strong&gt;，允许AI直接读取用户当前活跃窗口的上下文信息、文本及截图，省去手动复制粘贴步骤。&lt;br/&gt;• SpaceXAI发布&lt;strong&gt;Grok 4.6模型&lt;/strong&gt;，宣称其智能水平可对标GPT-5.6 Sol和Claude Fable 5，API输入价格定为每百万tokens 2美元。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[周边生态与第三方服务]&lt;/strong&gt;&lt;br/&gt;• Google发布Pixel 11系列手机、新款折叠屏及配件。Pixel 11 Pro系列引入&lt;strong&gt;HiLight LED灯环设计&lt;/strong&gt;取代温度传感器；全系普及更快的25W Qi2.2无线充电；折叠版采用新型玻璃纤维复合材料减轻重量。&lt;br/&gt;• WhatsApp开始向部分测试版用户推送&lt;strong&gt;用户名添加联系人功能&lt;/strong&gt;，减少对手机号的依赖。&lt;br/&gt;• MLB官方应用更新，支持为赛程中的&lt;strong&gt;任意比赛开启实时活动&lt;/strong&gt;，并同步改进CarPlay体验，可显示比分及选择电台直播。&lt;br/&gt;• 售价约1000美元的BowFlex T6 treadmill上市，成为市面上少有的&lt;strong&gt;支持Apple GymKit平价家用跑步机&lt;/strong&gt;。&lt;br/&gt;• iOS 27将改进屏幕使用时间功能，专家基于最新研究建议家长以5C框架取代固定的每日两小时限制。</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260813004205</guid>
       <pubDate>Thu, 13 Aug 2026 00:42:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-08-13</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260813004205</link>
-      <description>&lt;strong&gt;[人工智能模型发布与评测]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Qwen3.8-2.4T-A95B&lt;/strong&gt; 模型权重及配置文件正式开源发布。作为通义千问迄今最强大的开源模型，它在编码及专业领域表现出显著提升，支持 vLLM、SGLang 等多种推理框架，同时提供具备视觉输入与 1M 上下文长度的官方版本 Qwen3.8-Max。&lt;br/&gt;• xAI 正式发布 &lt;strong&gt;Grok 4.6&lt;/strong&gt; 模型，重点提升了长程代理任务与视觉交互能力。在 Artificial Analysis 智能指数中得分 61，与 GPT-5.6 Sol 持平。其代理编码与知识工作表现达到行业前沿水平，且单位任务成本显著低于同级别竞品。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开发工具与生产力]&lt;/strong&gt;&lt;br/&gt;• 协作编程环境 &lt;strong&gt;Delta&lt;/strong&gt; 开启内测。该工具将代码与对话上下文实时绑定，基于 DeltaDB 实现工作树的多人实时协同，让开发者与 AI 代理在完整的代码演进上下文中进行编写与审查。&lt;br/&gt;• 工作流自动化平台 &lt;strong&gt;Ballet&lt;/strong&gt; 发布。用户可通过自然语言描述多系统操作目标，Ballet 将其转化为可审查、版本控制的代码。该工具能针对任意 API 即时编写集成，解决了传统连接器库扩展性不足的问题。&lt;br/&gt;• Flutter 3.47 发布，将 &lt;strong&gt;Material 和 Cupertino 设计系统解耦&lt;/strong&gt;为独立包，以加快组件更新迭代。同时默认启用 &lt;strong&gt;Impeller 桌面渲染&lt;/strong&gt;，并将 Widget 预览功能转正。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[系统底层与网络架构]&lt;/strong&gt;&lt;br/&gt;• Tailscale 披露其此前服务不稳定的原因：SQLite 中存在 &lt;strong&gt;16 年历史的 WAL-Reset Bug&lt;/strong&gt; 导致数据库损坏。经过数月的取证排查，确认该并发竞争漏洞仅影响配置元数据，目前已完成修复并恢复服务稳定性。&lt;br/&gt;• 利用确定性调试工具 Antithesis，开发者在 15 分钟内成功复现并验证了上述 SQLite WAL-Reset Bug。这表明 &lt;strong&gt;AI 代理结合自动化调试工具&lt;/strong&gt;在处理复杂的底层数据库并发竞争问题时具备高效排查能力。&lt;br/&gt;• Chrome 浏览器对微小 JPEG 图片采用了一种解码优化机制，通过跳过高频系数的解压缩直接输出低频信息以降低内存开销，这会导致缩略图在视觉上与其他浏览器呈现细微差异。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件工程文化探讨]&lt;/strong&gt;&lt;br/&gt;• 业界反思 AI 对软件工程的影响，认为 &lt;strong&gt;AI 代理移除了代码生成的速度限制&lt;/strong&gt;。在缺乏严格工程文化的团队中，快速生成的代码缺乏可追溯的架构决策依据，导致系统迅速陷入无人能完全理解的“技术债务”困境。&lt;br/&gt;• 工程方法论出现转变，提出“&lt;strong&gt;宽泛构建，窄量交付&lt;/strong&gt;”。建议开发者利用 AI 先完整构建端到端功能进行验证，再指令拆分为小型 PR 进行审查，而非在编码前过早划定代码边界。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[行业融资与企业动态]&lt;/strong&gt;&lt;br/&gt;• AI 软件创作平台 &lt;strong&gt;Lovable 完成 4 亿美元 C 轮融资&lt;/strong&gt;，估值达 133 亿美元。该平台简化了从想法到软件的转化流程，已生成超 6000 万个项目，并在财富 500 强企业中渗透至近三分之二。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[隐私与社会法律]&lt;/strong&gt;&lt;br/&gt;• 针对车牌识别系统（ALPR）的历史数据检索，有专家呼吁应通过立法强制要求搜查令。随着公共摄像头日益普及，依据现有通信隐私判例，大规模追溯车辆轨迹的历史数据查询将不可避免地构成宪法意义上的搜查行为。</description>
-      <guid isPermaLink="false">ai-summary-News-20260813004205</guid>
-      <pubDate>Thu, 13 Aug 2026 00:42:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-08-12</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260812004349</link>
-      <description>摘要生成失败：API 调用多次重试均告失败。</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260812004349</guid>
-      <pubDate>Wed, 12 Aug 2026 00:43:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
