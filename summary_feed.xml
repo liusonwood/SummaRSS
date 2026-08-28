@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Thu, 27 Aug 2026 05:00:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 16:55:09 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-08-29</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260828165509</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260828165509</guid>
+      <pubDate>Fri, 28 Aug 2026 16:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-08-29</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260828165509</link>
+      <description>摘要生成失败：API 调用多次重试均告失败。</description>
+      <guid isPermaLink="false">ai-summary-News-20260828165509</guid>
+      <pubDate>Fri, 28 Aug 2026 16:55:09 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-08-27</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260827050045</link>
@@ -166,20 +180,6 @@
       <description>&lt;strong&gt;[系统软件与生态]&lt;/strong&gt;&lt;br/&gt;• iOS系统近年来不断增加自定义功能，编辑呼吁苹果在未来的iOS版本中引入类似安卓Material You的&lt;strong&gt;全局主题配色系统&lt;/strong&gt;。该功能可基于现有的图标染色或壁纸颜色，将配色方案延伸至整个操作系统的原生及第三方应用，进一步提升个性化体验。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开发者工具]&lt;/strong&gt;&lt;br/&gt;• 独立Mac代码编辑器Notepad.exe主打&lt;strong&gt;轻量化与极速启动&lt;/strong&gt;，开发者无需预先创建项目即可直接编写并运行Swift、Python等多种语言代码。该应用提供内置AI编程助手，并支持将模拟器嵌入编辑器内，兼顾免费基础功能与付费高级版本。</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260816235207</guid>
       <pubDate>Sun, 16 Aug 2026 23:52:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-08-17</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260816235207</link>
-      <description>&lt;strong&gt;[半导体与开源硬件]&lt;/strong&gt;&lt;br/&gt;• 某第三世界嵌入式工程师撰文反驳近期对 RISC-V 的严厉批评，指出尽管该架构存在压缩偏移等技术瑕疵，但其&lt;strong&gt;极低的硬件成本极大降低了全球欠发达地区的技术门槛&lt;/strong&gt;，使当地学生能够真正拥有开发板。此外，连该批评者在推导廉价微控制器核心需求时，也得出了&lt;strong&gt;RISC-V 必将主导低端微控制器领域&lt;/strong&gt;的结论。&lt;br/&gt;• comma.ai 推出名为 Chestnut 的开源固件 eGPU 扩展坞。该设备采用 PCIe Gen4 x4 转 USB4 桥接方案，不仅旨在为自动驾驶设备提供&lt;strong&gt;最高 100W 的算力支持&lt;/strong&gt;以运行大型驾驶模型，其透明且可重刷的&lt;strong&gt;开源桥接芯片固件&lt;/strong&gt;也打破了消费级 eGPU 扩展坞封闭的黑盒状态。&lt;br/&gt;• 分享如何在小众的卡西欧 VX-4 计算机上利用其自带的 BASIC 编程环境与 RS232 串口开发并部署&lt;strong&gt;Telnet BBS（电子公告板）&lt;/strong&gt;系统，展示了早期便携式计算设备的技术拓展潜力。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[编程语言与开发工具]&lt;/strong&gt;&lt;br/&gt;• Buf 发布首个面向生产环境的 Protobuf &lt;strong&gt;LSP（语言服务器协议）&lt;/strong&gt;支持。该工具由全新的查询驱动前端提供支持，具备增量编译和精准诊断能力，使 Protobuf 开发首次集成了跳转定义、代码补全等&lt;strong&gt;现代 IDE 功能&lt;/strong&gt;。&lt;br/&gt;• 一款名为 MathCode 的终端 AI 编码助手发布。该代理内置数学形式化引擎，能将自然语言数学问题自动转化为 &lt;strong&gt;Lean 4 定理并尝试形式化证明&lt;/strong&gt;，且具备快速的持久化编译检查、定理复用以及可视化知识图谱功能。&lt;br/&gt;• 开发者针对 Amiga 平台推出了全新的 Common Lisp 实现 Clamiga。该实现采用&lt;strong&gt;无外部依赖的紧凑字节码虚拟机&lt;/strong&gt;，不仅为 AmigaOS 3 及 MorphOS 提供原生的 Lisp 环境支持，也兼容现代 macOS 和 Linux 系统。&lt;br/&gt;• 业内专家撰文探讨&lt;strong&gt;软件形式化验证在提出 50 年后的现实价值&lt;/strong&gt;。随着 AI 编码的普及，业界对代码正确性保证的需求激增。文章重新审视了当年的核心反对意见，指出&lt;strong&gt;现代规范语言已具备交互式边界检查能力&lt;/strong&gt;，有效缓解了早期非形式化需求翻译过程中易失真的问题。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[计算机理论与历史回顾]&lt;/strong&gt;&lt;br/&gt;• 回顾 1997 年英特尔奔腾 MMX 微处理器的 SIMD（单指令多数据流）技术演进，详细解析其通过&lt;strong&gt;复用浮点寄存器&lt;/strong&gt;实现多条整数并行处理的设计初衷与瓶颈。&lt;br/&gt;• 技术博客以互动形式解析&lt;strong&gt;零知识证明（ZKP）&lt;/strong&gt;的实际运行机制，无需引入加密货币背景，仅基于&lt;strong&gt;图论中的三色着色问题&lt;/strong&gt;和交互式协议，演示证明者在不暴露具体解法的前提下向验证者自证的过程。&lt;br/&gt;• 数学家使用 SAT 求解器推进塔斯基高中代数问题的研究，通过算法证实了&lt;strong&gt;最小反例模型规模为 12 个元素&lt;/strong&gt;，并通过 Lean 形式化语言完成了主要结果正确性的自动证明。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[人工智能行业动态]&lt;/strong&gt;&lt;br/&gt;• 针对 AI 模型额度转售市场进行深度调研，指出目前各大论坛和中介网站存在&lt;strong&gt;估值数千万美元的 API 额度私下交易&lt;/strong&gt;行为。部分卖家通过代理池转发请求提供折扣算力，这种将 Token 视为&lt;strong&gt;准货币进行商业化倒卖&lt;/strong&gt;的现象正引发行业合规与滥用的担忧。&lt;br/&gt;• 媒体批评 Anthropic 计划在 Claude 生成文本中强制植入&lt;strong&gt;语义型隐写水印&lt;/strong&gt;的行为。此举旨在符合欧盟 AI 内容标识法规，但该技术通过在推理时微调词元选择来留下可被概率性检测的指纹，被认为&lt;strong&gt;破坏了文本的语义连贯性和质量&lt;/strong&gt;，与官方宣称的“不可感知”相悖。&lt;br/&gt;• Anthropic 披露 Claude 网页及移动端在每次对话开始时通过&lt;strong&gt;系统提示词注入当前日期及行为规范&lt;/strong&gt;，该提示持续更新以优化模型输出质量，但此类更新不适用于 API 用户。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[基础设施与平台安全]&lt;/strong&gt;&lt;br/&gt;• 数据库工程师呼吁 Postgres 改变其&lt;strong&gt;低效的连接管理机制&lt;/strong&gt;。分析指出，当下绝大多数主流托管服务商都不得不捆绑 PgBouncer 等外部连接池以维持稳定性，验证了在核心数据库层面&lt;strong&gt;原生集成连接池&lt;/strong&gt;已成为降低运维成本的迫切需求。&lt;br/&gt;• 开发者报告称，在将域名解析服务器切换至 Cloudflare 时，平台&lt;strong&gt;默认静默注入分析脚本&lt;/strong&gt;至纯 HTML 站点中。这种未经明确同意即在页面注入追踪代码的做法引发了隐私担忧。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件创新与其他前沿]&lt;/strong&gt;&lt;br/&gt;• 华硕推出 Oxiis E250G1 智能自行车改装套件。该系统采用&lt;strong&gt;摩擦驱动电机&lt;/strong&gt;，无需改动原车齿轮或刹车，配备 100W 快充模块和可拆卸模块化电池，提供最高峰值 500W 算力，可将普通自行车转换为电助力车型。&lt;br/&gt;• 回顾基于粘土和锯屑等易燃混合物制作的&lt;strong&gt;低技术陶瓷水过滤器&lt;/strong&gt;。该半工业化方案通过微米级孔径和胶体银的物理及抗菌作用&lt;strong&gt;有效杀灭水媒病原体&lt;/strong&gt;，其开源制造模式已在 39 个国家落地，为缺水地区提供了低成本的安全饮水方案。</description>
-      <guid isPermaLink="false">ai-summary-News-20260816235207</guid>
-      <pubDate>Sun, 16 Aug 2026 23:52:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-08-16</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260815235305</link>
-      <description>&lt;strong&gt;[智能家居硬件路线图]&lt;/strong&gt;&lt;br/&gt;• 苹果正在规划规模庞大的智能家居产品发布计划，以解决现有设备老化问题并适配新的Siri AI技术。&lt;br/&gt;• 预计今秋发布的更新包括：HomePod mini将搭载新处理器并支持AI功能；Apple TV 4K将升级至A17 Pro芯片以支持本地运行Apple Intelligence功能。&lt;br/&gt;• 计划在今年10月至明年初推出搭载7英寸屏幕和A18芯片的智能家庭中枢设备，运行全新的homeOS系统。&lt;br/&gt;• 长期规划（2026年底或2027年初）包括自主研发生产智能家居安防摄像头和智能门铃，以及一款配备机械臂和9英寸显示屏的进阶版桌面智能显示设备。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[供应链与地缘政治]&lt;/strong&gt;&lt;br/&gt;• 美国商务部长明确表示美国&lt;strong&gt;反对苹果采购中国存储芯片&lt;/strong&gt;。&lt;br/&gt;• 苹果为缓解全球存储芯片供应短缺，曾寻求使用长鑫存储和长江存储的产品，但遭到美国两党议员的制止与政府反对。&lt;br/&gt;• 美国政府认为这两家中国企业存在涉军背景和补贴问题，要求苹果寻找其他解决方案。由于苹果在内存方面所需的定制化程度较低，采购现成芯片存在可行性，但仍受限于美国的出口管制政策。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[企业IT管理]&lt;/strong&gt;&lt;br/&gt;• 苹果在WWDC上扩展了Apple Business API，允许IT管理员通过API直接检索设备信息和分配设备。&lt;br/&gt;• 开发者在使用Audit Events API时常遇403 Forbidden错误，主要原因是API账户权限配置不正确。&lt;br/&gt;• 苹果商业管理系统中最多可创建50个API账户和15个自定义角色。MacAdmins社区开发了Roles Checker网页工具，帮助IT人员快速查询所需权限并正确配置自定义角色，解决403报错问题。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[超薄iPhone配件推荐]&lt;/strong&gt;&lt;br/&gt;• Snap Grip Stand：厚度极薄的磁吸支架，具备指环扣功能及可旋转的金属支架，支持横竖屏观看和不影响无线充电。&lt;br/&gt;• Kuxiu X40 Turbo：三合一磁吸充电器，最薄处仅18毫米，折叠后便携，支持最高25W快充并附赠45W电源适配器。&lt;br/&gt;• SolidSafe Air：厚度仅6.8毫米的MagSafe便携电池，容量5000mAh，支持同时为两台设备充电。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[数据隐私保护服务]&lt;/strong&gt;&lt;br/&gt;• 针对数据经纪商合法买卖用户个人数据的问题，数据删除服务Incogni推出特惠活动。&lt;br/&gt;• 该服务可自动化代理用户向数百家数据经纪商发送数据删除要求，并定期循环执行，以减少垃圾信息及诈骗风险。&lt;br/&gt;• Incogni向读者提供亲友版年付计划55%的专属折扣代码，用户可借此低成本保护家庭成员的数字足迹。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[周末促销活动]&lt;/strong&gt;&lt;br/&gt;• 多款苹果设备迎来周末降价促销，AirPods系列最高降价100美元，Apple Watch Series 11起售价降至299美元。&lt;br/&gt;• 苹果官方认证翻新商店内，M5版MacBook Pro最高直降540美元，M5版MacBook Air和Studio Display显示器也有不同幅度的价格下调。&lt;br/&gt;• 具体降价型号涵盖多款存储配置的MacBook Pro、MacBook Air、AirPods以及不同表带版本的Apple Watch Ultra 3。</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260815235305</guid>
-      <pubDate>Sat, 15 Aug 2026 23:53:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
