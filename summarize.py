@@ -169,7 +169,7 @@ def get_ai_summary(items, source_label=None):
                     "X-Title": "RSS AI Summary Agent"
                 }
             )
-            with urllib.request.urlopen(req, timeout=60) as response:
+            with urllib.request.urlopen(req, timeout=120) as response:
                 res_data = json.loads(response.read().decode('utf-8'))
                 return res_data['choices'][0]['message']['content']
         except Exception as e:
