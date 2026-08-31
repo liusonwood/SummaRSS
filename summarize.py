@@ -277,7 +277,7 @@ def generate_rss_xml(summaries):
         item = ET.Element("item")
         ET.SubElement(item, "title").text = f"AI 简报 - {label} - {now_beijing.strftime('%Y-%m-%d')}"
         ET.SubElement(item, "link").text = item_link
-        ET.SubElement(item, "description").text = html_content
+        ET.SubElement(item, "description").text = f"<div>{html_content}</div>"
         ET.SubElement(item, "guid", isPermaLink="false").text = item_guid
         ET.SubElement(item, "pubDate").text = rfc822_date
 
