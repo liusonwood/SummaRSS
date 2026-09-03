@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Wed, 02 Sep 2026 09:55:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 10:07:02 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-09-03</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260903100702</link>
+      <description>&lt;div&gt;&lt;strong&gt;[新品与传闻]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iPhone 18 Pro&lt;/strong&gt; 将于下周发布，预计包含三项传闻已久的升级：主摄&lt;strong&gt;可变光圈&lt;/strong&gt;、缩小约 35% 的&lt;strong&gt;灵动岛&lt;/strong&gt;、以及苹果自研 &lt;strong&gt;C2 基带&lt;/strong&gt;（取代高通方案）。配色方面，爆料人共识为深红与天蓝两色，第三色是银色还是黑色仍存在分歧。&lt;br/&gt;• &lt;strong&gt;AirPods 产品线&lt;/strong&gt;动态：AirPods 5 预计下周随 iPhone 18 Pro 一同发布，仍分为有无 ANC 两个版本；带摄像头的 AirPods（用于为 Siri 提供环境感知）因 Apple Intelligence 延迟，发布时间已从 2026 年&lt;strong&gt;推迟至 2027 年底&lt;/strong&gt;；更轻的 AirPods Max 新款仍在传闻阶段。&lt;br/&gt;• &lt;strong&gt;M6 MacBook Pro&lt;/strong&gt; 将于今年秋季推出 14 英寸版本，三大升级包括：&lt;strong&gt;双 16 核神经网络引擎&lt;/strong&gt;（AI 算力最高翻倍）、12 核 CPU/GPU（基础款首次引入超核+性能核+能效核三架构）、基于 &lt;strong&gt;2nm 工艺&lt;/strong&gt;的能效提升，有望带来更长续航。&lt;br/&gt;• 播客日报提及：&lt;strong&gt;OLED iPad mini&lt;/strong&gt; 预计 10 月底前发布；John Ternus 已正式出任苹果 CEO。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[iOS 27 新功能]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Apple Pay 结账界面&lt;/strong&gt;全面改版：支持左右滑动切换卡片、同屏展示更多配送与账单信息，被视为近年来最大升级。&lt;br/&gt;• &lt;strong&gt;Apple Mail&lt;/strong&gt; 修复三项长期问题：未读角标准确性、邮件加载速度、搜索索引可靠性。&lt;br/&gt;• &lt;strong&gt;GymKit 扩展至 iPhone&lt;/strong&gt;：配合 AirPods Pro 3 的心率监测，无需 Apple Watch 即可与跑步机等健身器材双向同步距离、坡度、卡路里等数据，实测体验与 Apple Watch 相当。&lt;br/&gt;• &lt;strong&gt;Apple Wallet 数字驾照&lt;/strong&gt;新增俄克拉荷马州，为美国第 16 个支持州，可在超 250 个机场的 TSA 检查点使用。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[AI 与软件生态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Anthropic&lt;/strong&gt; 为 Mac 版 Claude Code 上线&lt;strong&gt;后台计算机操作&lt;/strong&gt;功能（限 Pro/Max 用户），AI 代理不再占用用户光标，类似功能此前由 OpenAI 率先推出。&lt;br/&gt;• Adobe 推出 &lt;strong&gt;Slack MCP 应用&lt;/strong&gt;，将 Photoshop、Firefly、Acrobat 等 70 余款工具接入 Slackbot，支持在对话中直接生成与编辑图像、视频和 PDF，面向 Business+ 及 Enterprise+ 用户开放。&lt;br/&gt;• 民调显示 &lt;strong&gt;27% 的美国人&lt;/strong&gt;会向 AI 聊天机器人倾诉情感问题，近三分之一视其为朋友；苹果高管明确表示 &lt;strong&gt;Siri AI 不会扮演情感伴侣&lt;/strong&gt;，定位为工具而非社交替代品。&lt;br/&gt;• 绿色和平组织警告：&lt;strong&gt;AI 数据中心的能耗&lt;/strong&gt;将是对苹果环保承诺的"决定性考验"，要求其以绝对减排和追加可再生能源投资兑现承诺。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[安全事件]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Dropbox 数据泄露&lt;/strong&gt;：攻击者利用联想 ID 邮箱验证缺失注册冒名 SSO 账户，而 Dropbox 未对新关联身份做二次认证，约 &lt;strong&gt;5000 个账户被入侵&lt;/strong&gt;，其中约 1500 个账户文件被下载；漏洞已修复，建议用户开启两步验证。&lt;br/&gt;• 暗网出现名为 Nexus 的盗号服务，出售&lt;strong&gt;超 1.53 亿本美国及加拿大驾照扫描件&lt;/strong&gt;，疑源自一家路易斯安那州身份验证公司的持续 breaches，客户包括 Hertz、Target、FedEx 等；FBI 已立案调查。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[Apple TV 内容]&lt;/strong&gt;&lt;br/&gt;• 瑞恩·雷诺兹主演间谍喜剧片 &lt;strong&gt;《Mayday》&lt;/strong&gt; 9 月 4 日上线，首批影评普遍好评，称其具备院线大片水准。&lt;br/&gt;• 奥斯卡最佳影片《CODA》导演 Siân Heder 新作 &lt;strong&gt;《Being Heumann》&lt;/strong&gt; 发布首支预告，讲述 1977 年残障人士占领联邦大楼的真实事件，11 月 13 日上线，定位颁奖季竞争者。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[促销信息]&lt;/strong&gt;&lt;br/&gt;• 亚马逊及百思买劳工节促销：&lt;strong&gt;AirPods Pro 3 降至 199 美元&lt;/strong&gt;（减 50），AirTag 2 单只 20 美元/四只装 80 美元创历史新低；M6 Mac mini 预购小幅降价（880 美元起）；官方翻新店补货 M5 MacBook Air，最高&lt;strong&gt;省 240 美元&lt;/strong&gt;；官翻 iPhone 17 Pro 最高减 290 美元。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260903100702</guid>
+      <pubDate>Thu, 03 Sep 2026 10:07:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-09-03</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260903100702</link>
+      <description>&lt;div&gt;&lt;strong&gt;AI 与大模型&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• Google 发布 &lt;strong&gt;Gemini 3.8 Flash&lt;/strong&gt; 与 &lt;strong&gt;3.8 Flash Cyber&lt;/strong&gt;：前者定位旗舰级编码与推理模型，价格与上代持平（输入 0.75 美元/百万 token、输出 3.75 美元），自称为同价位最强编码模型；后者面向网络安全，在漏洞自动发现和修复上达到前沿水平，仅通过 Fairwind 计划向可信防御方开放，内部跨 20 种语言的漏洞发现测试成功率超过 70%。&lt;br/&gt;• 一项针对 AI 搜索引用的调查显示：在 Perplexity 对 380 个软件类别给出的 7534 条引用中，&lt;strong&gt;59.8% 来自排名前 10 万之外的网站&lt;/strong&gt;，23.4% 来自完全未进入前百万的站点。其中三个疑似关联站点生成了 &lt;strong&gt;21.5 万个"最佳软件"机器页面&lt;/strong&gt; 专门供 AI 抓取；一家供应商的营销博客成为第三大引用来源，超过 Gartner。&lt;br/&gt;• Mistral 更新数据训练政策说明：Vibe 普通用户&lt;strong&gt;默认被纳入训练&lt;/strong&gt;、需手动退出，企业版默认退出；API 与 Vibe 的退出开关相互独立，需分别设置。&lt;br/&gt;• 一篇文章探讨 LLM 与自指性：GEB 等经典观点认为智能的核心是"奇异回路"式的自指，但现代 LLM 从未被显式植入自指机制，其谈论自身的能力只是通用预训练的副产品，这一事实令 Hofstadter 式的世界观受到冲击。&lt;br/&gt;• 创业者推出 RonanRx（YC S26）：垂直整合的个性化药企，从分子制造到处方、调配、配送全栈自建，主打 GLP-1 和肽类药物的个体化剂量，宣称价格比传统渠道低 3-10 倍。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;开发者工具与基础设施&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• &lt;strong&gt;Polars 2.0 首个候选版发布&lt;/strong&gt;：最大变化是所有 LazyFrame 查询默认运行在流式引擎上，官方称内存和性能可提升约 5 倍；代价是 join、group_by 等操作不再默认保证行序，需用 maintain_order 显式开启。同时全面收紧严格性，如 is_in 跨类型比较由静默有损强转改为直接报错。&lt;br/&gt;• &lt;strong&gt;Wasmi 2.0 发布&lt;/strong&gt;：WebAssembly 解释器性能较 1.0 提升约 2.2 倍，跻身最快的可移植 Wasm 解释器之列；新增直接/间接线程化代码等四种指令分发模式，并支持裁剪二进制体积。&lt;br/&gt;• Cloudflare 工程师提出 &lt;strong&gt;Cache Transcoding&lt;/strong&gt; 原型：在 Pingora 缓存层内用 Zstandard 压缩可压缩资源（HTML/JSON/CSS/JS 约占流量 22% 的字节且 71% 未压缩），测试资产平均缩至原来的 1/3，以少量 CPU 换取 PB 级有效缓存容量和跨数据中心带宽节省。&lt;br/&gt;• 一篇前端文章指出的核心观点：滚动卡顿、输入延迟等问题往往不是代码"慢"，而是&lt;strong&gt;主线程被占用&lt;/strong&gt;——JS 执行与渲染管线共享同一线程，60Hz 下实际帧预算仅约 10 毫秒，任何长任务都会造成卡顿。&lt;br/&gt;• 嵌入式对比实验：在 STM32F446 上对比 &lt;strong&gt;Async Rust（Embassy）与 FreeRTOS/C&lt;/strong&gt;，从中断延迟、体积、内存和易用性等维度评估异步执行器相对传统 RTOS 的表现。&lt;br/&gt;• 算法科普：介绍 Bridson 的 &lt;strong&gt;泊松盘采样算法&lt;/strong&gt;——一页纸论文解决"随机布点但保持最小间距"问题，并给出减少迭代次数的几何改进。&lt;br/&gt;• 逆向工程工具文章介绍用 &lt;strong&gt;ImHex&lt;/strong&gt; 分析未知文件格式的实践（正文未提供细节）。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;技术与科学观察&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• 一篇分析&lt;strong&gt;人形机器人为何困难&lt;/strong&gt;的长文指出：AI 进步集中在知识工作，物理侧仍停留在 demo 阶段；核心瓶颈包括灵巧手（人类手有约 20 个自由度、1.7 万个触觉传感器，现有机械手综合性能远不能及）、控制规划、可靠性与续航，且演示视频容易通过剪辑和场景布置误导判断。&lt;br/&gt;• 趣味论文《牛的更高阶多极矩》（愚人节传统）：将物理学中"球形奶牛"近似推广为完整多极展开，用于计算非球形牛的引力势乃至旋转牛因引力波辐射的减速。&lt;br/&gt;• Fable 5.1 项目展示：由自主 agent 群体端到端生成&lt;strong&gt;浏览器原生 3D 世界&lt;/strong&gt;（旧金山联合广场、京都东山步行路线），全部基于开放数据和 Three.js 代码，无游戏引擎、无二进制资产，并通过相机匹配差分进行质量校验；项目还纠正了多个流传甚广的错误数据（如清水寺舞台实际尺寸）。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;航空与历史&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• 深度回顾 &lt;strong&gt;2010 年澳洲航空 32 号班机事故&lt;/strong&gt;：A380 起飞后 2 号发动机涡轮盘爆裂，碎片击穿机翼和机身、损毁多个主要系统，机组成功迫降、469 人零伤亡；根源是发动机内一根壁厚略薄的油管，叠加设计审查多处疏漏。&lt;br/&gt;• 历史轶事：1966 年英国皇家空军工程师 Holden 在地面测试"闪电"战斗机时&lt;strong&gt;误触加力燃烧室&lt;/strong&gt;，在无头盔、无座舱盖、起落架锁定的情况下被迫起飞，第三次尝试成功降落，人机均无大碍。&lt;br/&gt;• 美国计算机博物馆的藏品在圣地亚哥州立大学图书馆地下室存放 21 年后，获捐赠启动&lt;strong&gt;清点与修复计划&lt;/strong&gt;，藏品被认定为全球最大规模的计算机革命实物档案之一。&lt;br/&gt;• 其他条目（仅见标题）：1975 年 Altair Basic 解释器源代码公开；洛斯阿拉莫斯 Rolodex 名片选集。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;社会与政策&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• &lt;strong&gt;日本将无中央线窄路限速从 60km/h 降至 30km/h&lt;/strong&gt;，覆盖全国约 87 万公里、占普通道路 70% 的住宅街道；数据显示 30km/h 以下行人死亡率不足 1%，而 50-60km/h 时达 17.4%，试点区域曾使伤亡下降 30%。&lt;br/&gt;• Google 在广告技术反垄断案中&lt;strong&gt;避免了业务拆分的处罚&lt;/strong&gt;（正文未提供细节）。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;其他&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• Nango（YC W23）发布工程、产品及 GTM 岗位招聘，定位开源开发者集成工具，支持远程。&lt;br/&gt;• 多篇仅有评论区的内容从略，包括作家 Wendell Berry 去世、暗物质探测器捕获单个异常粒子、衰老大脑记忆混合研究等。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-News-20260903100702</guid>
+      <pubDate>Thu, 03 Sep 2026 10:07:02 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-09-02</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260902095536</link>
@@ -166,20 +180,6 @@
       <description>摘要生成失败：API 调用多次重试均告失败。</description>
       <guid isPermaLink="false">ai-summary-News-20260824000012</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-08-23</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260822235347</link>
-      <description>摘要生成失败：API 调用多次重试均告失败。</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260822235347</guid>
-      <pubDate>Sat, 22 Aug 2026 23:53:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-08-23</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260822235347</link>
-      <description>摘要生成失败：API 调用多次重试均告失败。</description>
-      <guid isPermaLink="false">ai-summary-News-20260822235347</guid>
-      <pubDate>Sat, 22 Aug 2026 23:53:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
