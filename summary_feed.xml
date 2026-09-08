@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Mon, 07 Sep 2026 06:30:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 06:20:14 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-09-08</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260908062014</link>
+      <description>&lt;div&gt;&lt;strong&gt;[苹果秋季发布会与新品前瞻]&lt;/strong&gt;&lt;br/&gt;• 苹果将于本周三举行九月发布会，预计推出 &lt;strong&gt;iPhone 18 Pro、iPhone 18 Pro Max&lt;/strong&gt; 以及旗下首款折叠屏机型 &lt;strong&gt;iPhone Ultra&lt;/strong&gt;。Pro 系列传闻搭载 &lt;strong&gt;A20 Pro 芯片&lt;/strong&gt;、可变光圈主摄、缩小 35% 的灵动岛、自研 C2 基带及卫星 5G 功能，起售价可能上涨至约 1,199-1,399 美元。iPhone Ultra 采用书本式折叠设计（外屏约 5.4 英寸、内屏 7.8 英寸），改用 &lt;strong&gt;Touch ID&lt;/strong&gt;，预计售价超 2,000 美元。基础款 iPhone 18 和 iPhone Air 2 据传推迟至 2027 年初发布。&lt;br/&gt;• 一段疑似在零售店拍摄的 iPhone 18 Pro &lt;strong&gt;深樱桃红与蓝色&lt;/strong&gt;真机视频在网上流传，但多方分析认为大概率为配件厂商展示用的&lt;strong&gt;模型机假冒&lt;/strong&gt;，视频场景与泄密者可信度均存疑。&lt;br/&gt;• 关于折叠 Mac 的传闻再起：尽管有报道称该项目已被取消，但分析认为苹果仍在推进&lt;strong&gt;全屏折叠 Mac&lt;/strong&gt; 的长期研发，前提是软性键盘触感技术（静电触觉、电渗泵凸起按键等）成熟，短期内不会面世。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[法律诉讼]&lt;/strong&gt;&lt;br/&gt;• 巴斯夫（BASF）旗下子公司 &lt;strong&gt;trinamiX&lt;/strong&gt; 在得州西区法院起诉苹果，称 &lt;strong&gt;Face ID 侵犯其七项皮肤检测与材料识别专利&lt;/strong&gt;，涉及 iPhone 15 至 iPhone 17 系列、iPhone Air 及多款 iPad Pro。该公司寻求禁售令与赔偿，并要求陪审团审判。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[应用与服务]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;WhatsApp&lt;/strong&gt; 正在测试原生接入&lt;strong&gt;第三方 AI 代理&lt;/strong&gt;功能，每个账号最多可连接 5 个代理，通过 API 密钥配对后即可在独立对话中交互。该功能目前仅限部分安卓用户，且与 AI 代理的聊天&lt;strong&gt;不支持端到端加密&lt;/strong&gt;。&lt;br/&gt;• 苹果被曝探索两条服务增收路径：一是配合新家居硬件推出&lt;strong&gt;家庭安防监控服务&lt;/strong&gt;（AI 分析替代视频存储）；二是从 App Store 榨取更多经常性收入。后者据报道引发内部争议，&lt;strong&gt;菲尔·席勒（Phil Schiller）&lt;/strong&gt;因不认同该方向而卸任相关职务。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[Apple TV 与内容]&lt;/strong&gt;&lt;br/&gt;• 在第 78 届艾美奖创意艺术奖项中，&lt;strong&gt;Apple TV 以 20 项获奖领跑&lt;/strong&gt;，其中喜剧《Widows Bay》独揽 8 奖，有望在 9 月 14 日黄金时段颁奖礼上横扫喜剧类奖项。Apple TV 本季共获 89 项提名，创自身纪录。&lt;br/&gt;• 据可靠消息，苹果正筹备《羊毛战记》（Silo）&lt;strong&gt;衍生剧&lt;/strong&gt;，基于休·豪伊即将出版的以西洛 40 号为主题的小说，可能年内进入前期制作。第四季杀青半年后片场布景仍未拆除，被视为该项目推进的佐证。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开发者与网页标准]&lt;/strong&gt;&lt;br/&gt;• 苹果 WebKit 团队开启 &lt;strong&gt;Interop 2027&lt;/strong&gt; 提案征集（9 月 3 日至 23 日），邀请开发者通过 GitHub 提交浏览器互操作性改进建议。Interop 2025 的跨浏览器测试通过率已从年初的 29% 提升至 &lt;strong&gt;97%&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[消费指南与促销]&lt;/strong&gt;&lt;br/&gt;• 对比显示，&lt;strong&gt;苹果官方翻新（Certified Refurbished）&lt;/strong&gt;提供全新外壳、新电池及一年保修，折 Johns Hopkins Johnson抵扣约 15%；亚马逊 Renewed 价格更低但电池仅保证 80% 以上容量、保修仅 90 天；沃尔玛 Restored 条款最为模糊。追求与新机无异体验者建议选择官方翻新。&lt;br/&gt;• 劳动节促销汇总：AirPods Pro 3 降至 &lt;strong&gt;199 美元&lt;/strong&gt;，AirTag 2 四只装创历史新低 80 美元，M6 Mac mini 起价 880 美元，1TB iPhone 17 Pro 官翻最低 1,208 美元，iPhone Air 256GB 降至 850 美元。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260908062014</guid>
+      <pubDate>Tue, 08 Sep 2026 06:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-09-08</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260908062014</link>
+      <description>&lt;div&gt;&lt;strong&gt;AI 与算力动态&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• 开源大模型 &lt;strong&gt;GLM 5.3-flash&lt;/strong&gt; 可在消费级硬件（约 6000 美元 GPU 或 M5 Mac Studio）本地运行，且被"去对齐"后对恶意请求几乎不设防。作者警告廉价模型已具备真实漏洞挖掘能力，呼吁业界利用前沿 LLM 在约一年内大规模修复全行业安全漏洞（Project Glasswing / Daybreak）。&lt;br/&gt;• &lt;strong&gt;Mistral&lt;/strong&gt; 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元，为欧洲科技公司史上最大股权融资。由三星电子领投，资金将用于扩展算力与基础设施，主打"主权 AI"全栈（开源模型 + 自有算力 + 可审计部署）。&lt;br/&gt;• 实测研究显示，给编程 Agent 附加"使用 TDD""使用形式化验证""使用属性测试"等指令对代码正确率影响有限；作者预测 &lt;strong&gt;TDD 可能反而降低正确率&lt;/strong&gt;，"不许犯错"类提示无效，形式化方法未必优于常规测试。&lt;br/&gt;• 多智能体交易框架 &lt;strong&gt;TradingAgents&lt;/strong&gt; 开源并持续迭代：由基本面、情绪、新闻、技术分析师及多空研究员协作决策，支持 GPT-5.x、Claude 4、Gemini、GLM 等多模型，明确声明仅供研究、不构成投资建议。&lt;br/&gt;• 移动端 GPU 方面，Arm 发布 &lt;strong&gt;Mali G2-Ultra NX&lt;/strong&gt;，为首个 AI 原生 Mali GPU：在着色器核心中集成神经加速器，支持神经超采样、神经插帧与神经去噪；配合新执行引擎，基准性能提升约 24%，非 AI 游戏性能提升 14%，支持 120 FPS 移动游戏。&lt;br/&gt;• 剖析两大移动端 Agent 的运行环境：Claude Code 使用 &lt;strong&gt;Firecracker microVM&lt;/strong&gt;（Rust 编写的 PID 1、只读 harness 盘、可持久化的用户盘，冷启动约 6.4 秒）；Instinct 则租用 E2B 沙箱。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;网络、安全与隐私&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• 新论文展示了对整个 Linux 发行版的 &lt;strong&gt;Trusting-Trust 攻击&lt;/strong&gt;：在 NixOS 引导种子中植入被篡改的 GNU strip 工具，仅用 ELF 二进制操作便可跨代传播后门，最终感染图形安装器中几乎所有程序——证明该攻击模式不局限于编译器。&lt;br/&gt;• 研究者成功分解了 1999 年 Netscape 4.51 内置的 &lt;strong&gt;E-Certify 512 位 RSA 根证书&lt;/strong&gt;私钥（桌面机约 30 小时），并搭建老式 TLS 服务器验证可签发证书，展示了早期 PKI 密钥强度的薄弱。&lt;br/&gt;• Broadcom 在没有公告的情况下撤下 &lt;strong&gt;VDDK（虚拟磁盘开发套件）&lt;/strong&gt;下载，该库被 Azure Migrate、Nutanix Move、virt-v2v 等主流迁移工具依赖，实质性地抬高了客户迁出 VMware 平台的门槛。&lt;br/&gt;• 博主针对 GamersNexus 关于 LG 智能电视"窃听"的视频提出质疑：视频展示的日志为语音搜索记录，所谓"扫描局域网"实际是 mDNS/SSDP 等常见的 IoT 发现协议行为，证据尚不足以支撑最严重的指控。&lt;br/&gt;• 独立 Wiki 托管方发现：自 2024 年 3 月 Google 核心更新后，约 90% 新注册域名的 Wiki 仅首页能被检索到（被称为"&lt;strong&gt;Google Jail&lt;/strong&gt;"），而挂在已有域名下的子域名则完全不受影响，迫使新 Wiki 改用子域名策略。&lt;br/&gt;• 澳大利亚公布《数字注意义务法》草案：推出"My Feed, My Way"机制，要求社交平台允许用户选择是否启用算法推荐；游戏、AI 聊天机器人等须保护未成年人免受成瘾性设计和有害内容影响；违规罚款最高 &lt;strong&gt;1.092 亿澳元&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;软件与开源项目&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• &lt;strong&gt;Jellyfin 12.0&lt;/strong&gt; 发布：放弃 10.x 版本号，数据库结构变更需先备份，用户名改为不区分大小写，新增图书与漫画支持及性能改进；第三方插件和老旧客户端将无法兼容。&lt;br/&gt;• 图表工具 D2 的自动布局引擎 &lt;strong&gt;TALA 开源&lt;/strong&gt;（MPL-2.0）：专为软件架构图设计的正交布局，支持节点坐标锁定与部分自定义定位，局限在于结果含随机性、不擅长 DAG 长链图、大图耗时非线性增长。已随 D2 v0.9.0 提供。&lt;br/&gt;• Emacs 极简配置模板 &lt;strong&gt;Bedrock 2.0&lt;/strong&gt; 发布：要求 Emacs 31，不兼容 29 版本；改用全权 lexical-binding、use-package 默认安装、改进 tree-sitter 配置，仍坚持不用第三方包的基本理念。&lt;br/&gt;• 独立浏览器 &lt;strong&gt;Ladybird&lt;/strong&gt; 公布 8 月进展：支持 Twitch 播放与更多 YouTube 编码格式、CSS 滚动吸附、DevTools 中 JS 断点调试、可断点续传的下载、会话恢复；性能优化成为持续重点，CSS 解析与绘制管线已迁移至 Rust。&lt;br/&gt;• 硬件方面，Colorlight &lt;strong&gt;5A-75B&lt;/strong&gt; LED 接收卡因搭载 Yosys 工具链支持的 ECP5 FPGA，成为约 20–25 美元的廉价开源 FPGA 开发板，具备双千兆网口，社区已完成逆向工程并提供完整引脚资料。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;数据库与理论研究&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• 关于 PostgreSQL &lt;strong&gt;random_page_cost&lt;/strong&gt; 的再讨论：在机械硬盘实测估值约 125，远高于 4.0 默认值，说明默认值从来不是"真实成本"。作者认为该参数实际在为成本模型忽略内存驱逐与"活跃数据集"局部性效应做补偿，贸然调高反而损害查询性能。&lt;br/&gt;• &lt;strong&gt;Navier-Stokes&lt;/strong&gt; 方程相关论文（Tristan Buckmaster）受到关注。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;科学与数学&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• Caltech 将于 10 月 30 日举办首个面向研究级数学的黑客松 &lt;strong&gt;Mathathon&lt;/strong&gt;：百支团队使用前沿模型攻关公开猜想，近期待验证的成果包括对 Erdős 平面单位距离猜想的否证、首个显式非 sofic 群构造等。&lt;br/&gt;• 对已灭绝袋狼（塔斯马尼亚虎）头骨的新分析表明：其体型仅约 17 公斤、头部虽大但吻部细长，咬合力只适合快速扑咬小型猎物，&lt;strong&gt;不太可能捕食绵羊&lt;/strong&gt;——殖民者将其误认为狼而悬赏猎杀，成为该物种灭绝的冤案推手。&lt;br/&gt;• 另有研究报道在量子尺度观测到了与爱因斯坦引力理论一致的现象。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;其他&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;• Google 发布 &lt;strong&gt;WeatherNext 3&lt;/strong&gt;：首个逐小时更新的全球天气模型，直接利用卫星原始数据，分辨率 5–10 公里，已接入 Search、Maps、Gemini 并向企业开放（BigQuery、Earth Engine 等）。&lt;br/&gt;• 美国国会图书馆购得摄影师 &lt;strong&gt;John Margolies&lt;/strong&gt; 的档案并解除版权限制，公开其四十年间拍摄的约 1.17 万张美国 roadside 建筑与招牌彩色照片。&lt;br/&gt;• 有项目以可视化方式呈现洛杉矶 1880 至 2026 年间逐栋建筑的城市生长过程。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-News-20260908062014</guid>
+      <pubDate>Tue, 08 Sep 2026 06:20:14 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-09-07</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260907063045</link>
@@ -166,20 +180,6 @@
       <description>摘要生成失败：API 调用多次重试均告失败。</description>
       <guid isPermaLink="false">ai-summary-News-20260828165509</guid>
       <pubDate>Fri, 28 Aug 2026 16:55:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-08-27</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260827050045</link>
-      <description>摘要生成失败：API 调用多次重试均告失败。</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260827050045</guid>
-      <pubDate>Thu, 27 Aug 2026 05:00:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-08-27</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260827050045</link>
-      <description>摘要生成失败：API 调用多次重试均告失败。</description>
-      <guid isPermaLink="false">ai-summary-News-20260827050045</guid>
-      <pubDate>Thu, 27 Aug 2026 05:00:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
