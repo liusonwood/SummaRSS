@@ -104,7 +104,7 @@ def fetch_rss_items(source, processed_links):
             except Exception as e:
                 print(f"  [!] 全文提取失败: {e}")
 
-            if not body or len(body) < 100:
+            if not body or len(body) < 10:
                 print("  [!] 内容过少，使用原生摘要兜底")
                 content_encoded = item.find('{http://purl.org/rss/1.0/modules/content/}encoded')
                 description = item.find('description').text if item.find('description') is not None else ""
