@@ -123,7 +123,7 @@ def fetch_rss_items(source, processed_links):
         return []
 
 def get_ai_summary(items, source_label=None):
-    """调用 AI 生成摘要，带重试机制"""
+    """调用 AI 生成摘要，使用流式请求避免长耗时被超时截断，带重试机制"""
     if not OPENROUTER_API_KEY:
         raise ValueError("OPENROUTER_API_KEY is not set!")
 
@@ -139,7 +139,7 @@ def get_ai_summary(items, source_label=None):
         "1. **分类汇总**：按主题对内容进行分类。如果主题跨度不大，则按重要程度排序。\n"
         "2. **内容质量**：每条摘要应直击核心事实，剔除营销废话，保持中立专业的语气。\n"
         "3. **格式规范**：\n"
-        "   - 使用 Markdown 格式：分类标题加粗，如 **[分类名称]**。\n"
+        "   - 使用 Markdown 格式：分类标题加粗，如 **分类名称**。\n"
         "   - 条目使用 `- ` 开头的无序列表。\n"
         "   - 核心关键词或结论使用 **双星号加粗**。\n"
         "   - **严禁** 开场白、问候语 or 结束语（直接输出正文内容）。\n"
@@ -147,16 +147,20 @@ def get_ai_summary(items, source_label=None):
         "4. **语言要求**：简洁地道的中文。\n\n"
         "### 待处理文章列表：\n\n"
     )
-    
+
     for idx, item in enumerate(items, 1):
         prompt += f"文章 {idx}: {item['title']}\n内容: {item['body'][:4000]}\n---\n"
-        
+
     data = {
         "model": AI_MODEL,
-        "messages": [{"role": "user", "content": prompt}]
+        "messages": [{"role": "user", "content": prompt}],
+        "stream": True,  # 开启流式响应，避免总耗时超过单次超时限制
     }
-    
+
+    # 每个数据块之间最长等待秒数（不是总耗时上限）
+    CHUNK_TIMEOUT = 60
     max_retries = 3
+
     for attempt in range(max_retries):
         try:
             req = urllib.request.Request(
@@ -169,9 +173,39 @@ def get_ai_summary(items, source_label=None):
                     "X-Title": "RSS AI Summary Agent"
                 }
             )
-            with urllib.request.urlopen(req, timeout=180) as response:
-                res_data = json.loads(response.read().decode('utf-8'))
-                return res_data['choices'][0]['message']['content']
+
+            content_parts = []
+            with urllib.request.urlopen(req, timeout=CHUNK_TIMEOUT) as response:
+                for raw_line in response:
+                    line = raw_line.decode('utf-8', errors='ignore').strip()
+                    if not line or not line.startswith("data:"):
+                        continue
+
+                    payload = line[len("data:"):].strip()
+                    if payload == "[DONE]":
+                        break
+
+                    try:
+                        chunk = json.loads(payload)
+                    except json.JSONDecodeError:
+                        # 有些实现会把多个 JSON 对象粘连在一行，忽略解析失败的行
+                        continue
+
+                    choices = chunk.get("choices") or []
+                    if not choices:
+                        continue
+
+                    delta = choices[0].get("delta", {}) or {}
+                    piece = delta.get("content")
+                    if piece:
+                        content_parts.append(piece)
+
+            full_content = "".join(content_parts).strip()
+            if full_content:
+                return full_content
+
+            raise ValueError("Streamed response was empty")
+
         except Exception as e:
             wait_time = (attempt + 1) * 10
             print(f"Error calling AI API (Attempt {attempt + 1}/{max_retries}): {e}")
@@ -180,7 +214,7 @@ def get_ai_summary(items, source_label=None):
                 time.sleep(wait_time)
             else:
                 return "摘要生成失败：API 调用多次重试均告失败。"
-    
+
     return "摘要生成失败。"
 
 def generate_rss_xml(summaries):
