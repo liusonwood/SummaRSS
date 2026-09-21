@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Sun, 20 Sep 2026 06:49:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 06:53:50 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-09-21</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260921065350</link>
+      <description>&lt;div&gt;&lt;strong&gt;[产品拆解与维修]&lt;/strong&gt;&lt;br/&gt;• iFixit 发布 &lt;strong&gt;iPhone 18 Pro&lt;/strong&gt; 拆解报告：可变光圈由电磁铁控制六个微型叶片，叶片极小，拆解时曾飞出，若光圈卡死需&lt;strong&gt;更换整个主摄模组&lt;/strong&gt;。屏下 Face ID 红外摄像头通过隔行移除像素隐藏，OLED 层下设红外滤光片。A20 Pro 采用内存与芯片并排封装的新架构，均热板直接贴合芯片，面积为 iPhone 17 Pro 的&lt;strong&gt;三倍&lt;/strong&gt;。&lt;br/&gt;• iFixit 发现潜在维修隐患：拆解的 4 台设备中有 &lt;strong&gt;3 台显示屏塑料边框受损&lt;/strong&gt;，可能导致重装后屏幕不平整并影响防水性能，尚不确定是个例还是普遍问题。USB-C 接口更换仍需拆解大部分内部元件。iPhone 18 Pro 与 Pro Max 暂定可维修性评分为 &lt;strong&gt;7/10&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与服务]&lt;/strong&gt;&lt;br/&gt;• 新版 &lt;strong&gt;Siri AI&lt;/strong&gt; 随 iOS 27 以 beta 形式分批推送，用户反馈集中在五类问题：云端网络连接报错（提示"Sorry, something went wrong"）、语义索引缺陷导致找不到旧 Siri 能识别的提醒列表及闹钟、许多请求&lt;strong&gt;强制要求解锁 iPhone&lt;/strong&gt;（即便已开启锁定时允许 Siri）、依赖 Private Cloud Compute 导致响应变慢（Apple Watch 上设定计时器需数秒）、部分旧 Siri 功能尚未迁移。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件配件]&lt;/strong&gt;&lt;br/&gt;• 彭博社报道：苹果曾为 &lt;strong&gt;iPhone Duo&lt;/strong&gt; 设计一款更短、可吸附在铰链侧的专用 Apple Pencil，因量产前出现"技术问题"被取消，改用现有 USB-C Apple Pencil。由于机身未按 USB-C Pencil 设计，需重新开发软件和测试，手写笔支持将推迟至 &lt;strong&gt;2026 年底前&lt;/strong&gt;上线。&lt;br/&gt;• Satechi 推出适配 M6 Mac mini 的 &lt;strong&gt;Thunderbolt 5 CubeDock&lt;/strong&gt;，售价 &lt;strong&gt;$399.99&lt;/strong&gt;：外形与 Mac mini 一致可堆叠，提供 120Gbps 带宽，支持单线输出三台 6K@60Hz 或 4K@144Hz 显示器（限 M5 Pro）、内置 M.2 NVMe SSD 位（最高 8TB、6000MB/s）、2.5G 网口及 UHS-II 读卡器。评测指出其高负载下发热明显，价格偏高。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[流媒体内容]&lt;/strong&gt;&lt;br/&gt;• 据 Variety 报道，因 Charlie Kirk 遇刺事件被 Apple TV 临时撤档的 Jessica Chastain 主演剧集 &lt;strong&gt;《The Savant》&lt;/strong&gt;重新定档 &lt;strong&gt;2027 年春季&lt;/strong&gt;，目标赶在 2027 年 5 月 31 日艾美奖参评截止日期前播完全部剧集。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260921065350</guid>
+      <pubDate>Mon, 21 Sep 2026 06:53:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-09-21</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260921065350</link>
+      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-News-20260921065350</guid>
+      <pubDate>Mon, 21 Sep 2026 06:53:50 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-09-20</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260920064922</link>
@@ -166,20 +180,6 @@
       <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260909064458</guid>
       <pubDate>Wed, 09 Sep 2026 06:44:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-09-09</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260909064458</link>
-      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
-      <guid isPermaLink="false">ai-summary-News-20260909064458</guid>
-      <pubDate>Wed, 09 Sep 2026 06:44:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-09-08</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260908062014</link>
-      <description>&lt;div&gt;&lt;strong&gt;[苹果秋季发布会与新品前瞻]&lt;/strong&gt;&lt;br/&gt;• 苹果将于本周三举行九月发布会，预计推出 &lt;strong&gt;iPhone 18 Pro、iPhone 18 Pro Max&lt;/strong&gt; 以及旗下首款折叠屏机型 &lt;strong&gt;iPhone Ultra&lt;/strong&gt;。Pro 系列传闻搭载 &lt;strong&gt;A20 Pro 芯片&lt;/strong&gt;、可变光圈主摄、缩小 35% 的灵动岛、自研 C2 基带及卫星 5G 功能，起售价可能上涨至约 1,199-1,399 美元。iPhone Ultra 采用书本式折叠设计（外屏约 5.4 英寸、内屏 7.8 英寸），改用 &lt;strong&gt;Touch ID&lt;/strong&gt;，预计售价超 2,000 美元。基础款 iPhone 18 和 iPhone Air 2 据传推迟至 2027 年初发布。&lt;br/&gt;• 一段疑似在零售店拍摄的 iPhone 18 Pro &lt;strong&gt;深樱桃红与蓝色&lt;/strong&gt;真机视频在网上流传，但多方分析认为大概率为配件厂商展示用的&lt;strong&gt;模型机假冒&lt;/strong&gt;，视频场景与泄密者可信度均存疑。&lt;br/&gt;• 关于折叠 Mac 的传闻再起：尽管有报道称该项目已被取消，但分析认为苹果仍在推进&lt;strong&gt;全屏折叠 Mac&lt;/strong&gt; 的长期研发，前提是软性键盘触感技术（静电触觉、电渗泵凸起按键等）成熟，短期内不会面世。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[法律诉讼]&lt;/strong&gt;&lt;br/&gt;• 巴斯夫（BASF）旗下子公司 &lt;strong&gt;trinamiX&lt;/strong&gt; 在得州西区法院起诉苹果，称 &lt;strong&gt;Face ID 侵犯其七项皮肤检测与材料识别专利&lt;/strong&gt;，涉及 iPhone 15 至 iPhone 17 系列、iPhone Air 及多款 iPad Pro。该公司寻求禁售令与赔偿，并要求陪审团审判。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[应用与服务]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;WhatsApp&lt;/strong&gt; 正在测试原生接入&lt;strong&gt;第三方 AI 代理&lt;/strong&gt;功能，每个账号最多可连接 5 个代理，通过 API 密钥配对后即可在独立对话中交互。该功能目前仅限部分安卓用户，且与 AI 代理的聊天&lt;strong&gt;不支持端到端加密&lt;/strong&gt;。&lt;br/&gt;• 苹果被曝探索两条服务增收路径：一是配合新家居硬件推出&lt;strong&gt;家庭安防监控服务&lt;/strong&gt;（AI 分析替代视频存储）；二是从 App Store 榨取更多经常性收入。后者据报道引发内部争议，&lt;strong&gt;菲尔·席勒（Phil Schiller）&lt;/strong&gt;因不认同该方向而卸任相关职务。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[Apple TV 与内容]&lt;/strong&gt;&lt;br/&gt;• 在第 78 届艾美奖创意艺术奖项中，&lt;strong&gt;Apple TV 以 20 项获奖领跑&lt;/strong&gt;，其中喜剧《Widows Bay》独揽 8 奖，有望在 9 月 14 日黄金时段颁奖礼上横扫喜剧类奖项。Apple TV 本季共获 89 项提名，创自身纪录。&lt;br/&gt;• 据可靠消息，苹果正筹备《羊毛战记》（Silo）&lt;strong&gt;衍生剧&lt;/strong&gt;，基于休·豪伊即将出版的以西洛 40 号为主题的小说，可能年内进入前期制作。第四季杀青半年后片场布景仍未拆除，被视为该项目推进的佐证。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[开发者与网页标准]&lt;/strong&gt;&lt;br/&gt;• 苹果 WebKit 团队开启 &lt;strong&gt;Interop 2027&lt;/strong&gt; 提案征集（9 月 3 日至 23 日），邀请开发者通过 GitHub 提交浏览器互操作性改进建议。Interop 2025 的跨浏览器测试通过率已从年初的 29% 提升至 &lt;strong&gt;97%&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[消费指南与促销]&lt;/strong&gt;&lt;br/&gt;• 对比显示，&lt;strong&gt;苹果官方翻新（Certified Refurbished）&lt;/strong&gt;提供全新外壳、新电池及一年保修，折 Johns Hopkins Johnson抵扣约 15%；亚马逊 Renewed 价格更低但电池仅保证 80% 以上容量、保修仅 90 天；沃尔玛 Restored 条款最为模糊。追求与新机无异体验者建议选择官方翻新。&lt;br/&gt;• 劳动节促销汇总：AirPods Pro 3 降至 &lt;strong&gt;199 美元&lt;/strong&gt;，AirTag 2 四只装创历史新低 80 美元，M6 Mac mini 起价 880 美元，1TB iPhone 17 Pro 官翻最低 1,208 美元，iPhone Air 256GB 降至 850 美元。&lt;/div&gt;</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260908062014</guid>
-      <pubDate>Tue, 08 Sep 2026 06:20:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
