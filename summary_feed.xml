@@ -5,7 +5,21 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Fri, 25 Sep 2026 06:38:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 06:34:09 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-09-26</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260926063409</link>
+      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20260926063409</guid>
+      <pubDate>Sat, 26 Sep 2026 06:34:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-09-26</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20260926063409</link>
+      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-News-20260926063409</guid>
+      <pubDate>Sat, 26 Sep 2026 06:34:09 +0000</pubDate>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-09-25</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260925063801</link>
@@ -166,20 +180,6 @@
       <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260914070602</guid>
       <pubDate>Mon, 14 Sep 2026 07:06:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-09-14</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260914070602</link>
-      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
-      <guid isPermaLink="false">ai-summary-News-20260914070602</guid>
-      <pubDate>Mon, 14 Sep 2026 07:06:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-09-13</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260913064020</link>
-      <description>&lt;div&gt;&lt;strong&gt;[iPhone 18 Pro 预售与销售动态]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;iPhone 18 Pro / Pro Max 已开启预售&lt;/strong&gt;，将于 9 月 18 日正式发售，起售价分别为 &lt;strong&gt;1,199 美元和 1,299 美元&lt;/strong&gt;，256GB 起步、最高 2TB，配色为酒红、冰川、银色、黑色。&lt;br/&gt;• 新机亮点包括 &lt;strong&gt;可变光圈主摄&lt;/strong&gt;、A20 Pro 芯片（GPU 提升 40%）、更小的灵动岛、续航最高 30 小时（Pro Max），以及 &lt;strong&gt;15 分钟充电 50%&lt;/strong&gt; 的有线快充。&lt;br/&gt;• 供货方面：Pro 版本基本可满足首发日交付，&lt;strong&gt;Pro Max 部分配置已排期至 10 月&lt;/strong&gt;；2TB 顶配版仍保留首发日名额。部分消费者持币等待折叠屏 iPhone Duo（10 月 16 日预售，10 月 23 日发售）。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[iPhone Duo 折叠屏]&lt;/strong&gt;&lt;br/&gt;• 外媒评论认为 &lt;strong&gt;iPhone Duo 的分屏多任务设计优于 iPad&lt;/strong&gt;：可将应用置于半屏并保留主屏选择另一应用、保存应用组合、支持视频与应用同屏分屏。文章批评 iPadOS 多任务"非窗口即全屏"的二元模式过于复杂，希望苹果将 Duo 的简化方案引入 iPad。&lt;br/&gt;• 系统设置中发现 &lt;strong&gt;"左缘偏移"（Shift Left Edge）选项&lt;/strong&gt;，可在外屏左侧增加黑色边框以避让遮挡屏幕的保护壳边缘，预计主要面向第三方厚重外壳设计。苹果官方首发两款配件：标准保护壳和带支架的 Folio 保护壳。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[配件与充电]&lt;/strong&gt;&lt;br/&gt;• iPhone 18 Pro 官方快充需搭配苹果 40W 动态电源适配器（60W 峰值，$34.99）才能实现 50%/15 分钟；第三方推荐包括 Anker Nano 45W（$29.99）、70W 三口充电器（$39.99）、ESR 三合一 25W MagSafe 支架（$99.99）和 Belkin 10000mAh MagSafe 移动电源（$85）。&lt;br/&gt;• 保护壳方面，苹果官方硅胶/织物壳 $49-$59；第三方亮点包括 Nomad 皮质系列（$55-$99）、Dbrand Grip（$55）及新品牌 MNML（$39 起）、Spigen 低至 $14。ESR 为 iPhone Duo 推出带 180 度锌合金支架的 Atelier 素皮磁吸壳，磁吸力达 1,400g。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[软件与应用]&lt;/strong&gt;&lt;br/&gt;• 独立应用 Farwave 以 3D 地球形式整合全球电台、播客和本地音乐，支持离线播放与速度调节；iOS 18 以上免费，Pro 版 $2.99/月或 $14.99/年。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[企业与系统管理]&lt;/strong&gt;&lt;br/&gt;• 专栏指出 AI 时代软件更新正转向&lt;strong&gt;持续化补丁模式&lt;/strong&gt;，对 IT 管理提出三点要求：重新教育用户接受频繁强制更新、部署测试窗口从数月压缩至数天甚至数小时、操作系统厂商需构建类似 ChromeOS 的后台静默更新架构。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[周末促销精选]&lt;/strong&gt;&lt;br/&gt;• AirPods Pro 3 降至 &lt;strong&gt;$199&lt;/strong&gt;（原价 $249）；AirTag 2 单枚 $24、四枚装 $80 创历史低价；Apple Studio Display 降至 $1,484 历史低点；14 英寸 M5 Pro MacBook Pro（2TB）直降 &lt;strong&gt;$500&lt;/strong&gt; 至 $2,699；Apple 斜挎挂绳清仓 $17-$21（原价 $59）。&lt;/div&gt;</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20260913064020</guid>
-      <pubDate>Sun, 13 Sep 2026 06:40:20 +0000</pubDate>
     </item>
   </channel>
 </rss>
