@@ -20,6 +20,9 @@ AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
 MAX_HISTORY_ITEMS = int(os.getenv("MAX_HISTORY_ITEMS", "25"))  # RSS 输出文件保留的最大条目数
 MAX_PROCESSED_LINKS = int(os.getenv("MAX_PROCESSED_LINKS", "5000"))  # processed.txt 保留的最大链接数
 
+# 单次运行的 token 用量统计（跨所有源累加，结束时统一输出）
+RUN_TOKEN_USAGE = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "cost": 0.0, "calls": 0}
+
 # 配置 - 支持多个RSS源，用逗号分隔
 RSS_SOURCES = [
     url.strip()
@@ -122,10 +125,40 @@ def fetch_rss_items(source, processed_links):
         print(f"Error fetching RSS: {e}")
         return []
 
+def log_token_usage(source_label, usage):
+    """打印单次 AI 调用的 token 用量日志，并累加到本次运行的总计"""
+    RUN_TOKEN_USAGE["prompt_tokens"] += usage.get("prompt_tokens", 0)
+    RUN_TOKEN_USAGE["completion_tokens"] += usage.get("completion_tokens", 0)
+    RUN_TOKEN_USAGE["total_tokens"] += usage.get("total_tokens", 0)
+    RUN_TOKEN_USAGE["cost"] += usage.get("cost", 0.0)
+    RUN_TOKEN_USAGE["calls"] += 1
+
+    cost = usage.get("cost")
+    cost_str = f" | 费用: ${cost:.6f}" if cost else ""
+    print(
+        f"[Token 用量] {source_label or 'default'} | 模型: {AI_MODEL} | "
+        f"输入: {usage.get('prompt_tokens', 0)} | 输出: {usage.get('completion_tokens', 0)} | "
+        f"总计: {usage.get('total_tokens', 0)}{cost_str}"
+    )
+
+def print_token_usage_summary():
+    """输出本次运行所有 AI 调用的 token 用量总计"""
+    if RUN_TOKEN_USAGE["calls"] == 0:
+        return
+    cost = RUN_TOKEN_USAGE["cost"]
+    cost_str = f" | 总费用: ${cost:.6f}" if cost else ""
+    print(
+        f"\n[Token 用量总计] 调用 {RUN_TOKEN_USAGE['calls']} 次 | "
+        f"输入: {RUN_TOKEN_USAGE['prompt_tokens']} | 输出: {RUN_TOKEN_USAGE['completion_tokens']} | "
+        f"总计: {RUN_TOKEN_USAGE['total_tokens']}{cost_str}"
+    )
+
 def get_ai_summary(items, source_label=None):
     """调用 AI 生成摘要，使用流式请求避免长耗时被超时截断，带重试机制"""
     if not OPENROUTER_API_KEY:
         raise ValueError("OPENROUTER_API_KEY is not set!")
+
+    token_usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "cost": 0.0}
 
     # 构建来源上下文
     source_context = ""
@@ -167,6 +200,7 @@ def get_ai_summary(items, source_label=None):
         "model": AI_MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "stream": True,  # 开启流式响应，避免总耗时超过单次超时限制
+        "stream_options": {"include_usage": True},  # 让流式响应在最后一个 chunk 附带 token 用量
     }
 
     # 每个数据块之间最长等待秒数（不是总耗时上限）
@@ -203,6 +237,16 @@ def get_ai_summary(items, source_label=None):
                         # 有些实现会把多个 JSON 对象粘连在一行，忽略解析失败的行
                         continue
 
+                    # 用量 chunk 可能没有 choices，必须在 choices 判断之前捕获
+                    usage = chunk.get("usage")
+                    if usage:
+                        token_usage.update({
+                            "prompt_tokens": usage.get("prompt_tokens", 0) or 0,
+                            "completion_tokens": usage.get("completion_tokens", 0) or 0,
+                            "total_tokens": usage.get("total_tokens", 0) or 0,
+                            "cost": usage.get("cost") or 0.0,
+                        })
+
                     choices = chunk.get("choices") or []
                     if not choices:
                         continue
@@ -214,6 +258,7 @@ def get_ai_summary(items, source_label=None):
 
             full_content = "".join(content_parts).strip()
             if full_content:
+                log_token_usage(source_label, token_usage)
                 return full_content
 
             raise ValueError("Streamed response was empty")
@@ -417,6 +462,7 @@ def main():
     trim_processed_file()
 
     print("Summary generated successfully!")
+    print_token_usage_summary()
     git_commit_push()
 
 if __name__ == "__main__":
