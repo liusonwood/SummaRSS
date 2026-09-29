@@ -10,6 +10,8 @@ import subprocess
 import re
 import trafilatura
 import time
+import threading
+from concurrent.futures import ThreadPoolExecutor
 
 PROCESSED_FILE = "processed.txt"
 OUTPUT_FEED = "summary_feed.xml"
@@ -19,6 +21,17 @@ MAX_ITEMS = 50
 AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
 MAX_HISTORY_ITEMS = int(os.getenv("MAX_HISTORY_ITEMS", "25"))  # RSS 输出文件保留的最大条目数
 MAX_PROCESSED_LINKS = int(os.getenv("MAX_PROCESSED_LINKS", "5000"))  # processed.txt 保留的最大链接数
+MAX_WORKERS = int(os.getenv("MAX_WORKERS", "4"))  # 并发处理的 RSS 源数量上限
+ARTICLE_TIMEOUT = int(os.getenv("ARTICLE_TIMEOUT", "15"))  # 单篇文章抓取超时（秒）
+
+USER_AGENT = (
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
+    '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+)
+
+# 线程锁：保护共享的 token 统计和 processed.txt 写入
+USAGE_LOCK = threading.Lock()
+STORAGE_LOCK = threading.Lock()
 
 # 单次运行的 token 用量统计（跨所有源累加，结束时统一输出）
 RUN_TOKEN_USAGE = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "cost": 0.0, "calls": 0}
@@ -45,11 +58,12 @@ def load_processed_links():
         return set(line.strip() for line in f if line.strip())
 
 def update_storage(links):
-    """记录已处理的链接"""
-    with open(PROCESSED_FILE, 'a') as f:
-        for link in links:
-            if link:
-                f.write(f"{link}\n")
+    """记录已处理的链接（加锁，避免多线程同时写入）"""
+    with STORAGE_LOCK:
+        with open(PROCESSED_FILE, 'a') as f:
+            for link in links:
+                if link:
+                    f.write(f"{link}\n")
 
 def trim_processed_file():
     """裁剪 processed.txt，只保留最近的 MAX_PROCESSED_LINKS 条记录
@@ -71,67 +85,72 @@ def source_name(url):
     name = hostname.replace("www.", "").split(".")[0]
     return name.title()
 
+def fetch_article_html(url):
+    """带超时地下载文章 HTML（返回 bytes，交给 trafilatura 自行判断编码）"""
+    req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
+    with urllib.request.urlopen(req, timeout=ARTICLE_TIMEOUT) as response:
+        return response.read()
+
 def fetch_rss_items(source, processed_links):
     """抓取 RSS：先判断是否已读，只有新文章才抓取全文"""
     try:
         source_label = source_name(source)
-        print(f"正在读取 RSS 源: {source_label}")
-        req = urllib.request.Request(source, headers={
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-        })
+        print(f"[{source_label}] 正在读取 RSS 源")
+        req = urllib.request.Request(source, headers={'User-Agent': USER_AGENT})
         with urllib.request.urlopen(req, timeout=15) as response:
             content = response.read()
-                
+
         root = ET.fromstring(content)
         items = []
         for item in root.findall('.//item'):
             title = item.find('title').text if item.find('title') is not None else "No Title"
             link = item.find('link').text if item.find('link') is not None else ""
-            
+
             if not link:
                 guid = item.find('guid')
                 if guid is not None: link = guid.text
-            
+
             link = link.strip()
 
             # --- 先做判断，跳过已读文章，极大提升速度 ---
             if link in processed_links:
                 continue
-                
-            print(f"发现新文章，正在抓取全文: {title}")
+
+            print(f"[{source_label}] 发现新文章，正在抓取全文: {title}")
             body = ""
             try:
-                downloaded = trafilatura.fetch_url(link)
+                downloaded = fetch_article_html(link)
                 if downloaded:
                     body = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
             except Exception as e:
-                print(f"  [!] 全文提取失败: {e}")
+                print(f"  [!] [{source_label}] 全文提取失败: {e}")
 
             if not body or len(body) < 10:
-                print("  [!] 内容过少，使用原生摘要兜底")
+                print(f"  [!] [{source_label}] 内容过少，使用原生摘要兜底")
                 content_encoded = item.find('{http://purl.org/rss/1.0/modules/content/}encoded')
                 description = item.find('description').text if item.find('description') is not None else ""
                 fallback = content_encoded.text if content_encoded is not None else description
                 body = clean_html(fallback)
-            
+
             items.append({"title": title, "link": link, "body": body, "source": source})
-            
+
             # 达到单次最大处理量提前停止抓取
             if len(items) >= MAX_ITEMS:
                 break
-                
+
         return items
     except Exception as e:
         print(f"Error fetching RSS: {e}")
         return []
 
 def log_token_usage(source_label, usage):
-    """打印单次 AI 调用的 token 用量日志，并累加到本次运行的总计"""
-    RUN_TOKEN_USAGE["prompt_tokens"] += usage.get("prompt_tokens", 0)
-    RUN_TOKEN_USAGE["completion_tokens"] += usage.get("completion_tokens", 0)
-    RUN_TOKEN_USAGE["total_tokens"] += usage.get("total_tokens", 0)
-    RUN_TOKEN_USAGE["cost"] += usage.get("cost", 0.0)
-    RUN_TOKEN_USAGE["calls"] += 1
+    """打印单次 AI 调用的 token 用量日志，并累加到本次运行的总计（加锁）"""
+    with USAGE_LOCK:
+        RUN_TOKEN_USAGE["prompt_tokens"] += usage.get("prompt_tokens", 0)
+        RUN_TOKEN_USAGE["completion_tokens"] += usage.get("completion_tokens", 0)
+        RUN_TOKEN_USAGE["total_tokens"] += usage.get("total_tokens", 0)
+        RUN_TOKEN_USAGE["cost"] += usage.get("cost", 0.0)
+        RUN_TOKEN_USAGE["calls"] += 1
 
     cost = usage.get("cost")
     cost_str = f" | 费用: ${cost:.6f}" if cost else ""
@@ -416,40 +435,50 @@ def git_commit_push():
         except subprocess.CalledProcessError as e:
             print(f"Git command skipped/failed: {e.stdout.decode()}")
 
+def process_source(source, processed_links):
+    """处理单个 RSS 源（在线程池中运行）。
+    返回 (label, summary) 或 None（无新文章 / 失败）。
+    单个源失败不影响其他源。
+    """
+    label = source_name(source)
+    try:
+        print(f"\n{'='*50}\nProcessing source: {label}\n{'='*50}")
+
+        # 获取并处理文章（内部已做查重，未读的才抓取）
+        new_items = fetch_rss_items(source, processed_links)
+        print(f"[{label}] Found {len(new_items)} new items.")
+
+        if not new_items:
+            print(f"[{label}] No new items. Skipping.")
+            return None
+
+        # 标记已读 - 在AI调用前就标记，避免AI失败时重复处理
+        update_storage([item['link'] for item in new_items])
+
+        # 为当前源生成AI摘要
+        print(f"[{label}] Generating AI summary...")
+        summary = get_ai_summary(new_items, source_label=label)
+        return (label, summary)
+
+    except Exception as e:
+        print(f"[ERROR] Failed to process {label}: {e}")
+        return None
+
 def main():
     print("Starting RSS AI Summarizer...")
     processed_links = load_processed_links()
 
-    all_summaries = []  # 收集所有源的摘要 (source_label, summary_text) 元组列表
+    if not RSS_SOURCES:
+        print("No RSS sources configured. Exiting.")
+        return
 
-    # 循环处理每个RSS源
-    for source in RSS_SOURCES:
-        print(f"\n{'='*50}")
-        print(f"Processing source: {source_name(source)}")
-        print(f"{'='*50}")
+    # 并发处理所有 RSS 源；ex.map 保持结果顺序与 RSS_SOURCES 一致
+    workers = max(1, min(MAX_WORKERS, len(RSS_SOURCES)))
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        results = list(ex.map(lambda s: process_source(s, processed_links), RSS_SOURCES))
 
-        try:
-            # 获取并处理文章（内部已做查重，未读的才抓取）
-            new_items = fetch_rss_items(source, processed_links)
-            label = source_name(source)
-            print(f"Found {len(new_items)} new items from {label}.")
-
-            if not new_items:
-                print(f"No new items from {label}. Skipping.")
-                continue
-
-            # 标记已读 - 在AI调用前就标记，避免AI失败时重复处理
-            update_storage([item['link'] for item in new_items])
-
-            # 为当前源生成AI摘要
-            print(f"Generating AI summary for {label}...")
-            summary = get_ai_summary(new_items, source_label=label)
-            all_summaries.append((label, summary))
-
-        except Exception as e:
-            # 单个源失败不影响其他源的处理
-            print(f"[ERROR] Failed to process {source_name(source)}: {e}")
-            continue
+    # (source_label, summary_text) 元组列表
+    all_summaries = [r for r in results if r]
 
     if not all_summaries:
         print("No new items from any source. Exiting.")
