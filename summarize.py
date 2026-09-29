@@ -34,7 +34,7 @@ USAGE_LOCK = threading.Lock()
 STORAGE_LOCK = threading.Lock()
 
 # 单次运行的 token 用量统计（跨所有源累加，结束时统一输出）
-RUN_TOKEN_USAGE = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "cost": 0.0, "calls": 0}
+RUN_TOKEN_USAGE = {"prompt_tokens": 0, "completion_tokens": 0, "reasoning_tokens": 0, "total_tokens": 0, "cost": 0.0, "calls": 0}
 
 # 配置 - 支持多个RSS源，用逗号分隔
 RSS_SOURCES = [
@@ -145,9 +145,15 @@ def fetch_rss_items(source, processed_links):
 
 def log_token_usage(source_label, usage):
     """打印单次 AI 调用的 token 用量日志，并累加到本次运行的总计（加锁）"""
+    prompt = usage.get("prompt_tokens", 0)
+    completion = usage.get("completion_tokens", 0)  # 已包含思考 token
+    reasoning = usage.get("reasoning_tokens", 0)
+    answer = max(completion - reasoning, 0)  # 实际正文输出
+
     with USAGE_LOCK:
-        RUN_TOKEN_USAGE["prompt_tokens"] += usage.get("prompt_tokens", 0)
-        RUN_TOKEN_USAGE["completion_tokens"] += usage.get("completion_tokens", 0)
+        RUN_TOKEN_USAGE["prompt_tokens"] += prompt
+        RUN_TOKEN_USAGE["completion_tokens"] += completion
+        RUN_TOKEN_USAGE["reasoning_tokens"] += reasoning
         RUN_TOKEN_USAGE["total_tokens"] += usage.get("total_tokens", 0)
         RUN_TOKEN_USAGE["cost"] += usage.get("cost", 0.0)
         RUN_TOKEN_USAGE["calls"] += 1
@@ -156,7 +162,7 @@ def log_token_usage(source_label, usage):
     cost_str = f" | 费用: ${cost:.6f}" if cost else ""
     print(
         f"[Token 用量] {source_label or 'default'} | 模型: {AI_MODEL} | "
-        f"输入: {usage.get('prompt_tokens', 0)} | 输出: {usage.get('completion_tokens', 0)} | "
+        f"输入: {prompt} | 思考: {reasoning} | 正文: {answer} | "
         f"总计: {usage.get('total_tokens', 0)}{cost_str}"
     )
 
@@ -166,9 +172,11 @@ def print_token_usage_summary():
         return
     cost = RUN_TOKEN_USAGE["cost"]
     cost_str = f" | 总费用: ${cost:.6f}" if cost else ""
+    reasoning = RUN_TOKEN_USAGE["reasoning_tokens"]
+    answer = max(RUN_TOKEN_USAGE["completion_tokens"] - reasoning, 0)
     print(
         f"\n[Token 用量总计] 调用 {RUN_TOKEN_USAGE['calls']} 次 | "
-        f"输入: {RUN_TOKEN_USAGE['prompt_tokens']} | 输出: {RUN_TOKEN_USAGE['completion_tokens']} | "
+        f"输入: {RUN_TOKEN_USAGE['prompt_tokens']} | 思考: {reasoning} | 正文: {answer} | "
         f"总计: {RUN_TOKEN_USAGE['total_tokens']}{cost_str}"
     )
 
@@ -177,7 +185,7 @@ def get_ai_summary(items, source_label=None):
     if not OPENROUTER_API_KEY:
         raise ValueError("OPENROUTER_API_KEY is not set!")
 
-    token_usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "cost": 0.0}
+    token_usage = {"prompt_tokens": 0, "completion_tokens": 0, "reasoning_tokens": 0, "total_tokens": 0, "cost": 0.0}
 
     # 构建来源上下文
     source_context = ""
@@ -259,9 +267,11 @@ def get_ai_summary(items, source_label=None):
                     # 用量 chunk 可能没有 choices，必须在 choices 判断之前捕获
                     usage = chunk.get("usage")
                     if usage:
+                        details = usage.get("completion_tokens_details") or {}
                         token_usage.update({
                             "prompt_tokens": usage.get("prompt_tokens", 0) or 0,
                             "completion_tokens": usage.get("completion_tokens", 0) or 0,
+                            "reasoning_tokens": details.get("reasoning_tokens", 0) or 0,
                             "total_tokens": usage.get("total_tokens", 0) or 0,
                             "cost": usage.get("cost") or 0.0,
                         })
