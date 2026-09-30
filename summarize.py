@@ -9,6 +9,7 @@ from email.utils import format_datetime
 import subprocess
 import re
 import trafilatura
+from trafilatura.settings import use_config
 import time
 import threading
 from concurrent.futures import ThreadPoolExecutor
@@ -28,6 +29,12 @@ USER_AGENT = (
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
     '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 )
+
+DC_NS = "http://purl.org/dc/elements/1.1/"  # Dublin Core，用于 dc:creator（文章作者）
+
+# trafilatura.fetch_url 兜底用的配置：限制下载超时，避免再次卡住
+TRAF_CONFIG = use_config()
+TRAF_CONFIG.set("DEFAULT", "DOWNLOAD_TIMEOUT", str(ARTICLE_TIMEOUT))
 
 # 线程锁：保护共享的 token 统计和 processed.txt 写入
 USAGE_LOCK = threading.Lock()
@@ -118,12 +125,21 @@ def fetch_rss_items(source, processed_links):
 
             print(f"[{source_label}] 发现新文章，正在抓取全文: {title}")
             body = ""
+            downloaded = None
             try:
                 downloaded = fetch_article_html(link)
-                if downloaded:
-                    body = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
             except Exception as e:
-                print(f"  [!] [{source_label}] 全文提取失败: {e}")
+                print(f"  [!] [{source_label}] urllib 抓取失败: {e}，改用 trafilatura.fetch_url")
+                try:
+                    downloaded = trafilatura.fetch_url(link, config=TRAF_CONFIG)
+                except Exception as e2:
+                    print(f"  [!] [{source_label}] trafilatura 抓取也失败: {e2}")
+
+            if downloaded:
+                try:
+                    body = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
+                except Exception as e:
+                    print(f"  [!] [{source_label}] 全文提取失败: {e}")
 
             if not body or len(body) < 10:
                 print(f"  [!] [{source_label}] 内容过少，使用原生摘要兜底")
@@ -311,6 +327,7 @@ def generate_rss_xml(summaries):
 
     # 注册 Atom 命名空间
     ET.register_namespace('atom', "http://www.w3.org/2005/Atom")
+    ET.register_namespace('dc', DC_NS)
 
     now_utc = datetime.now(timezone.utc)
     now_beijing = now_utc + timedelta(hours=8)
@@ -400,6 +417,7 @@ def generate_rss_xml(summaries):
         ET.SubElement(item, "description").text = f"<div>{html_content}</div>"
         ET.SubElement(item, "guid", isPermaLink="false").text = item_guid
         ET.SubElement(item, "pubDate").text = rfc822_date
+        ET.SubElement(item, f"{{{DC_NS}}}creator").text = AI_MODEL  # 作者 = 当前配置的完整模型名称
 
         # 插入到最前面
         if first_item_index != -1:
