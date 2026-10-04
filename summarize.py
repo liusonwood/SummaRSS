@@ -3,6 +3,7 @@ import json
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import urllib.request
+import urllib.error
 import urllib.parse
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
@@ -244,7 +245,7 @@ def get_ai_summary(items, source_label=None):
         "messages": [{"role": "user", "content": prompt}],
         "stream": True,  # 开启流式响应，避免总耗时超过单次超时限制
         "stream_options": {"include_usage": True},  # 让流式响应在最后一个 chunk 附带 token 用量
-        "reasoning": {"effort": "medium"},
+        "reasoning": {"effort": "medium"},  # 强制开启推理，可改 low / high
     }
 
     # 每个数据块之间最长等待秒数（不是总耗时上限）
@@ -310,8 +311,15 @@ def get_ai_summary(items, source_label=None):
             raise ValueError("Streamed response was empty")
 
         except Exception as e:
+            # HTTP 错误时读取响应体，OpenRouter 会在 body 里说明 400 的具体原因
+            detail = ""
+            if isinstance(e, urllib.error.HTTPError):
+                try:
+                    detail = e.read().decode("utf-8", errors="ignore")
+                except Exception:
+                    pass
             wait_time = (attempt + 1) * 10
-            print(f"Error calling AI API (Attempt {attempt + 1}/{max_retries}): {e}")
+            print(f"Error calling AI API (Attempt {attempt + 1}/{max_retries}): {e} {detail}")
             if attempt < max_retries - 1:
                 print(f"Retrying in {wait_time} seconds...")
                 time.sleep(wait_time)
