@@ -1,4 +1,3 @@
-https://9to5mac.com/2026/06/26/openai-upgrading-chatgpt-and-codex-with-new-gpt-5-6-models-in-limited-release/
 https://9to5mac.com/2026/06/26/apple-just-announced-its-first-film-this-year-with-a-theatrical-release/
 https://9to5mac.com/2026/06/26/new-iphone-18-specs-report-raises-big-question-of-ios-27-limitations/
 https://9to5mac.com/2026/06/26/ios-27-200-features-and-changes-10-best-new-features-video/
@@ -4995,3 +4994,7 @@ https://blog.cloudflare.com/next-git-platform-on-cloudflare/
 https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/
 https://devforum.play.date/t/dirty-optimization-secrets-c-for-playdate/23011
 https://reclaimthenet.org/uk-prevent-unit-tracked-online-critics
+https://www.theguardian.com/world/2026/oct/03/spain-housing-protest
+https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/
+https://metedata.substack.com/p/what-meta-got-right-with-muse
+https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2
