@@ -244,7 +244,6 @@ def get_ai_summary(items, source_label=None):
         "model": AI_MODEL,
         "input": prompt,
         "stream": True,  # 开启流式响应，避免总耗时超过单次超时限制
-        "reasoning": {"effort": "medium"},  # 强制开启推理，可改 low / high
     }
 
     # 每个数据块之间最长等待秒数（不是总耗时上限）
