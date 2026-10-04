@@ -5,7 +5,15 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Sun, 04 Oct 2026 08:57:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 09:09:10 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - News - 2026-10-04</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20261004090910</link>
+      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-News-20261004090910</guid>
+      <pubDate>Sun, 04 Oct 2026 09:09:10 +0000</pubDate>
+      <dc:creator>glm-5.3</dc:creator>
+    </item>
     <item>
       <title>AI 简报 - News - 2026-10-04</title>
       <link>https://github.com/liusonwood/summarss?item=News-20261004085752</link>
@@ -181,13 +189,6 @@
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20260923062924</link>
       <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20260923062924</guid>
-      <pubDate>Wed, 23 Sep 2026 06:29:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-09-23</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20260923062924</link>
-      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
-      <guid isPermaLink="false">ai-summary-News-20260923062924</guid>
       <pubDate>Wed, 23 Sep 2026 06:29:24 +0000</pubDate>
     </item>
   </channel>
