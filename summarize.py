@@ -244,6 +244,7 @@ def get_ai_summary(items, source_label=None):
         "messages": [{"role": "user", "content": prompt}],
         "stream": True,  # 开启流式响应，避免总耗时超过单次超时限制
         "stream_options": {"include_usage": True},  # 让流式响应在最后一个 chunk 附带 token 用量
+        "reasoning": {"effort": "medium"},
     }
 
     # 每个数据块之间最长等待秒数（不是总耗时上限）
