@@ -17,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 PROCESSED_FILE = "processed.txt"
 OUTPUT_FEED = "summary_feed.xml"
-OPENROUTER_API_ENDPOINT = os.getenv("OPENROUTER_API_ENDPOINT", "https://openrouter.ai/api/v1/responses")
+OPENROUTER_API_ENDPOINT = os.getenv("OPENROUTER_API_ENDPOINT", "https://openrouter.ai/api/v1/chat/completions")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MAX_ITEMS = 50
 AI_MODEL = os.getenv("AI_MODEL", "google/gemini-2.0-flash-001")
@@ -242,8 +242,9 @@ def get_ai_summary(items, source_label=None):
 
     data = {
         "model": AI_MODEL,
-        "input": prompt,
+        "messages": [{"role": "user", "content": prompt}],
         "stream": True,  # 开启流式响应，避免总耗时超过单次超时限制
+        "stream_options": {"include_usage": True},  # 让流式响应在最后一个 chunk 附带 token 用量
     }
 
     # 每个数据块之间最长等待秒数（不是总耗时上限）
@@ -280,25 +281,26 @@ def get_ai_summary(items, source_label=None):
                         # 有些实现会把多个 JSON 对象粘连在一行，忽略解析失败的行
                         continue
 
-                    event_type = chunk.get("type", "")
-
-                    # 正文增量
-                    if event_type == "response.output_text.delta":
-                        piece = chunk.get("delta")
-                        if piece:
-                            content_parts.append(piece)
-
-                    # 结束事件里带完整 token 用量
-                    elif event_type == "response.completed":
-                        usage = (chunk.get("response") or {}).get("usage") or {}
-                        details = usage.get("output_tokens_details") or {}
+                    # 用量 chunk 可能没有 choices，必须在 choices 判断之前捕获
+                    usage = chunk.get("usage")
+                    if usage:
+                        details = usage.get("completion_tokens_details") or {}
                         token_usage.update({
-                            "prompt_tokens": usage.get("input_tokens", 0) or 0,
-                            "completion_tokens": usage.get("output_tokens", 0) or 0,
+                            "prompt_tokens": usage.get("prompt_tokens", 0) or 0,
+                            "completion_tokens": usage.get("completion_tokens", 0) or 0,
                             "reasoning_tokens": details.get("reasoning_tokens", 0) or 0,
                             "total_tokens": usage.get("total_tokens", 0) or 0,
                             "cost": usage.get("cost") or 0.0,
                         })
+
+                    choices = chunk.get("choices") or []
+                    if not choices:
+                        continue
+
+                    delta = choices[0].get("delta", {}) or {}
+                    piece = delta.get("content")
+                    if piece:
+                        content_parts.append(piece)
 
             full_content = "".join(content_parts).strip()
             if full_content:
