@@ -259,6 +259,7 @@ def get_ai_summary(items, source_label=None):
                 headers={
                     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
                     "Content-Type": "application/json",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
                     "HTTP-Referer": "https://github.com/liusonwood/summarss",
                     "X-Title": "RSS AI Summary Agent"
                 }
