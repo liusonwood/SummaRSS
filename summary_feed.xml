@@ -5,7 +5,23 @@
     <link>https://github.com/liusonwood/rss_ai_summarise</link>
     <description>由 AI 自动生成的文章全文摘要</description>
     <atom:link rel="self" type="application/rss+xml" href="https://raw.githubusercontent.com/liusonwood/summarss/main/summary_feed.xml"/>
-    <lastBuildDate>Fri, 06 Nov 2026 03:42:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 03:11:23 +0000</lastBuildDate>
+    <item>
+      <title>AI 简报 - 9To5Mac - 2026-11-07</title>
+      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20261107031123</link>
+      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-9To5Mac-20261107031123</guid>
+      <pubDate>Sat, 07 Nov 2026 03:11:23 +0000</pubDate>
+      <dc:creator>grok-4.7</dc:creator>
+    </item>
+    <item>
+      <title>AI 简报 - News - 2026-11-07</title>
+      <link>https://github.com/liusonwood/summarss?item=News-20261107031123</link>
+      <description>&lt;div&gt;摘要生成失败：API 调用多次重试均告失败。&lt;/div&gt;</description>
+      <guid isPermaLink="false">ai-summary-News-20261107031123</guid>
+      <pubDate>Sat, 07 Nov 2026 03:11:23 +0000</pubDate>
+      <dc:creator>grok-4.7</dc:creator>
+    </item>
     <item>
       <title>AI 简报 - 9To5Mac - 2026-11-06</title>
       <link>https://github.com/liusonwood/summarss?item=9To5Mac-20261106034242</link>
@@ -188,22 +204,6 @@
       <description>&lt;div&gt;&lt;strong&gt;[iPhone Duo]&lt;/strong&gt;&lt;br/&gt;• 周五开售后已出现约 &lt;strong&gt;10 例&lt;/strong&gt;内屏自行开裂：裂缝沿铰链中线延伸，并有一条横向像素持续发白。部分机器在首次设置时即损坏。Apple Store 购机者多数可直接换新；运营商渠道缺货，有用户被认定摔坏并要求自费维修。苹果尚未给出折叠操作指引，也未回应问询。&lt;br/&gt;• 故障集中在连接两半机身的排线开口与中部铰链支撑的过渡区域。一种判断是某批次铰链零件轻微错位、向上顶到内屏。iFixit 结合 CT、拆解与专利建模后提出几条可能：中部支撑条合盖时未正常回缩而过度挤压屏幕；引导铰链的弧形导轨在折叠中高出周围部件并干涉屏幕；多处结构边缘在同一位置汇聚，使应力集中。原因尚未确认。&lt;br/&gt;• iFixit 给出暂定可维修评分 &lt;strong&gt;5/10&lt;/strong&gt;，称其为迄今评过的折叠手机最高分，最终取决于替换零件是否供应。机身达到 &lt;strong&gt;IP68&lt;/strong&gt;，防尘，并可在 &lt;strong&gt;6 米&lt;/strong&gt;水深停留 &lt;strong&gt;30 分钟&lt;/strong&gt;。荧光粉尘测试后铰链出现嘎吱声，但进入铰链的粉尘少于其他折叠机。&lt;br/&gt;• 铰链由齿轮、弹簧和互联金属关节组成，采用水滴式折弯为屏幕让出空间，并用弧形导轨控制关节运动、减轻屏幕应力。内屏为哑光纳米纹理，显微镜下可见细小圆凸，用于散射反光、减弱折痕。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[MacBook]&lt;/strong&gt;&lt;br/&gt;• 报道称苹果本周将推出首款触控屏 MacBook Pro。改款后产品线分为三档：现有设计的 14 英寸 &lt;strong&gt;M6&lt;/strong&gt; 基础款，散热较弱；维持不变的 14/16 英寸 &lt;strong&gt;M5 Pro / M5 Max&lt;/strong&gt;；以及更轻的 OLED 触控顶配，搭载 M5 Pro / M5 Max，并具备 Dynamic Island，可能支持蜂窝网络。这是 2021 年以来 MacBook Pro 的首次重大改款。&lt;br/&gt;• 14 英寸 M6 预计沿用现款 M5 的 &lt;strong&gt;1999 美元&lt;/strong&gt;。现款该价位为 &lt;strong&gt;1TB&lt;/strong&gt; 存储、&lt;strong&gt;16GB&lt;/strong&gt; 统一内存，但不排除基础存储回到 512GB。现有高端机预计仍为 14 英寸 &lt;strong&gt;2499 美元&lt;/strong&gt;、16 英寸 &lt;strong&gt;2999 美元&lt;/strong&gt;。Omdia 称 MacBook Pro 的 miniLED 面板将生产至 &lt;strong&gt;2028 年&lt;/strong&gt;。&lt;br/&gt;• Mark Gurman 称改款价格将显著更高。文中对改款 14/16 英寸 &lt;strong&gt;2999 / 3499 美元&lt;/strong&gt; 的估计只是猜测，实际起价可能更高。同文还列出 MacBook Neo &lt;strong&gt;699 美元&lt;/strong&gt;，13/15 英寸 MacBook Air &lt;strong&gt;1299 / 1499 美元&lt;/strong&gt;。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[iPad mini]&lt;/strong&gt;&lt;br/&gt;• 报道称搭载 OLED 的新款 iPad mini 将于本周发布，为 2021 年以来首次大改、2024 年以来首次换芯。屏幕不是 iPad Pro 所用的 Tandem OLED，色彩、对比度和亮度仍会提升；是否上 &lt;strong&gt;120Hz ProMotion&lt;/strong&gt; 不明，可能仍为 60Hz。&lt;br/&gt;• 传闻芯片为 &lt;strong&gt;A20 Pro&lt;/strong&gt;、&lt;strong&gt;12GB&lt;/strong&gt; 内存，现款为 A17 Pro、8GB。相对 A17 Pro，多核 CPU 约提升 &lt;strong&gt;60%&lt;/strong&gt;，GPU 约提升 &lt;strong&gt;166%&lt;/strong&gt;，可在本地运行更高级的端侧模型，并改善 Siri 语音与听写。&lt;br/&gt;• 苹果正通过新外壳和重新设计的扬声器提升防水、帮助排出进水，这或使其成为首款防水 iPad。Mark Gurman 称起售价或为 &lt;strong&gt;799 美元&lt;/strong&gt;，高于现款 &lt;strong&gt;599 美元&lt;/strong&gt;；该价位是否仍从 128GB 起售尚不清楚。&lt;/div&gt;</description>
       <guid isPermaLink="false">ai-summary-9To5Mac-20261026014146</guid>
       <pubDate>Mon, 26 Oct 2026 01:41:46 +0000</pubDate>
-      <dc:creator>grok-4.7</dc:creator>
-    </item>
-    <item>
-      <title>AI 简报 - News - 2026-10-26</title>
-      <link>https://github.com/liusonwood/summarss?item=News-20261026014146</link>
-      <description>&lt;div&gt;&lt;strong&gt;[人工智能与机器学习]&lt;/strong&gt;&lt;br/&gt;• &lt;strong&gt;Grassmann flows&lt;/strong&gt; 架构作为注意力替代方案，在Wikitext-2基准上13-18M参数模型困惑度仅高出Transformer10-15%，SNLI任务上DistilBERT+Grassmann头准确率达0.8550/0.8538。&lt;br/&gt;• Inception v3微调版CNN在200例活检皮肤病变数据集上诊断准确率&lt;strong&gt;62%&lt;/strong&gt;，显著优于GPT-6 Astra（42%）与Claude Fable 5.1（42%），尤其在良性病变识别上优势明显。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[LLM定价调整]&lt;/strong&gt;&lt;br/&gt;• OpenAI与Anthropic在数月内大幅削减LLM价格，最多降幅80%；GPT-5.6 Luna价格从$1/$6降至$0.20/$1.20，GPT-6 Sol进一步降至$2/$10，缓存读成本减75%导致代理使用成本下降70-75%。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[硬件与技术端口]&lt;/strong&gt;&lt;br/&gt;• F-Zero X经去编译后原生适配Nintendo 3DS，支持老/新主机与64DD扩展，&lt;strong&gt;60fps立体3D渲染&lt;/strong&gt;实现，底屏仪表盘与HOME菜单无缝；Old 3DS通过原生渲染器维持60fps帧率。&lt;br/&gt;• &lt;strong&gt;Hurston-1&lt;/strong&gt;开源TTS模型，支持南方美式与非裔英语口音，专为电话线设计（8kHz G.711 mu-law），基于Maya1微调，训练数据包含真实AI语音代理通话。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[隐私与安全事件]&lt;/strong&gt;&lt;br/&gt;• DreamHost 2026年10月23-24日发生主动安全事件，强制部分邮箱/FTP/SFTP用户重置密码，邮件分批发送，面板.dreamhost.com可直接操作。&lt;br/&gt;• Eugene市以$2,484,599.04（约2.5M美元）要求Double Sided Media支付处理2026年警员不当行为记录请求，理由是搜索全城员工档案耗时44,816小时。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[文化与历史保存]&lt;/strong&gt;&lt;br/&gt;• Getty博物馆与土库曼斯坦国立博物馆合作修复Merv古城5-6世纪CE泥塑佛头像，采用摄影测量与结构光扫描，内部基材残留树脂等现代材料已移除重建。&lt;br/&gt;• Woking退休装饰工家族收藏的Pokémon卡在Ewbank拍卖行以&lt;strong&gt;£1.56 million&lt;/strong&gt;成交，创英国交易卡拍卖纪录，传奇收藏单张Charizard卡拍£100,000。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[选举与政治]&lt;/strong&gt;&lt;br/&gt;• 塞尔维亚总统Vučić在最终计票后承认败选，学生运动获历史性胜利； Lula赢得选举。&lt;br/&gt;• 罗马从王政到帝国时期1,469场知名陆海战数据库上线，可按时期/25年窗查看对手、胜负与军队语言。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[其他值得关注]&lt;/strong&gt;&lt;br/&gt;• Dolly Parton 1995年起在美加英澳爱尔兰启动想象图书馆，&lt;strong&gt;儿童注册总数&lt;/strong&gt;与&lt;strong&gt;赠书总量&lt;/strong&gt;持续增长，每月赠送百万册至学龄前儿童家庭。&lt;br/&gt;• JetBrains Thinkrail推出代理式IDE，支持隔离git工作区、living specs与可重用技能，聊天流式输出并维护项目意图图。&lt;/div&gt;</description>
-      <guid isPermaLink="false">ai-summary-News-20261026014146</guid>
-      <pubDate>Mon, 26 Oct 2026 01:41:46 +0000</pubDate>
-      <dc:creator>grok-4.7</dc:creator>
-    </item>
-    <item>
-      <title>AI 简报 - 9To5Mac - 2026-10-25</title>
-      <link>https://github.com/liusonwood/summarss?item=9To5Mac-20261025013751</link>
-      <description>&lt;div&gt;&lt;strong&gt;[iPhone Duo 使用体验]&lt;/strong&gt;&lt;br/&gt;• 首日使用反馈显示&lt;strong&gt;iPhone Duo&lt;/strong&gt;具备全体验性，Touch ID学习曲线可控，内嵌FaceTime摄像头良好照明下表现正常，开发者已加速适配早期未更新应用。&lt;br/&gt;• 外置小屏带来聚焦使用感，背滑手势需从左边缘操作，建议右边缘背滑支持；Apple Watch解锁功能可结合摄像头面部识别增强。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[Belkin半固态电池]&lt;/strong&gt;&lt;br/&gt;• 推出10,000mAh USB-C版220g、60W充电、$89.95；5,000mAh MagSafe版15W Qi2充电、$69.99，均采用铝制机身，重量远轻于传统同容量电源。&lt;br/&gt;• &lt;strong&gt;MagSafe电池&lt;/strong&gt;更薄，适合iPhone Duo，预计兼容性问题将在iPhone Duo设计机型上解决。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[企业AI治理]&lt;/strong&gt;&lt;br/&gt;• 浏览器是IT团队AI管控最大空白，员工通过Safari/Chrome使用个人账号上传公司文件至AI模型，设备管理无法追踪。&lt;br/&gt;• Jamf计划Q4 2026推出浏览器AI治理功能，支持识别个人AI账号并执行策略；企业浏览器方案如Island正成主流，控制从容器层面管理工具使用。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[数据隐私保护]&lt;/strong&gt;&lt;br/&gt;• 美国数据经纪商可合法买卖个人数据，Apple现有追踪透明度、隐藏邮箱、私密中继等工具无法移除已收集信息。&lt;br/&gt;• &lt;strong&gt;Incogni&lt;/strong&gt;自动化向420+数据经纪商数据库发送移除请求，Unlimited计划覆盖3,000+站点，提供实时仪表盘跟踪请求状态。&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;[周末优惠]&lt;/strong&gt;&lt;br/&gt;• Apple TV 4K 4代降至$289，AirPods Pro 3 $199（降$50），AirPods Max 2 $449（降$100）。&lt;br/&gt;• MacBook Pro 14英寸M5 Pro 24GB/1TB $2,069（降$430），16英寸M5 Max 36GB/2TB $3,499（降$900）；M6 Mac mini 16GB/256GB $780（降$119）；M5 Max Mac Studio $2,299（降$200）。&lt;br/&gt;• AirTag 2 $24，Apple Pencil USB-C $69，iPhone 18 Pro/Pro Max配件多款特价。&lt;/div&gt;</description>
-      <guid isPermaLink="false">ai-summary-9To5Mac-20261025013751</guid>
-      <pubDate>Sun, 25 Oct 2026 01:37:51 +0000</pubDate>
       <dc:creator>grok-4.7</dc:creator>
     </item>
   </channel>
