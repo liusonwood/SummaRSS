@@ -1,10 +1,3 @@
-https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct
-https://kedge.dev/
-https://www.bottlenecklabs.com/blog/autonomously-run-businesses
-https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a
-https://www.dbos.dev/blog/making-postgres-queues-scale
-https://www.projectpluto.com/25010d.htm
-https://thereader.mitpress.mit.edu/the-lost-civic-life-of-movie-rental-stores/
 https://hackerpublicradio.org/
 https://9to5mac.com/2026/07/31/9to5mac-overtime-075-thoughts-on-apple-upgrade/
 https://9to5mac.com/2026/07/31/apple-tv-drops-full-san-diego-comic-con-panels-for-silo-dark-matter-widows-bay-more/
@@ -4998,3 +4991,10 @@ https://www.sussi.dk/terry-pratchetts-study
 https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/
 https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals
 https://mattlakeman.org/2021/07/27/shadow-of-the-sun/
+https://caleb.software/posts/claude-to-pi.html
+https://clj.rs/
+https://imagesco.com/articles/kirlian/kirlian-photography.html
+https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F
+https://github.com/dmunozv04/isponsorblocktv
+https://github.com/crmne/zapfast
+https://architecture-history.org/schools/AMSTERDAM%20SCHOOL.html
