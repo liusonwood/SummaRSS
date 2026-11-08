@@ -207,7 +207,7 @@ def get_ai_summary(items, source_label=None):
     # 构建来源上下文
     source_context = ""
     if source_label:
-        source_context = f"以下文章均来自 **{source_label}** 这个 RSS 源，请在不要简报中标注来源。\n\n"
+        source_context = f"以下文章均来自 **{source_label}** 这个 RSS 源，请不要在简报中标注来源。\n\n"
 
     prompt = (
         "你是一位资深科技新闻编辑，正在为专业读者撰写每日简报。\n\n"
