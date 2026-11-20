@@ -45,3 +45,8 @@ Thumbs.db
 
 # Deduplication state (persisted via GitHub Actions cache)
 processed.txt
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
