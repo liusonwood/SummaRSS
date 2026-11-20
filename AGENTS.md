@@ -11,9 +11,9 @@ This project is an automated RSS feed summarization tool powered by Python and O
   - **GitHub Actions**: Automation for daily execution and repository-based state persistence.
 - **Architecture**:
   - **Multi-Source Support**: `RSS_SOURCE` accepts comma-separated URLs. Each source is processed independently with its own AI summary.
-  - **State Management**: `DedupTracker` maintains per-source snapshots in `processed.txt`, atomically updating and avoiding infinite history file expansion.
+  - **State Management**: `DedupTracker` maintains per-source snapshots in `processed.txt`, atomically updating and avoiding infinite history file expansion. GitHub Actions persists this file using `actions/cache` (`runner.os-dedup-*`) to avoid committing state files to repository history.
   - **Incremental Workflow**: `fetch` -> `filter` -> `clean` -> `summarize` (per source) -> `publish` (combined).
-  - **Git-as-DB**: The system treats the GitHub repository as a database, committing state changes back to the main branch after each run.
+  - **Git-as-DB**: The system commits the published `summary_feed.xml` back to the repository after each run, while dedup state is managed via Actions Cache.
   - **Error Isolation**: A single source failure does not affect processing of other sources.
 
 ## 🛠 Building and Running

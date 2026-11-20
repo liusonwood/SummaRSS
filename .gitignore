@@ -42,3 +42,6 @@ Thumbs.db
 
 # Environment variables (optional local config)
 .env
+
+# Deduplication state (persisted via GitHub Actions cache)
+processed.txt

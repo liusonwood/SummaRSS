@@ -5,6 +5,10 @@ on:
     - cron: '35 23 * * *'
   workflow_dispatch: # 手动触发执行
 
+concurrency:
+  group: rss-summarizer-dedup
+  cancel-in-progress: false
+
 # 关键：增加写入权限，否则脚本里的 git push 会报错
 permissions:
   contents: write
@@ -28,6 +32,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install trafilatura  # 在这里安装抓取全文所需的库
 
+      - name: Cache dedup records
+        uses: actions/cache@v4
+        with:
+          path: processed.txt
+          key: ${{ runner.os }}-dedup-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-dedup-
+
       - name: Run summarizer
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -37,3 +49,13 @@ jobs:
           GITHUB_ACTIONS: "true"
         run: |
           python3 -u summarize.py  # -u 启用无缓冲输出，实时显示日志
+
+      - name: Upload dedup records
+        # 上传去重数据文件，仅在失败或手动触发时执行，便于排查
+        if: failure() || github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dedup-records
+          path: processed.txt
+          if-no-files-found: ignore
+          retention-days: 7

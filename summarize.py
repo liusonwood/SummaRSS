@@ -673,7 +673,7 @@ def generate_rss_xml(summaries):
     print(f"Successfully generated {OUTPUT_FEED} with {len(summaries)} summaries")
 
 def git_commit_push():
-    """推送更改到 GitHub"""
+    """推送更改到 GitHub (仅提交输出的 RSS feed，去重快照保存在 Actions Cache 中)"""
     if os.getenv("GITHUB_ACTIONS") != "true":
         print("Not running in GitHub Actions. Skipping git push.")
         return
@@ -682,7 +682,7 @@ def git_commit_push():
     commands = [
         ["git", "config", "user.name", "github-actions[bot]"],
         ["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"],
-        ["git", "add", PROCESSED_FILE, OUTPUT_FEED],
+        ["git", "add", OUTPUT_FEED],
         ["git", "commit", "-m", f"Auto-update: {now_beijing.strftime('%Y-%m-%d')} (UTC+8)"],
         ["git", "push"]
     ]
@@ -735,12 +735,11 @@ def main():
     # (source_label, summary_text) 元组列表
     all_summaries = [r for r in results if r]
 
-    # 保存去重快照数据库（原子写入，按源更新快照，避免无限膨胀）
+    # 保存去重快照数据库（原子写入，按源更新快照，由 Actions Cache 自动缓存）
     tracker.save()
 
     if not all_summaries:
         print("No new items from any source. Exiting.")
-        git_commit_push()
         return
 
     # 生成包含所有源摘要的RSS XML
