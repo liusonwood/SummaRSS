@@ -33,7 +33,7 @@ logger = logging.getLogger("summarize")
 
 PROCESSED_FILE = "processed.txt"
 OUTPUT_FEED = "summary_feed.xml"
-REPO_NAME = os.getenv("GITHUB_REPOSITORY", "iusonwood/summarss")  # Actions 自动提供 owner/name
+REPO_NAME = os.getenv("GITHUB_REPOSITORY", "liusonwood/summarss")  # Actions 自动提供 owner/name
 OPENROUTER_API_ENDPOINT = os.getenv("OPENROUTER_API_ENDPOINT", "https://openrouter.ai/api/v1/chat/completions")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MAX_ITEMS = 50
